@@ -1,0 +1,14 @@
+PRETTY_NAME="Ravan Linux 26.10"
+NAME="Ravan Linux"
+VERSION_ID="26.10"
+VERSION="26.10"
+VERSION_CODENAME="ravan"
+BUILD_ID="2026.10"
+ID=ravan
+ID_LIKE=debian
+HOME_URL="https://ravanlinux.org/"
+DOCUMENTATION_URL="https://docs.ravanlinux.org/"
+SUPPORT_URL="https://ravanlinux.org/support"
+BUG_REPORT_URL="https://ravanlinux.org/issues"
+PRIVACY_POLICY_URL="https://ravanlinux.org/privacy"
+LOGO=ravan-logo
