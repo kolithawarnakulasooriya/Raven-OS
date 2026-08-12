@@ -1,0 +1,6 @@
+3d709d7b53b4b334514718c96c1344c9  usr/lib/x86_64-linux-gnu/libblkid.so.1.1.0
+1e30d61b028710436ab4de578d40b422  usr/share/doc/libblkid1/NEWS.Debian.gz
+c8381a6345e9d99fbf496b44c5ac4fef  usr/share/doc/libblkid1/changelog.Debian.gz
+13a1ae4e86572f916333207a508c485f  usr/share/doc/libblkid1/changelog.gz
+e2343d5239d28086275d9d5375c5a66f  usr/share/doc/libblkid1/copyright
+988b17baf316474bfb3ac173845b27f3  usr/share/lintian/overrides/libblkid1

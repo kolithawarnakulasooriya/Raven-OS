@@ -1,0 +1,6 @@
+2ebecdf886360609f8b059aa4c3615ad  usr/lib/x86_64-linux-gnu/libnftables.so.1.1.0
+66d95bcef36992caf9013e0e1990c756  usr/share/doc/libnftables1/changelog.Debian.gz
+b1ad8fb50e922bcbdc8da96f3677ba38  usr/share/doc/libnftables1/copyright
+6a7097c701bc0e6c3a100208d19f4455  usr/share/lintian/overrides/libnftables1
+f89b523a6d7a5a221f3153c4ed13e03b  usr/share/man/man3/libnftables.3.gz
+52df443eb808e85144f79d7bf641d910  usr/share/man/man5/libnftables-json.5.gz

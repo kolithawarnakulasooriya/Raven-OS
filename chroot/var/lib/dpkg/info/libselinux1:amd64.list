@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/tmpfiles.d
+/usr/lib/tmpfiles.d/libselinux1.conf
+/usr/lib/x86_64-linux-gnu
+/usr/lib/x86_64-linux-gnu/libselinux.so.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libselinux1
+/usr/share/doc/libselinux1/changelog.Debian.gz
+/usr/share/doc/libselinux1/copyright

@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installalternatives/13.16
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ]; then
+        update-alternatives --install /usr/bin/mt mt /usr/bin/mt-gnu 10 \
+            --slave /usr/share/man/man1/mt.1.gz mt.1.gz /usr/share/man/man1/mt-gnu.1.gz
+fi
+# End automatically added section

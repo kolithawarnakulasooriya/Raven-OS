@@ -1,0 +1,16 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb/13.24.2
+dpkg-maintscript-helper rm_conffile /etc/apt/trusted.gpg.d/debian-archive-buster-automatic.gpg 2023.3\~\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/apt/trusted.gpg.d/debian-archive-buster-security-automatic.gpg 2023.3\~\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/apt/trusted.gpg.d/debian-archive-buster-stable.gpg 2023.3\~\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/apt/trusted.gpg.d/debian-archive-bullseye-automatic.gpg 2022.1\~\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/apt/trusted.gpg.d/debian-archive-bullseye-security-automatic.gpg 2022.1\~\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/apt/trusted.gpg.d/debian-archive-bullseye-stable.gpg 2022.1\~\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/apt/trusted.gpg.d/debian-archive-bookworm-stable.gpg 2023.4\~\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/apt/trusted.gpg.d/debian-archive-bookworm-security-automatic.gpg 2023.4\~\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/apt/trusted.gpg.d/debian-archive-bookworm-automatic.gpg 2023.4\~\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/apt/trusted.gpg.d/debian-archive-buster-stable.asc 2025.1\~\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/apt/trusted.gpg.d/debian-archive-buster-security-automatic.asc 2025.1\~\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/apt/trusted.gpg.d/debian-archive-buster-automatic.asc 2025.1\~\~ -- "$@"
+# End automatically added section

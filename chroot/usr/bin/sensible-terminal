@@ -1,0 +1,36 @@
+#!/bin/sh
+# Copyright 2007 Jari Aalto;
+# Copyright 2019-2022 Bastien Roucariès
+
+# Prevent recursive loops, where environment variables are set to this script
+[ -n "$__SENSIBLE_TERMINAL" ] && exit 126
+__SENSIBLE_TERMINAL="$0"
+export __SENSIBLE_TERMINAL
+
+Try()
+{
+    [ -z "$__sensible_candidate" ] && return
+    eval "$__sensible_candidate \"\$@\""; ret=$?
+    # 127=ENOENT, 126=couldn't exec for another reason
+    [ "$ret" -ne 126 ] && [ "$ret" -ne 127 ] && exit "$ret"
+    unset ret
+}
+
+for __sensible_candidate in "$TERMINAL_EMULATOR" "$SENSIBLE_TERMINAL_EMULATOR"; do
+    Try "$@"
+done
+
+if [ -n "$XDG_CURRENT_DESKTOP" ]; then
+    __sensible_candidate="sensible-terminal-$(echo "$XDG_CURRENT_DESKTOP" | tr '[:upper:]' '[:lower:]')"
+    command -v "$__sensible_candidate" > /dev/null && Try "$@"
+fi
+
+__sensible_candidate=x-terminal-emulator
+Try "$@"
+
+command -v gettext > /dev/null || alias gettext='printf %s'
+# shellcheck disable=SC2016
+TEXTDOMAIN=sensible-utils gettext 'Couldn'\''t find a terminal emulator!
+Set the $TERMINAL_EMULATOR environment variable to your desired terminal emulator.
+' >&2
+exit 1

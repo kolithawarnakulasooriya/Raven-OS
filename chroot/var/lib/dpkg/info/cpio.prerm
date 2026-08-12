@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installalternatives/13.16
+if [ "$1" = "remove" ]; then
+	update-alternatives --remove mt /usr/bin/mt-gnu
+fi
+# End automatically added section

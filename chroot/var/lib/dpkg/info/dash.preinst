@@ -1,0 +1,33 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = upgrade ] && dpkg --compare-versions "$2" lt 0.5.12-9~; then
+	# Upgrading from pre-/usr-move DEP17
+	truename=$(dpkg-divert --truename /bin/sh)
+	if [ "$truename" != /bin/sh ] &&
+		[ "$(dpkg-divert --listpackage /bin/sh)_$truename" != "dash_/bin/sh.distrib" ] &&
+		[ "$(dpkg-divert --truename /usr/bin/sh)" = "/usr/bin/sh" ]; then
+		# There is a diversion of /bin/sh and it is not our own
+		# diversion to /bin/sh.distrib that will be removed in
+		# postinst and there is no matching diversion of /usr/bin/sh.
+		if [ -f /usr/share/debconf/confmodule ]; then
+			. /usr/share/debconf/confmodule
+			db_input critical dash/ineffectivediversion || true
+			db_go || true
+			# We have no other debconf usage in dash, so we can purge rightaway.
+			db_purge || true
+		else
+			# The chances of anyone hitting this branch are very slim.
+			# If they do, they will appreciate letting them change their diversion.
+			echo "ERROR: Found ineffective diversion of /bin/sh!" >&2
+			echo "To keep using alternative default shell, divert /usr/bin/sh instead." >&2
+			echo "Aborting upgrade. Resolve the issue and try again." >&2
+			exit 1
+		fi
+	fi
+fi
+
+
+
+exit 0

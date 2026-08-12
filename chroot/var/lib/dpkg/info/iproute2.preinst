@@ -1,0 +1,15 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb/13.24.2
+dpkg-maintscript-helper rm_conffile /etc/iproute2/group 6.5.0-3\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/iproute2/rt_realms 6.5.0-3\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/iproute2/rt_scopes 6.5.0-3\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/iproute2/rt_tables 6.5.0-3\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/iproute2/rt_tables.d/README 6.5.0-2\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/iproute2/rt_protos.d/README 6.5.0-2\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/iproute2/rt_protos 6.5.0-2\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/iproute2/rt_dsfield 6.5.0-2\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/iproute2/nl_protos 6.5.0-2\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/iproute2/ematch_map 6.5.0-2\~ -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/iproute2/bpf_pinning 6.5.0-2\~ -- "$@"
+# End automatically added section

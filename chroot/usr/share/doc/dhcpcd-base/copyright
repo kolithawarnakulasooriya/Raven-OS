@@ -1,0 +1,230 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: dhcpcd
+Upstream-Contact: Roy Marples <roy@marples.name>
+Source: https://github.com/NetworkConfiguration/dhcpcd
+
+Files: *
+Copyright: 2006-2024, Roy Marples <roy@marples.name>
+License: BSD-2-clause
+
+Files: compat/*
+Copyright: 1999, 2001, 2007, 2010, 2016, The NetBSD Foundation, Inc.
+License: BSD-2-Clause-NetBSD
+
+Files: compat/_strtoi.h
+ compat/queue.h
+ compat/strtoi.h
+Copyright: 1990, 1991, 1993, The Regents of the University of California.
+License: BSD-3-clause
+
+Files: compat/arc4random.c
+ compat/arc4random.h
+Copyright: 2014, Theo de Raadt <deraadt@openbsd.org>
+ 2013, Markus Friedl <markus@openbsd.org>
+ 2008, Damien Miller <djm@openbsd.org>
+ 1996, David Mazieres <dm@uun.org>
+License: ISC
+
+Files: compat/arc4random_uniform.c
+ compat/arc4random_uniform.h
+Copyright: 2008, Damien Miller <djm@openbsd.org>
+License: ISC
+
+Files: compat/closefrom.c
+ compat/closefrom.h
+ compat/strlcpy.c
+ compat/strlcpy.h
+Copyright: 1998, 2004, 2005, 2007, 2010, 2012-2015, 2017, 2018, Todd C. Miller <Todd.Miller@sudo.ws>
+License: ISC
+
+Files: compat/crypt/md5.c
+ compat/crypt/md5.h
+Copyright: 1993, Colin Plumb
+License: public-domain
+ The files tagged with this license contains the following paragraphs:
+ .
+ This code implements the MD5 message-digest algorithm.
+ The algorithm is due to Ron Rivest. This code was
+ written by Colin Plumb in 1993, no copyright is claimed.
+ This code is in the public domain; do with it what you wish.
+ .
+ Equivalent code is available from RSA Data Security, Inc.
+ This code has been tested against that, and is equivalent,
+ except that you don't need to include two pages of legalese
+ with every copy.
+ .
+ To compute the message digest of a chunk of bytes, declare an
+ MD5Context structure, pass it to MD5Init, call MD5Update as
+ needed on buffers full of bytes, and then call MD5Final, which
+ will fill a supplied 16-byte array with the digest.
+
+Files: compat/crypt/sha256.c
+ compat/crypt/sha256.h
+Copyright: 2005, Colin Percival
+License: BSD-2-clause
+
+Files: compat/crypt_openssl/*
+Copyright: 2023, Canonical Ltd.
+License: BSD-2-clause
+
+Files: compat/dprintf.c
+ compat/dprintf.h
+ compat/endian.h
+Copyright: 2006-2024, Roy Marples <roy@marples.name>
+License: BSD-2-clause
+
+Files: compat/reallocarray.c
+ compat/reallocarray.h
+Copyright: 2015, Joerg Sonnenberger <joerg@NetBSD.org>.
+License: BSD-2-clause
+
+Files: compat/setproctitle.c
+ compat/setproctitle.h
+Copyright: 2012, 2013, Guillem Jover <guillem@hadrons.org>
+ 2010, William Ahern
+License: Expat
+
+Files: compat/strtoi.c
+ compat/strtou.c
+Copyright: 2005, The DragonFly Project.
+ 2003, Citrus Project
+License: BSD-2-clause
+
+Files: debian/*
+Copyright: 2023, Andreas Beckmann <anbe@debian.org>
+ 2022-2025, Martin-Éric Racine <martin-eric.racine@iki.fi>
+ 2018, Scott Leggett <scott@sl.id.au>
+ 2015, Daniel Echeverry <epsilon77@gmail.com>
+ 2014, Salvatore Bonaccorso <carnil@debian.org>
+ 2013, Christoph Egger <christoph@debian.org>
+ 2010-2013, Roy Marples <roy@marples.name>
+License: GPL-3+
+
+Files: tests/crypt/test_sha256.c
+Copyright: 2023, Tobias Heider <tobias.heider@canonical.com>
+ 2006-2018, Roy Marples <roy@marples.name>
+License: BSD-2-clause
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: BSD-2-Clause-NetBSD
+ Copyright (c) 1999, 2016 The NetBSD Foundation, Inc.
+ All rights reserved.
+ .
+ This code is derived from software contributed to The NetBSD Foundation
+ by Jason R. Thorpe, Matthias Scheler, Julio Merino and Roy Marples.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+ TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FOUNDATION OR CONTRIBUTORS
+ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-clause
+ The BSD License
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the copyright holder nor the names of its
+    contributors may be used to endorse or promote products derived from
+    this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+ IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+ TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+ PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR
+ CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+ PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to permit
+ persons to whom the Software is furnished to do so, subject to the
+ following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+ NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+ OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+ USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 3 can be found in the file `/usr/share/common-licenses/GPL-3'.
+
+License: ISC
+ Permission to use, copy, modify, and distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED
+ WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+ MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE AUTHORS AND
+ CONTRIBUTORS ACCEPT NO RESPONSIBILITY IN ANY CONCEIVABLE MANNER.

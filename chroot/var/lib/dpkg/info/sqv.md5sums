@@ -1,0 +1,9 @@
+24f1c8990ef56172df23c18fdbee600f  usr/bin/sqv
+cd91dd2a679cf4dd23dd89c502d4a67a  usr/share/bash-completion/completions/sqv.bash
+74e4d0ff15540d191150a616b585fc4d  usr/share/doc/sqv/NEWS.gz
+14e48d2ebb5a9c779541e6845122da71  usr/share/doc/sqv/changelog.Debian.amd64.gz
+a068f237b3d9b0a8227b5effb7b49b65  usr/share/doc/sqv/changelog.Debian.gz
+ee13a5bad8c6958da017e0f2793c3fdc  usr/share/doc/sqv/copyright
+810599242dc3068993d8e406a2d653f5  usr/share/fish/completions/sqv.fish
+734faa0c8a55f70a7bf5a369b40dddd0  usr/share/man/man1/sqv.1.gz
+066742b4e42b6babce9864a8d5e83a24  usr/share/zsh/vendor-completions/_sqv

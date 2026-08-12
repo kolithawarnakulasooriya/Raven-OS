@@ -1,0 +1,63 @@
+#!/bin/sh
+# Copyright 2007 Jari Aalto;
+# Copyright 2019-2022 Bastien Roucariès
+# Copyright 2022 Richard Lewis
+# Released under GNU GPL v2 or any later version
+
+# Prevent recursive loops, where environment variables are set to this script
+[ -n "$__SENSIBLE_EDITOR" ] && exit 126
+__SENSIBLE_EDITOR="$0"
+export __SENSIBLE_EDITOR
+
+
+Try()
+{
+    [ -z "$__sensible_candidate" ] && return
+    eval "$__sensible_candidate \"\$@\""; ret=$?
+    # 127=ENOENT, 126=couldn't exec for another reason
+    [ "$ret" -ne 126 ] && [ "$ret" -ne 127 ] && exit "$ret"
+    unset ret
+}
+
+
+# work around for #991982
+# shellcheck disable=SC2317
+nano ()
+{
+    if [ -z "$TERM" ]; then
+	return 126
+    else
+	command nano "$@"
+    fi
+}
+
+# shellcheck disable=SC2153
+for __sensible_candidate in "$VISUAL" "$EDITOR" "$SENSIBLE_EDITOR" "$SELECTED_EDITOR"; do
+    Try "$@"
+done
+
+# fix #987675
+if [ -n "$HOME" ]; then
+    if [ -r ~/.selected_editor ]; then
+        # shellcheck source=/dev/null
+	. ~/.selected_editor
+    elif [ -z "$EDITOR" ] && [ -z "$SELECTED_EDITOR" ] && [ -t 0 ]; then
+        # shellcheck source=/dev/null
+	select-editor && [ -r ~/.selected_editor ] && . ~/.selected_editor
+    fi
+fi
+
+for __sensible_candidate in "$EDITOR" "$SELECTED_EDITOR"; do
+    Try "$@"
+done
+
+for __sensible_candidate in editor nano nano-tiny vi; do
+    Try "$@"
+done
+
+command -v gettext > /dev/null || alias gettext='printf %s'
+# shellcheck disable=SC2016
+TEXTDOMAIN=sensible-utils gettext 'Couldn'\''t find an editor!
+Set the $EDITOR environment variable to your desired editor.
+' >&2
+exit 1

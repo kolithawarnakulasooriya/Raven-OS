@@ -1,0 +1,36 @@
+#!/bin/sh -e
+
+create_hosts_file() {
+  if [ -e /etc/hosts ]; then return 0; fi
+
+  cat > /etc/hosts <<-EOF
+	127.0.0.1	localhost
+	::1		localhost ip6-localhost ip6-loopback
+	ff02::1		ip6-allnodes
+	ff02::2		ip6-allrouters
+
+EOF
+}
+
+create_networks_file() {
+  if [ -e /etc/networks ]; then return 0; fi
+
+  cat > /etc/networks <<-EOF
+	default		0.0.0.0
+	loopback	127.0.0.0
+	link-local	169.254.0.0
+
+EOF
+}
+
+case "$1" in
+    configure)
+    if [ -z "$2" ]; then
+	create_hosts_file
+	create_networks_file
+    fi
+    ;;
+esac
+
+
+

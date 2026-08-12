@@ -1,0 +1,2 @@
+# Required to get through ftp-master's lintian:
+usr-is-merged: empty-binary-package

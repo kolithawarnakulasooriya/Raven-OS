@@ -1,0 +1,29 @@
+#!/bin/sh
+# Copyright 2007 Jari Aalto; Released under GNU GPL v2 or any later version
+
+# Prevent recursive loops, where environment variables are set to this script
+[ -n "$__SENSIBLE_PAGER" ] && exit 126
+__SENSIBLE_PAGER="$0"
+export __SENSIBLE_PAGER
+
+Try()
+{
+    [ -z "$__sensible_candidate" ] && return
+    eval "$__sensible_candidate \"\$@\""; ret=$?
+    # 127=ENOENT, 126=couldn't exec for another reason
+    [ "$ret" -ne 126 ] && [ "$ret" -ne 127 ] && exit "$ret"
+    unset ret
+}
+
+# shellcheck disable=SC2153
+for __sensible_candidate in "$PAGER" "$SENSIBLE_PAGER" pager more; do
+    Try "$@"
+done
+
+
+command -v gettext > /dev/null || alias gettext='printf %s'
+# shellcheck disable=SC2016
+TEXTDOMAIN=sensible-utils gettext 'Couldn'\''t find a pager!
+Set the $PAGER environment variable to your desired pager.
+' >&2
+exit 1

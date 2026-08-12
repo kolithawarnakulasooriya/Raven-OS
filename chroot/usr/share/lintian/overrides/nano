@@ -1,0 +1,2 @@
+nano: bin-sbin-mismatch bin/nano -> usr/bin/nano [postinst]
+nano: bin-sbin-mismatch bin/nano -> usr/bin/nano [prerm]

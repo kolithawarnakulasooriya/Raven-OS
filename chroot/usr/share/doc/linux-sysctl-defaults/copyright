@@ -1,0 +1,157 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: linux-base
+Source: https://salsa.debian.org/kernel-team/linux-base
+
+Files: *
+Copyright: 2010-2024 Ben Hutchings
+           2016-2025 Salvatore Bonaccorso
+           2022 Gioele Barabucci
+License: GPL-2
+
+Files: debian/po/ca.po
+Copyright: 2010 Jordi Mallach
+           2024 poc senderi
+License: GPL-2
+
+Files: debian/po/cs.po
+Copyright: 2010-2016 Michal Simunek
+License: GPL-2
+
+Files: debian/po/da.po
+Copyright: 2010, 2011, 2014, 2016 Joe Hansen
+License: GPL-2
+
+Files: debian/po/de.po
+Copyright: 2010, 2011, 2014 Holger Wansing
+           2016 Markus Hiereth
+License: GPL-2
+
+Files: debian/po/es.po
+Copyright: 2010 Omar Campagne
+           2010 Javier Fernández-Sanguino
+           2014 Matías Bellone
+           2022 Camaleón <noelamac@gmail.com>
+License: GPL-2
+
+Files: debian/po/et.po
+Copyright: 2010 mihkel <mihkel@turakas.com>
+License: GPL-2
+
+Files: debian/po/fr.po
+Copyright: 2010, 2011, 2014, 2016 Debian French l10n team
+License: GPL-2
+
+Files: debian/po/it.po
+Copyright: 2010 Luca Bruno
+License: GPL-2
+
+Files: debian/po/ja.po
+Copyright: 2010 Kenshi Muto
+           2010 Nobuhiro Iwamatsu
+           2014, 2016 Victory <victory.deb@gmail.com>
+License: GPL-2
+
+Files: debian/po/nl.po
+Copyright: 2011 Willem Kuyn
+           2016 Frans Spiesschaert
+License: GPL-2
+
+Files: debian/po/pl.po
+Copyright: 2011, 2012 Michał Kułach
+           2014, 2016 Łukasz Dulny
+License: GPL-2
+
+Files: debian/po/pt.po
+Copyright: 2010, 2011, 2014, 2016 Américo Monteiro
+License: GPL-2
+
+Files: debian/po/pt_BR.po
+Copyright: 2010 Flamarion Jorge
+           2013 Fernando Ike de Oliveira
+           2016 Diego Neves
+License: GPL-2
+
+Files: debian/po/ro.po
+Copyright: 2023 Remus-Gabriel Chelu
+License: GPL-2
+
+Files: debian/po/ru.po
+Copyright: 2010, 2011, 2014, 2016 Yuri Kozlov
+License: GPL-2
+
+Files: debian/po/sk.po
+Copyright: 2011, 2014 Slavko
+License: GPL-2
+
+Files: debian/po/sv.po
+Copyright: 2010, 2014, 2016 Martin Bagge
+License: GPL-2
+
+Files: debian/po/tr.po
+Copyright: 2012, 2014, 2023 Mert Dirik
+License: GPL-2
+
+Files: debian/po/vi.po
+Copyright: 2010 Free Software Foundation, Inc.
+License: GPL-2
+
+Files: man/kernel-img.conf.5
+Copyright: 1996-2009 Manoj Srivastava
+           2019 Ben Hutchings
+License: GPL-2
+
+Files: po/de.po
+Copyright: 1996-2009 Manoj Srivastava
+           2011, 2012 Chris Leick
+           2020 Helge Kreutzmann
+License: GPL-2
+
+Files: po/fr.po
+Copyright: 1996-2009 Manoj Srivastava
+           2007, 2009, 2010, 2012, 2014, 2021 Debian French l10n team
+License: GPL-2
+
+Files: sysctl.d/50-default.conf
+Copyright: 2013 Kay Sievers
+           2014 Tom Gundersen
+           2014, 2019 Lennart Poettering
+           2014 Michal Schmidt
+           2015, 2020, 2021 Zbigniew Jędrzejewski-Szmek
+           2017 Peter Körner
+           2018 Lubomir Rintel
+           2019 Lucas Werkmeister
+           2019 Debarshi Ray
+License: LGPL-2.1+
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 2 as
+ published by the Free Software Foundation.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.

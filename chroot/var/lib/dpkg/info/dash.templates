@@ -1,0 +1,106 @@
+Template: dash/ineffectivediversion
+Type: error
+Description: /bin/sh is ineffectively diverted
+ A diversion of /bin/sh was found.
+ .
+ After this update, dash will be recorded in the dpkg database at its new path, /usr/bin/sh. Since there is no diversion set for /usr/bin/sh, the existing diversion for /bin/sh will no longer work.
+ .
+ To keep using your preferred default shell, you need to set up another diversion for /usr/bin/sh. If you don't do so now, your changes to /bin/sh will be lost after this upgrade.
+ .
+ Once the upgrade is complete, the diversion for /bin/sh will no longer be needed and can be removed.
+Description-be.UTF-8: Перанакіраваньне /bin/sh не будзе працаваць
+ Было знойдзенае перанакіраваньне /bin/sh.
+ .
+ Пасля гэтага абнаўленьня dash будзе запісаны ў базе дадзеных dpkg на новым шляху /usr/bin/sh. Паколькі для /usr/bin/sh перанакіраваньне не настроенае, сучаснае перанакіраваньне для /bin/sh больш не будзе працаваць.
+ .
+ Каб працягваць выкарыстоўваць shell паводле вашага выбару, вам трэба настроіць новае перанакіраваньне для /usr/bin/sh. Калі вы не зробіце гэта зараз, вашая зьмена /bin/sh будзе страчаная пасля гэтага абнаўленьня.
+ .
+ Пасля завяршэньня абнаўленьня перанакіраваньне для /bin/sh больш не будзе патрэбнае і можа быць выдалена.
+Description-de.UTF-8: /bin/sh ist unwirksam umgeleitet
+ Eine Umleitung von /bin/sh wurde gefunden.
+ .
+ Nach dieser Aktualisierung wird dash mit dem neuen Pfad /usr/bin/sh in der Dpkg-Datenbank verzeichnet. Da dort keine Umleitung für /usr/bin/sh gesetzt ist, wird die bestehende Umleitung für /bin/sh nicht länger funktionieren.
+ .
+ Um Ihre bevorzugte Standard-Shell beizubehalten, muss eine weitere Umleitung für /usr/bin/sh gesetzt werden. Falls Sie dies jetzt nicht machen, gehen Ihre  Änderungen an /bin/sh nach dieser Aktualisierung verloren.
+ .
+ Nach Abschluss der Aktualisierung ist die Umleitung für /bin/sh nicht mehr erforderlich und kann entfernt werden.
+Description-fr.UTF-8: /bin/sh n'est pas détourné de façon efficace
+ Un détournement de /bin/sh a été trouvé.
+ .
+ Après cette mise à jour, dash sera enregistré dans la base de données de dpkg avec son nouveau chemin, /usr/bin/sh. Comme il n'y a pas de détournement défini pour /usr/bin/sh, le détournement existant pour /bin/sh ne fonctionnera plus.
+ .
+ Pour continuer à utiliser votre interpréteur de commande préféré par défaut, vous devez définir un autre détournement pour /usr/bin/sh. Si cela n'est pas fait, vos changements apportés à /bin/sh seront perdus après cette mise à jour.
+ .
+ Une fois la mise à jour effectuée, le détournement pour /bin/sh ne sera plus nécessaire et pourra être supprimé.
+Description-gl.UTF-8: Non se puido sobrepor /bin/sh
+ Atopouse que /bin/sh xa está sobreposto
+ .
+ Tras esta actualización, dash actualizará a súa nova ruta, /usr/bin/sh, na base de datos de dpkg. Como /usr/bin/sh non está sobreposto, o /bin/sh sobreposto non funcionará.
+ .
+ Para continuar empregando o seu intérprete de ordes preferido sobrepoña outra ruta a /usr/bin/sh. Se non o fai agora, perderanse os cambios a /bin/sh tras actualizar.
+ .
+ Tras actualizar pódese eliminar o /bin/sh sobreposto redundante.
+Description-id.UTF-8: /bin/sh di-divert secara tidak efektif
+ Suatu diversi /bin/sh ditemukan.
+ .
+ Setelah pemutakhiran ini, dash akan direkam dalam basis data dpkg pada path barunya, /usr/bin/sh. Karena tidak ada diversi yang ditata bagi /usr/bin/sh, diversi yang ada bagi /bin/sh tidak akan bekerja lagi.
+ .
+ Untuk mempertahankan shell baku yang Anda sukai, Anda perlu menata diversi lain bagi /usr/bin/sh. Bila Anda tidak melakukannya sekarang, perubahan Anda ke /bin/sh akan hilang setelah peningkatan ini.
+ .
+ Setelah peningkatan selesai, diversi bagi /bin/sh tidak akan diperlukan lagi dan dapat dihapus.
+Description-nl.UTF-8: Nutteloze omleiding voor /bin/sh
+ Er is een omleiding van /bin/sh gevonden.
+ .
+ Na deze update zal dash opgenomen worden in de dpkg-database op zijn nieuwe pad, /usr/bin/sh. Omdat er geen omleiding is ingesteld voor /usr/bin/sh, zal de bestaande omleiding voor /bin/sh niet langer werken.
+ .
+ Om de gewenste standaardshell te blijven gebruiken, moet je een andere omleiding instellen voor /usr/bin/sh. Als je dat nu niet doet, zullen je wijzigingen aan /bin/sh verloren gaan na deze update.
+ .
+ Zodra de update voltooid is, zal de omleiding voor /bin/sh niet langer nodig zijn en kan deze verwijderd worden.
+Description-pt.UTF-8: /bin/sh está divergido não efectivamente
+ Foi encontrada uma divergência para /bin/sh.
+ .
+ Após esta actualização, o dash será gravado na base de dados do dpkg com o seu novo caminho, /usr/bin/sh. Como não há nenhuma divergência definida para /usr/bin/sh, a divergência existente para /bin/sh não irá mais funcionar.
+ .
+ Para continuar a usar sua shell predefinida preferida, você precisa de configurar outra divergência para /usr/bin/sh. Se não o fizer agora, as suas alterações em /bin/sh serão perdidas após esta actualização.
+ .
+ Assim que a actualização estiver completa, a divergência para /bin/sh não será mais precisa e pode ser removida.
+Description-pt_BR.UTF-8: /bin/sh está desviado de forma ineficaz
+ Foi encontrado um desvio (diversion) do /bin/sh.
+ .
+ Após esta atualização, o dash será registrado no banco de dados do dpkg como seu novo caminho, /usr/bin/sh. Como não há desvio (diversion) definido para /usr/bin/sh, o desvio (diversion) existente para /bin/sh não funcionará mais.
+ .
+ Para continuar usando seu shell padrão preferido, você precisa configurar outro desvio (diversion) para /usr/bin/sh. Se você não fizer isso agora, suas alterações no /bin/sh serão perdidas após esta atualização.
+ .
+ Quando a atualização estiver concluída, o desvio (diversion) para /bin/sh não será mais necessário e poderá ser removido.
+Description-ru.UTF-8: Перенаправление /bin/sh не будет работать
+ Было обнаружено, что /bin/sh был перенаправлен (с помощью dpkg-divert).
+ .
+ После этого обновления dash будет записан в базу данных dpkg по новому пути, /usr/bin/sh. Поскольку в системе установлено перенаправление для /bin/sh, а для /usr/bin/sh нет, то перенаправление для /bin/sh перестанет работать.
+ .
+ Чтобы продолжать использовать выбранную вами оболочку по умолчанию, вам будет необходимо настроить другое перенаправление для /usr/bin/sh. Если вы не сделаете этого сейчас, то после этого обновления ваши изменения в /bin/sh будут потеряны.
+ .
+ Как только обновление будет завершено, потребности в перенаправлении для /bin/sh больше не будет и оно может быть удалено.
+Description-sk.UTF-8: Nefunkčné presmerovanie /bin/sh
+ Bolo nájdené presmerovanie /bin/sh.
+ .
+ Po tejto aktualizácii bude dash zapísaný v databáze dpkg na novej ceste /usr/bin/sh. Keďže pre /usr/bin/sh nie je nastavené presmerovanie, existujúce presmerovanie pre /bin/sh už nebude fungovať.
+ .
+ Aby ste mohli naďalej používať svoj preferovaný predvolený shell, musíte nastaviť nové presmerovanie pre /usr/bin/sh. Ak to neurobíte teraz, vaše zmeny v /bin/sh budú po tejto aktualizácii stratené.
+ .
+ Po dokončení aktualizácie už nebude presmerovanie pre /bin/sh potrebné a môže byť odstránené.
+Description-uk.UTF-8: Перенаправлення /bin/sh не буде працювати
+ Виявлено перенаправлення /bin/sh.
+ .
+ Після цього оновлення dash буде записано до бази даних dpkg за новим шляхом, /usr/bin/sh. Оскільки для /usr/bin/sh не призначено жодного перенаправлення, наявне перенаправлення для /bin/sh більше не працюватиме.
+ .
+ Щоб надалі користуватися улюбленою стандартною оболонкою, вам слід створити інше перенаправлення для /usr/bin/sh. Якщо ви не зробите цього зараз, ваші зміни у /bin/sh будуть втрачені після даного оновлення.
+ .
+ Після завершення оновлення перенаправлення для /bin/sh більше не буде потрібне і його можна буде видалити.
+Description-vi_VN.UTF-8: Chuyển hướng /bin/sh không còn tác dụng nữa
+ Đã tìm thấy một chuyển hướng /bin/sh.
+ .
+ Sau khi cập nhật, dash sẽ được ghi trong cơ sở dữ liệu của dpkg tại đường dẫn mới của nó, /usr/bin/sh. Từ giờ trở đi, không đặt được chuyển hướng cho /usr/bin/sh nữa. Các chuyển hướng sẵn có cho /usr/bin/sh sẽ không bao giờ hoạt động được nữa.
+ .
+ Để giữ dùng hệ vỏ mặc định ưa dùng, bạn cần đặt một chuyển hướng khác cho /usr/bin/sh. Nếu bạn không làm nó ngay từ bây giờ, các thay đổi của bạn với /bin/sh sẽ mất sau khi nâng cấp.
+ .
+ Một khi cập nhật thành công, chuyển hướng cho /bin/sh sẽ không cần thiết nữa, và nó có thể gỡ bỏ nó đi.

@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/usr-is-merged
+/usr/share/doc/usr-is-merged/changelog.gz
+/usr/share/doc/usr-is-merged/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/usr-is-merged

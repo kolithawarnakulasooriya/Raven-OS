@@ -1,0 +1,16 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = configure ] && dpkg --compare-versions "$2"  lt 3.8-2 ; then
+# delete old file_contexts bin files
+  rm -f /etc/selinux/default/contexts/files/*.bin
+fi
+
+# Automatically added by dh_installtmpfiles/13.24.1
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	if [ -x "$(command -v systemd-tmpfiles)" ]; then
+		systemd-tmpfiles ${DPKG_ROOT:+--root="$DPKG_ROOT"} --create libselinux1.conf || true
+	fi
+fi
+# End automatically added section
+

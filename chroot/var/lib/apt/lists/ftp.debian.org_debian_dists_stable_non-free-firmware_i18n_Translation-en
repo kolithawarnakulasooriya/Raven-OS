@@ -1,0 +1,348 @@
+Package: amd64-microcode
+Description-md5: c5296e9fb6c0cbc6d0e238cd0cf80dc3
+Description-en: Platform firmware and microcode for AMD CPUs and SoCs
+ This package contains microcode patches for AMD AMD64
+ processors.  AMD releases microcode patches to correct
+ processor behavior as documented in the respective processor
+ revision guides.
+ .
+ This package includes the required firmware to enable AMD
+ SEV (Secure Encrypted Virtualization) functionality.
+ .
+ This package also includes AMD TAs (Trusted Applications)
+ required by AMD platform drivers such as AMD PMF (Platform
+ Management Framework).
+ .
+ For Intel processors, please refer to the intel-microcode package.
+
+Package: atmel-firmware
+Description-md5: 4b8efccce6d386e23ad5546058c45a46
+Description-en: Firmware for Atmel at76c50x wireless networking chips.
+ The drivers for these chips in the Linux kernel do not include
+ the firmware; this firmware needs to be loaded by the host on most
+ cards using these chips. This package provides the firmware images
+ which should be automatically loaded as needed by the hotplug
+ system. It also provides a small loader utility which can be used to
+ accomplish the same thing when hotplug is not in use.
+
+Package: bluez-firmware
+Description-md5: ec5f214cb53173da2f7c454132b03dea
+Description-en: Firmware for Bluetooth devices
+ This firmware is required for operation of Bluetooth dongles based on
+ the Broadcom BCM203x and Raspberry Pi chipset.
+
+Package: dahdi-firmware-nonfree
+Description-md5: c81e1bf42d9a186c2e71bf732811bf34
+Description-en: DAHDI non-free firmware
+ DAHDI (formely Zaptel) is an interface for telephony devices used by e.g.
+ the Asterisk PBX software. The dahdi-* packages provide the
+ DAHDI kernel modules and their required setup environment.
+ .
+ This package includes the non-free firmwares from the DAHDI tarball
+ as well as downloading script for the Digium firmwares that are normally
+ downloaded on 'make install'.
+
+Package: firmware-ast
+Description-md5: f1e72a8a15cae2c6b502b3e482c0aa68
+Description-en: Binary firmware for ASpeed Technologies graphics chips
+ This package contains the binary firmware for ASpeed Technologies graphics
+ chips supported by the xserver-xorg-video-ast driver.
+ .
+ Contents:
+  * AST microcode (ast_dp501_fw.bin)
+
+Package: firmware-amd-graphics
+Description-md5: c6b70ee7d8b92c8ac8c5af11b4360248
+Description-en: Binary firmware for AMD/ATI graphics and NPU chips
+ This package contains the binary firmware for AMD/ATI graphics and NPU
+ chips supported by the radeon, amdgpu, amdxdna and r128 drivers.
+
+Package: firmware-atheros
+Description-md5: 8dc22b0bf4c699d9d6f3731f030f4387
+Description-en: Binary firmware for Qualcomm Atheros wireless cards
+ This package contains the binary firmware for USB wireless network and
+ Bluetooth cards supported by the ar5523, ath3k, ath6kl_sdio, ath6kl_usb,
+ ath10k, ath11k, or wilc6210 drivers.
+
+Package: firmware-bnx2
+Description-md5: a179d1baad9e832861c389685768d1e5
+Description-en: Binary firmware for Broadcom NetXtremeII
+ This package contains the binary firmware for Broadcom NetXtremeII network
+ adapters supported by the bnx2 driver.
+
+Package: firmware-bnx2x
+Description-md5: 1a518d48f3d4466a17189924bcb2988e
+Description-en: Binary firmware for Broadcom NetXtreme II 10Gb
+ This package contains the binary firmware for Broadcom NetXtreme II 10Gb
+ network adapters supported by the bnx2x driver.
+
+Package: firmware-brcm80211
+Description-md5: c8339f48ccb054d2cd1d7414d8c59f2b
+Description-en: Binary firmware for Broadcom/Cypress 802.11 wireless cards
+ This package contains the binary firmware for wireless network cards
+ supported by the brcmsmac or brcmfmac driver.
+
+Package: firmware-cavium
+Description-md5: 8dce07364f0f2670eea23ee851d6358a
+Description-en: Binary firmware for Cavium Ethernet adapters
+ This package contains the binary firmware for Cavium crypto and Ethernet
+ adapters supported by the nitrox and liquidio drivers.
+
+Package: firmware-cirrus
+Description-md5: c579eb56291a89a496ad8bf35e29b330
+Description-en: Binary firmware for Cirrus Logic audio chips
+ This package contains the binary firmware for Cirrus Logic audio chips
+ like smart amplifiers, converters and DSPs.
+
+Package: firmware-intel-graphics
+Description-md5: a9483f0473c55fc2c1865cb2f86cd1a0
+Description-en: Binary firmware for Intel iGPUs and IPUs
+ This package contains the binary firmware for Intel integrated GPUs and
+ IPUs supported by the i915, intel-ipu6-isys, ipu3-imgu, mei-vsc-hw, and xe
+ drivers.
+
+Package: firmware-intel-misc
+Description-md5: 26d29ec7a22e83e726cd08b5ada5dfb6
+Description-en: Binary firmware for miscellaneous Intel devices and chips
+ This package contains the binary firmware for miscellaneous Intel devices
+ and chips, which do not belong in the iwlwifi, ipw2x00, intel-graphics or
+ intel-sound packages.  This includes for example Omni-Path,
+ Ethernet/Network chips/devices, and QuickAssist Technology crypto
+ accelerators.
+
+Package: firmware-intel-sound
+Description-md5: d30b5ceede9eba5e0d7556975cbca616
+Description-en: Binary firmware for Intel sound DSPs
+ This package contains the binary firmware for Intel SST sound DSPs
+ supported by the snd-soc-sst-acpi or snd-intel-sst-acpi driver.
+
+Package: firmware-ipw2x00
+Description-md5: b30be842b6bcd668940cea2ca29e4f98
+Description-en: Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
+ This package contains the binary firmware for Intel Pro Wireless 2100,
+ 2200 and 2915 cards supported by the ipw2100 and ipw2200 drivers.
+ .
+ This firmware is covered by the Intel Pro Wireless 2100 and 2200/2915
+ License.  You must agree to the terms of this license before it is
+ installed.
+
+Package: firmware-ivtv
+Description-md5: 285f32674c0d3bef1a7f03bfe27e4e8f
+Description-en: Binary firmware for iTVC15-family MPEG codecs (ivtv and pvrusb2 drivers)
+ This package contains the binary firmware for TV cards with Conexant
+ iTVC15-family MPEG codecs, supported by the ivtv and pvrusb2 drivers.
+ .
+ This firmware is covered by the Hauppauge End-User Firmware License
+ Agreement.  You must agree to the terms of this license before it is
+ installed.
+
+Package: firmware-iwlwifi
+Description-md5: 4a5e4cc2df0b9a8da20f5d6588d80875
+Description-en: Binary firmware for Intel Wireless cards
+ This package contains the binary firmware for Intel Wireless cards
+ supported by the iwl3945, iwl4965, and iwlwifi drivers.
+
+Package: firmware-libertas
+Description-md5: 2b27b776784706127013d1c53fb3d64c
+Description-en: Binary firmware for Marvell wireless cards
+ This package contains the binary firmware for wireless network cards with
+ Marvell and NXP 88W8xxx chips supported by the libertas_cs, libertas_sdio,
+ libertas_spi, libertas_tf_usb, mwifiex_pcie, mwifiex_sdio, mwifiex_usb,
+ mwl8k and usb8xxx drivers.
+
+Package: firmware-linux
+Description-md5: 5de19f5665fffbb3fbe8d9daf675cc45
+Description-en: Binary firmware for various drivers in the Linux kernel (metapackage)
+ This package depends on both free and non-free firmware which may be used
+ with drivers in the Linux kernel.
+
+Package: firmware-linux-nonfree
+Description-md5: 190010de9270c1c138816bd809d6c121
+Description-en: Binary firmware for various drivers in the Linux kernel (metapackage)
+ This package depends on non-free firmware which may be used with drivers
+ in the Linux kernel.
+
+Package: firmware-marvell-prestera
+Description-md5: 0349a517cc1796d7ad012d0f1f18b02c
+Description-en: Binary firmware for Marvell Prestera ASIC devices
+ This package contains the binary firmware for Marvell Switchdev solution
+ Prestera Ethernet switches.
+
+Package: firmware-mediatek
+Description-md5: 3f9a30a1f18bccce9bb16d90c3570345
+Description-en: Binary firmware for MediaTek and Ralink chips for networking, SoCs and media
+ This package contains the binary firmware for MediaTek devices such as
+ ethernet/Wi-Fi/Bluetooth chips, SoCs and other chips and devices made by
+ MediaTek and Ralink.
+
+Package: firmware-misc-nonfree
+Description-md5: b964079cf40daa8d88fb173c6bdb18eb
+Description-en: Binary firmware for various drivers in the Linux kernel
+ This package contains the binary firmware for various drivers in the Linux
+ kernel.  This is a collection of firmware blobs which are not individually
+ large enough to warrant a standalone package.
+
+Package: firmware-myricom
+Description-md5: 5c80959f74eb31d1b204e845442adf4a
+Description-en: Binary firmware for Myri-10G Ethernet adapters
+ This package contains the binary firmware for Myricom Myri-10G Ethernet
+ adapters supported by the myri10ge driver.
+
+Package: firmware-netronome
+Description-md5: 054ce1d39aa24c4e170544d6a444ac86
+Description-en: Binary firmware for Netronome network adapters
+ This package contains the binary firmware for Netronome network adapters
+ supported by the nfp driver.
+
+Package: firmware-netxen
+Description-md5: ce74457f87bd0d092caf4f3384c99766
+Description-en: Binary firmware for QLogic Intelligent Ethernet (3000 and 3100 Series)
+ This package contains the binary firmware for QLogic (formerly NetXen)
+ Intelligent network adapters supported by the netxen_nic and qlcnic
+ drivers.
+
+Package: firmware-nvidia-graphics
+Description-md5: aefa03985ea0b14404484d761b15aa84
+Description-en: Binary firmware for Nvidia GPU chips
+ This package contains the binary firmware for Nvidia graphics chips using
+ the nouveau driver.
+
+Package: firmware-qcom-media
+Description-md5: c1e7b5258d2bcd95f7264264434911d0
+Description-en: Binary firmware for Qualcomm graphics/video (dummy package)
+ This is a dummy transitional package.  It can be safely removed.
+
+Package: firmware-qcom-soc
+Description-md5: 68436301ac5b7d11cf012b19969a98b5
+Description-en: Binary firmware for Qualcomm SoCs
+ This package contains the binary firmware for Qualcomm Snapdragon SoCs.
+
+Package: firmware-qlogic
+Description-md5: 118116725ebadd1be49c783e3e277ba1
+Description-en: Binary firmware for QLogic HBAs
+ This package contains the binary firmware for QLogic Infiniband, SCSI,
+ Fibre Channel/FCoE adapters and Converged Network Adapters supported by
+ the bfa, bna, ip_iband, qed, qla1280 and qla2xxx drivers.
+
+Package: firmware-realtek
+Description-md5: d2b60f66a8881632843c94c1ff33b086
+Description-en: Binary firmware for Realtek network and audio chips
+ This package contains the binary firmware for Realtek Ethernet, Wi-Fi,
+ Bluetooth and audio chips supported by various drivers.
+
+Package: firmware-samsung
+Description-md5: 96781e0aeec350ff6cb1728b34547afc
+Description-en: Binary firmware for Samsung MFC video codecs
+ This package contains the binary firmware for Samsung MFC video codecs
+ used in Exynos SoCs and supported by the s5p-mfc driver.
+
+Package: firmware-siano
+Description-md5: 4e027e15c536503c0c4ad800e1847bde
+Description-en: Binary firmware for Siano MDTV receivers
+ This package contains the binary firmware for Siano Mobile Digital TV
+ receivers supported by the smsmdtv driver.
+
+Package: firmware-ti-connectivity
+Description-md5: ec6de41e922a771a8f2e36787562f7ac
+Description-en: Binary firmware for TI Connectivity Wi-Fi and BT/FM/GPS adapters
+ This package contains the binary firmware for Texas Instruments WL1251,
+ WL127x, WL128x and WL18xx wireless network chips supported by the wl1251,
+ wl12xx and wl18xx drivers and BT/FM/GPS chips supported by the st_drv
+ driver.
+
+Package: firmware-sof-signed
+Description-md5: 8eb88bd58a171f2f6dd9d78a475320ab
+Description-en: Intel SOF firmware - signed
+ Provides the Intel SOF audio firmware and topology needed for audio
+ functionality on some Intel system.
+ .
+ This package contains the pre-built and signed binaries.
+
+Package: intel-microcode
+Description-md5: 3edb9824276886579313f0e847f6bb14
+Description-en: Processor microcode firmware for Intel CPUs
+ This package contains updated system processor microcode for
+ Intel i686 and Intel X86-64 processors.  Intel releases microcode
+ updates to correct processor behavior as documented in the
+ respective processor specification updates.
+ .
+ For AMD processors, please refer to the amd64-microcode package.
+
+Package: live-task-non-free-firmware-pc
+Description-md5: 39edf9ada4565dbd164ec44163f7b0a6
+Description-en: selection of oft-used non-free-firmware shipped on live systems
+ Provides non-free-firmware packages for Debian live systems.
+ .
+ Its dependencies, along with this package itself, is safe to remove, provided
+ that your device does not depend on them in order to function.
+
+Package: live-task-non-free-firmware-server
+Description-md5: 2ed1607d198a8085c71bade15fa70773
+Description-en: provides firmware for server network and storage devices
+ Provides non-free firmware packages for Debian live systems.
+ .
+ This package installs firmware packages for server devices.
+ .
+ Its dependencies, along with this package itself, is safe to remove, provided
+ that your device does not depend on them in order to function.
+
+Package: midisport-firmware
+Description-md5: c96294c63ab5dc12d0321ed6b1d338e0
+Description-en: Firmware loader for M-Audio's MidiSport devices
+ This package allows you to use M-Audio's USB MIDI and Audio interfaces with
+ Linux. These devices require a firmware download before an operating system
+ driver (e.g. ALSA's snd-usb-audio) can access them.
+ .
+ Supported devices:
+  - MidiSport 1x1
+  - MidiSport 2x2
+  - MidiSport 4x4
+  - MidiSport 8x8
+  - KeyStation (old models: 49, 61)
+  - Oxygen
+  - Radium49
+  - Radium61
+  - Uno
+ The loader is not required for the MidiSport 2x4 and for newer KeyStation
+ models (49e, 61es, Pro 88).
+
+Package: firmware-nvidia-gsp
+Description-md5: 662e57a0e8a9d9abcd4ca747c6e5e11f
+Description-en: NVIDIA GSP firmware
+ The GPU System Processor (GSP) was first introduced in the Turing
+ architecture and supports accelerating tasks traditionally performed
+ by the driver on the CPU.
+ .
+ This package provides the firmware to drive the GSP.
+
+Package: firmware-nvidia-tesla-535-gsp
+Description-md5: f2411750ef496afa145fcd1a4f387d9f
+Description-en: NVIDIA GSP firmware (Tesla 535 version)
+ The GPU System Processor (GSP) was first introduced in the Turing
+ architecture and supports accelerating tasks traditionally performed
+ by the driver on the CPU.
+ .
+ This package provides the firmware to drive the GSP.
+
+Package: raspi-firmware
+Description-md5: 1d52938bf8f18e15a1948e9778a9e310
+Description-en: Raspberry Pi family GPU firmware and bootloaders
+ This package contains all the proprietary files necessary to boot a
+ Raspberry Pi board. This should work with all models in the 0, 1, 2, 3 and
+ 4 families.
+ .
+ Raspberry Pi is a trademark of the Raspberry Pi Foundation.
+
+Package: firmware-zd1211
+Description-md5: 9a4c91f1dbe60f3cd5fcc23767b00174
+Description-en: binary firmware for the zd1211rw wireless driver
+ This package contains the firmware to be used with the zd1211rw Linux kernel
+ driver for USB wireless dongles based on the following chipsets:
+ .
+  * ZyDAS ZD1211
+  * ZyDAS ZD1211B
+  * Atheros AR5007UG (alternatively known as AR2524/AR5524)
+ .
+ For more information, see also:
+ http://wiki.debian.org/zd1211rw
+

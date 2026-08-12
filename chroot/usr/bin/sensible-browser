@@ -1,0 +1,40 @@
+#!/bin/sh
+
+# Prevent recursive loops, where environment variables are set to this script
+[ -n "$__SENSIBLE_BROWSER" ] && exit 126
+__SENSIBLE_BROWSER="$0"
+export __SENSIBLE_BROWSER
+
+Try()
+{
+    [ -z "$__sensible_candidate" ] && return
+    eval "$__sensible_candidate \"\$@\""; ret=$?
+    # 127=ENOENT, 126=couldn't exec for another reason
+    [ "$ret" -ne 126 ] && [ "$ret" -ne 127 ] && exit "$ret"
+    unset ret
+}
+
+
+__sensible_candidate="$BROWSER"
+Try "$@"
+
+if [ -n "$DISPLAY" ]; then
+    if [ -n "$GNOME_DESKTOP_SESSION_ID" ]; then
+        for __sensible_candidate in gnome-www-browser x-www-browser "gnome-terminal www-browser"; do
+            Try "$@"
+        done
+    fi
+    for __sensible_candidate in x-www-browser "sensible-terminal -e www-browser"; do
+        Try "$@"
+    done
+else
+    __sensible_candidate=www-browser
+    Try "$@"
+fi
+
+command -v gettext > /dev/null || alias gettext='printf %s'
+# shellcheck disable=SC2016
+TEXTDOMAIN=sensible-utils gettext 'Couldn'\''t find a suitable web browser!
+Set the $BROWSER environment variable to your desired browser.
+' >&2
+exit 1

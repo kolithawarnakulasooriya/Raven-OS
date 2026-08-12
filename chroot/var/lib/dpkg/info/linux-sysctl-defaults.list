@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/lib
+/usr/lib/sysctl.d
+/usr/lib/sysctl.d/50-default.conf
+/usr/share
+/usr/share/doc
+/usr/share/doc/linux-sysctl-defaults
+/usr/share/doc/linux-sysctl-defaults/changelog.gz
+/usr/share/doc/linux-sysctl-defaults/copyright

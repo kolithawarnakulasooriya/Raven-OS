@@ -1,0 +1,5 @@
+# False positives
+iproute2: spelling-error-in-binary iif if [*]
+iproute2: spelling-error-in-copyright Taht That
+iproute2: typo-in-manual-page Taht That [*]
+iproute2: typo-in-manual-page iif if [*]

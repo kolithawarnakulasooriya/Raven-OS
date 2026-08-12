@@ -1,0 +1,802 @@
+Package: amd64-microcode
+Version: 3.20250311.1
+Installed-Size: 698
+Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
+Architecture: amd64
+Recommends: initramfs-tools (>= 0.113~) | dracut (>= 044) | tiny-initramfs
+Breaks: intel-microcode (<< 2)
+Description: Platform firmware and microcode for AMD CPUs and SoCs
+Description-md5: c5296e9fb6c0cbc6d0e238cd0cf80dc3
+Section: non-free-firmware/admin
+Priority: standard
+Filename: pool/non-free-firmware/a/amd64-microcode/amd64-microcode_3.20250311.1_amd64.deb
+Size: 277532
+MD5sum: f89509753ef8101a01d5499aff93f185
+SHA256: 75e0acd561969e0ec23ae4063ba7b87443f0312b66f59adf04212bcb0588e96d
+
+Package: atmel-firmware
+Version: 1.3-7.1
+Installed-Size: 777
+Maintainer: Ryan Finnie <ryan@finnie.org>
+Architecture: all
+Suggests: wireless-tools, perl
+Description: Firmware for Atmel at76c50x wireless networking chips.
+Homepage: https://thekelleys.org.uk/atmel/
+Description-md5: 4b8efccce6d386e23ad5546058c45a46
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/a/atmel-firmware/atmel-firmware_1.3-7.1_all.deb
+Size: 146648
+MD5sum: 68282b450452c41b3fbe698fc62c7dcc
+SHA256: afcde0b5ec41b6c55293a1b3b50bb1c0b4db4676be59334a974908023148e846
+
+Package: bluez-firmware
+Version: 1.2-13
+Installed-Size: 354
+Maintainer: Debian Bluetooth Maintainers <team+pkg-bluetooth@tracker.debian.org>
+Architecture: all
+Description: Firmware for Bluetooth devices
+Description-md5: ec5f214cb53173da2f7c454132b03dea
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/b/bluez-firmware/bluez-firmware_1.2-13_all.deb
+Size: 189732
+MD5sum: bf89bab34304d9703b09fa17aa020431
+SHA256: 4dba886ff82067c814f81ec9d675aa0631b497ca8e7d7985694bac6cfe61e825
+
+Package: dahdi-firmware-nonfree
+Source: dahdi-firmware
+Version: 2.11.1.0.20170917-3
+Installed-Size: 2235
+Maintainer: Debian VoIP Team <pkg-voip-maintainers@lists.alioth.debian.org>
+Architecture: all
+Breaks: dahdi (<< 1:2.2.1)
+Description: DAHDI non-free firmware
+Multi-Arch: foreign
+Homepage: http://www.asterisk.org/
+Description-md5: c81e1bf42d9a186c2e71bf732811bf34
+Section: non-free-firmware/comm
+Priority: optional
+Filename: pool/non-free-firmware/d/dahdi-firmware/dahdi-firmware-nonfree_2.11.1.0.20170917-3_all.deb
+Size: 732612
+MD5sum: 49cc8bddfef5856cce7393ea17cd7175
+SHA256: 457faf60eaf089c22239aa84d9be361772c871fa50db869b577e54877b2a4585
+
+Package: firmware-ast
+Version: 20140808-10
+Installed-Size: 42
+Maintainer: Daniel Baumann <daniel@debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Enhances: firmware-linux-free, xserver-xorg-video-ast
+Description: Binary firmware for ASpeed Technologies graphics chips
+Multi-Arch: foreign
+Homepage: https://gitlab.freedesktop.org/xorg/driver/xf86-video-ast
+Description-md5: f1e72a8a15cae2c6b502b3e482c0aa68
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-ast/firmware-ast_20140808-10_all.deb
+Size: 9040
+MD5sum: cc634e863275587e0c786cde26829e52
+SHA256: f772d3eeb94e298615183137e7e4b3b77586ac9c6f343c8eb8f6af93f5e7e7c7
+
+Package: firmware-amd-graphics
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 91908
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for AMD/ATI graphics and NPU chips
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: c6b70ee7d8b92c8ac8c5af11b4360248
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-amd-graphics_20250410-2_all.deb
+Size: 15087716
+MD5sum: bf545fb31c640725acb6b80a1d215a69
+SHA256: 22fa89a699044d92e54c9a3b6d737da4f474245fa2001d3cbc039b74d56ac933
+
+Package: firmware-atheros
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 97239
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Qualcomm Atheros wireless cards
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: 8dc22b0bf4c699d9d6f3731f030f4387
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-atheros_20250410-2_all.deb
+Size: 29474828
+MD5sum: bc0319823eb37c4c8fad6c9fcd374ada
+SHA256: 8387a45e9307052858185620ab30efebbf9660b072d6c8309673bf112e291f35
+
+Package: firmware-bnx2
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 587
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Broadcom NetXtremeII
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: a179d1baad9e832861c389685768d1e5
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-bnx2_20250410-2_all.deb
+Size: 155352
+MD5sum: 979fa773f9a106fa7ab5a8db3f86d9da
+SHA256: 58a34a89a3eebeecf5dbf284865ef450b5ea505ec09fa7cad3719a97af908a7c
+
+Package: firmware-bnx2x
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 2348
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Broadcom NetXtreme II 10Gb
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: 1a518d48f3d4466a17189924bcb2988e
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-bnx2x_20250410-2_all.deb
+Size: 1759884
+MD5sum: 70565f094f8ee645da61a08e9d047b4f
+SHA256: eb094dafeda978b80e082a78c4ed083a92032c153959a1c050a0ec15c269225c
+
+Package: firmware-brcm80211
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 18280
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Broadcom/Cypress 802.11 wireless cards
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: c8339f48ccb054d2cd1d7414d8c59f2b
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-brcm80211_20250410-2_all.deb
+Size: 5379304
+MD5sum: 8c96c541d276b3888843a66bcc3d670b
+SHA256: 266cc703e2299f5253fd1ff9a1fd625d85a2c8e5a88b1a65fcc190ac384ce3d7
+
+Package: firmware-cavium
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 5341
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Cavium Ethernet adapters
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: 8dce07364f0f2670eea23ee851d6358a
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-cavium_20250410-2_all.deb
+Size: 702508
+MD5sum: 5fac6eaaf20bbeb68f0876b30f4d8009
+SHA256: 6686dc8a98283c4b854f8a021da0184cd1d032f2f4726720edd2506652d38df2
+
+Package: firmware-cirrus
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 4615
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Cirrus Logic audio chips
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: c579eb56291a89a496ad8bf35e29b330
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-cirrus_20250410-2_all.deb
+Size: 331256
+MD5sum: 89714225fccf2fd31f9017a0f560f464
+SHA256: ffce3e326cd30bc4137ca46ce9bd5a65a6c1bd7e8d22b062a4d9699d9cda1569
+
+Package: firmware-intel-graphics
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 28978
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Conflicts: firmware-misc-nonfree (<< 20230625-3~)
+Description: Binary firmware for Intel iGPUs and IPUs
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: a9483f0473c55fc2c1865cb2f86cd1a0
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-intel-graphics_20250410-2_all.deb
+Size: 6419104
+MD5sum: d826ad7e7f423cbb4f8f2db2c3684e46
+SHA256: 253d624068b361cfbc43c88b64ec0904fd14de1b704f89bdbe457a2e7edba2dc
+
+Package: firmware-intel-misc
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 13520
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Conflicts: firmware-misc-nonfree (<< 20230625-3~)
+Description: Binary firmware for miscellaneous Intel devices and chips
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: 26d29ec7a22e83e726cd08b5ada5dfb6
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-intel-misc_20250410-2_all.deb
+Size: 1868120
+MD5sum: 50ca5802ec748d15c009e41e016c9692
+SHA256: 90c04a9fc6443f834290b8c3e51d12a95ece465e83aabe4cd32343be7aee768f
+
+Package: firmware-intel-sound
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 4362
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Intel sound DSPs
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: d30b5ceede9eba5e0d7556975cbca616
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-intel-sound_20250410-2_all.deb
+Size: 831516
+MD5sum: af6bd0d762b5387fc59da76b80f49697
+SHA256: d88fc3b895f4d55f463a27b7b6f94d0a79581f268611aa580906bcd9bb067ed4
+
+Package: firmware-ipw2x00
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 1533
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0
+Pre-Depends: debconf | debconf-2.0
+Suggests: initramfs-tools
+Description: Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
+Multi-Arch: foreign
+Description-md5: b30be842b6bcd668940cea2ca29e4f98
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-ipw2x00_20250410-2_all.deb
+Size: 301600
+MD5sum: 21d2a6afed742c6591183f2e335393b5
+SHA256: a0351412176598056d18982d905aa9605b6250bfb16c316fa773c6716868db56
+
+Package: firmware-ivtv
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 1180
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Depends: debconf (>= 0.5) | debconf-2.0
+Pre-Depends: debconf | debconf-2.0
+Suggests: initramfs-tools
+Description: Binary firmware for iTVC15-family MPEG codecs (ivtv and pvrusb2 drivers)
+Multi-Arch: foreign
+Homepage: https://web.archive.org/web/20150508162618/http://dl.ivtvdriver.org:80/ivtv/firmware/
+Description-md5: 285f32674c0d3bef1a7f03bfe27e4e8f
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-ivtv_20250410-2_all.deb
+Size: 160360
+MD5sum: acb4ddbd9d739e90844aa11317dbcdf9
+SHA256: 91bfe2114683755ff482579c9b526890379e6fcf98e0dfccadefabcca9717582
+
+Package: firmware-iwlwifi
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 114123
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Intel Wireless cards
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: 4a5e4cc2df0b9a8da20f5d6588d80875
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-iwlwifi_20250410-2_all.deb
+Size: 16693476
+MD5sum: 8cf1f40010a8161e66218fc9f211fb61
+SHA256: ec0e18c0214abb1402b244c41e8f6769ffb3f4d75486536c007c5bef95f08cf5
+
+Package: firmware-libertas
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 11413
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Replaces: libertas-firmware
+Provides: libertas-firmware
+Recommends: firmware-marvell-prestera
+Suggests: initramfs-tools
+Description: Binary firmware for Marvell wireless cards
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: 2b27b776784706127013d1c53fb3d64c
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-libertas_20250410-2_all.deb
+Size: 3622936
+MD5sum: 39be63321a5938fd38c6682f5c65ad3d
+SHA256: 7bf53cba57d750ae8c91ee90b5d5477be9fe26592f11baf48871d7ed18109aa4
+
+Package: firmware-linux
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 365
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Depends: firmware-linux-free, firmware-linux-nonfree (= 20250410-2)
+Recommends: intel-microcode, amd64-microcode
+Description: Binary firmware for various drivers in the Linux kernel (metapackage)
+Description-md5: 5de19f5665fffbb3fbe8d9daf675cc45
+Section: non-free-firmware/metapackages
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-linux_20250410-2_all.deb
+Size: 71772
+MD5sum: 44abecad05f39bf9c6c8aa9e8d68f912
+SHA256: e30f10ec4b3c3351755bd9e19752050413260aa0f431d625e879e65efd252408
+
+Package: firmware-linux-nonfree
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 365
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Depends: firmware-misc-nonfree (= 20250410-2), firmware-amd-graphics (= 20250410-2)
+Recommends: intel-microcode, amd64-microcode
+Description: Binary firmware for various drivers in the Linux kernel (metapackage)
+Description-md5: 190010de9270c1c138816bd809d6c121
+Section: non-free-firmware/metapackages
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-linux-nonfree_20250410-2_all.deb
+Size: 71776
+MD5sum: 68e6c5ce6dc0379b536484e645e22722
+SHA256: 835deb69d19910f7d82fd99d1fa8cf55edb4993631bedcb228fc104e0e13e0b6
+
+Package: firmware-marvell-prestera
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 60463
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Conflicts: firmware-libertas (<< 20230625-3~)
+Description: Binary firmware for Marvell Prestera ASIC devices
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: 0349a517cc1796d7ad012d0f1f18b02c
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-marvell-prestera_20250410-2_all.deb
+Size: 61322660
+MD5sum: f4a4429162ce445deecc1eb223b28f4e
+SHA256: 0c4ec821a954e95bab32e4fa37903d436071c7a9e1fcda45be348be8587126c2
+
+Package: firmware-mediatek
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 46319
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Conflicts: firmware-misc-nonfree (<< 20230625-3~)
+Description: Binary firmware for MediaTek and Ralink chips for networking, SoCs and media
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: 3f9a30a1f18bccce9bb16d90c3570345
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-mediatek_20250410-2_all.deb
+Size: 19598740
+MD5sum: 5462d006d0f5e9acda64363ada53b236
+SHA256: 957f82d72d413f4577f45bfad03237b1dd6f8693eddc226ac452f9c5d4187012
+
+Package: firmware-misc-nonfree
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 13232
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Provides: firmware-adi, firmware-ralink
+Recommends: firmware-nvidia-graphics, firmware-intel-graphics, firmware-intel-misc, firmware-mediatek
+Suggests: initramfs-tools
+Conflicts: firmware-ti-connectivity (<< 20230625-3~)
+Description: Binary firmware for various drivers in the Linux kernel
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: b964079cf40daa8d88fb173c6bdb18eb
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-misc-nonfree_20250410-2_all.deb
+Size: 4330568
+MD5sum: 3a0e94dac2c0625dfd296d740f9cd9fd
+SHA256: 351924ccf5fe3ec5c3e68ae1b283baf6b1674cedca07b0ebf0014c74faba43df
+
+Package: firmware-myricom
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 3991
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Myri-10G Ethernet adapters
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: 5c80959f74eb31d1b204e845442adf4a
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-myricom_20250410-2_all.deb
+Size: 324884
+MD5sum: 19608408baa783f33ec1d252bd738a95
+SHA256: 8b08186ac53c178af526153af532247f253007bdcf7ed9d9bff9e7ba93f3affc
+
+Package: firmware-netronome
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 143940
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Netronome network adapters
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: 054ce1d39aa24c4e170544d6a444ac86
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-netronome_20250410-2_all.deb
+Size: 1764192
+MD5sum: a454b77fdd14b149565b8b9c735e7443
+SHA256: 56e5e205651ab66437aa312c307d512f57886809ea497cd07727b03ab4e46b37
+
+Package: firmware-netxen
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 2177
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for QLogic Intelligent Ethernet (3000 and 3100 Series)
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: ce74457f87bd0d092caf4f3384c99766
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-netxen_20250410-2_all.deb
+Size: 1295584
+MD5sum: 67caf90bc3569fa850554d5f6cba679e
+SHA256: c63a4d435c25f9906da5a40e2bb9ca5116ef1c1fa22266242eab982409e05497
+
+Package: firmware-nvidia-graphics
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 64591
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Conflicts: firmware-misc-nonfree (<< 20230625-3~)
+Breaks: initramfs-tools (<< 0.142+deb12u1)
+Description: Binary firmware for Nvidia GPU chips
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: aefa03985ea0b14404484d761b15aa84
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-nvidia-graphics_20250410-2_all.deb
+Size: 39481748
+MD5sum: 9b38af137922e9cde6b6c7cd5ffa5647
+SHA256: 1ec5cf5a9532e1b93bd927c8085c4026abb61cd40ef899785de0fa7d37f49643
+
+Package: firmware-qcom-media
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 365
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Depends: firmware-qcom-soc
+Description: Binary firmware for Qualcomm graphics/video (dummy package)
+Multi-Arch: foreign
+Description-md5: c1e7b5258d2bcd95f7264264434911d0
+Section: non-free-firmware/oldlibs
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-qcom-media_20250410-2_all.deb
+Size: 71748
+MD5sum: ba67284b4284041034a2c9e497a78232
+SHA256: 09a9abe67b3946d4dcce62fd8818071cd3b3b55cab65d856342b3eba1be1406b
+
+Package: firmware-qcom-soc
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 305155
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Replaces: firmware-qcom-media (<< 20200421-1~)
+Recommends: firmware-atheros
+Suggests: initramfs-tools
+Breaks: firmware-qcom-media (<< 20200421-1~)
+Description: Binary firmware for Qualcomm SoCs
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: 68436301ac5b7d11cf012b19969a98b5
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-qcom-soc_20250410-2_all.deb
+Size: 92553676
+MD5sum: b1fcb73cd6fca6071873f1ff42fcc384
+SHA256: 793d3b514e6d79644a2fa8ce97abc82570b8db3d17c2f723708841c9affb151f
+
+Package: firmware-qlogic
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 4719
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for QLogic HBAs
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: 118116725ebadd1be49c783e3e277ba1
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-qlogic_20250410-2_all.deb
+Size: 2154612
+MD5sum: a9b36c14b8cd93a2a91e272afd1a326c
+SHA256: ee0bfd4c92db5ccdbb72fceda6603fb54b256c4351ddd6fb044bef16e6866dce
+
+Package: firmware-realtek
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 19187
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Replaces: firmware-realtek-rtl8723cs-bt
+Suggests: initramfs-tools
+Conflicts: firmware-realtek-rtl8723cs-bt
+Description: Binary firmware for Realtek network and audio chips
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: d2b60f66a8881632843c94c1ff33b086
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-realtek_20250410-2_all.deb
+Size: 2859648
+MD5sum: 2a460b7e06d7c4f9c68b507e1d8c9423
+SHA256: 925755a9b0891c7dc39bbb73d28ab8f7193d37303b5022e8bc9d458b9b4aaa4e
+
+Package: firmware-samsung
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 2778
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Samsung MFC video codecs
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: 96781e0aeec350ff6cb1728b34547afc
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-samsung_20250410-2_all.deb
+Size: 807804
+MD5sum: 83049df6aeb0b3e8fe1f48684d72e7ed
+SHA256: 3a74bc8334b2eb917e5e077564969c6073b51a7ef8cf92008c9b9038af9bf43d
+
+Package: firmware-siano
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 1286
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for Siano MDTV receivers
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: 4e027e15c536503c0c4ad800e1847bde
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-siano_20250410-2_all.deb
+Size: 376840
+MD5sum: 05c9f05fcc35d8241e813f8bdf7a99ae
+SHA256: 3e0118ee7b2cf5629e04f23988c1fefbba5e63cd542f654d80221bda6b13d202
+
+Package: firmware-ti-connectivity
+Source: firmware-nonfree
+Version: 20250410-2
+Installed-Size: 5373
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: all
+Suggests: initramfs-tools
+Description: Binary firmware for TI Connectivity Wi-Fi and BT/FM/GPS adapters
+Multi-Arch: foreign
+Homepage: https://gitlab.com/kernel-firmware/linux-firmware
+Description-md5: ec6de41e922a771a8f2e36787562f7ac
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-nonfree/firmware-ti-connectivity_20250410-2_all.deb
+Size: 1467108
+MD5sum: d436a0b772cdfae53033b1c53de5d844
+SHA256: a09d8501c13e13ae6e3c84bc8487815a68cf516d61d7115eb6e76574a5bb13a5
+
+Package: firmware-sof-signed
+Source: firmware-sof
+Version: 2025.01-1
+Installed-Size: 35000
+Maintainer: Mark Pearson <mpearson-lenovo@squebb.ca>
+Architecture: all
+Pre-Depends: dpkg (>= 1.17.14)
+Description: Intel SOF firmware - signed
+Homepage: https://github.com/thesofproject/sof-bin
+Description-md5: 8eb88bd58a171f2f6dd9d78a475320ab
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/f/firmware-sof/firmware-sof-signed_2025.01-1_all.deb
+Size: 1377152
+MD5sum: 6779409d5d50bfe30bed80540a1ea15d
+SHA256: 3a74157bd612ef9e408b80f09e751274698ecefef77c3e302a6462728cc90797
+
+Package: intel-microcode
+Version: 3.20251111.1~deb13u1
+Installed-Size: 20908
+Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
+Architecture: amd64
+Depends: iucode-tool (>= 1.0)
+Recommends: initramfs-tools (>= 0.113~)
+Conflicts: microcode.ctl (<< 0.18~0)
+Description: Processor microcode firmware for Intel CPUs
+Homepage: https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files
+Description-md5: 3edb9824276886579313f0e847f6bb14
+Section: non-free-firmware/admin
+Priority: standard
+Filename: pool/non-free-firmware/i/intel-microcode/intel-microcode_3.20251111.1~deb13u1_amd64.deb
+Size: 12847144
+MD5sum: 8a04f01cbe7a8ab9cc35ef31468824ee
+SHA256: 1731b32e9dd2187ede409a74efa466c9f3a8178dce8151b5ba37e457bee5d25e
+
+Package: live-task-non-free-firmware-pc
+Source: live-tasks-non-free-firmware
+Version: 12.0.1
+Installed-Size: 9
+Maintainer: Live Systems Maintainers <debian-live@lists.debian.org>
+Architecture: all
+Recommends: amd64-microcode, bluez-firmware, firmware-amd-graphics, firmware-atheros, firmware-brcm80211, firmware-intel-sound, firmware-ipw2x00, firmware-iwlwifi, firmware-linux, firmware-linux-nonfree, firmware-realtek, firmware-sof-signed, intel-microcode
+Suggests: vrms
+Description: selection of oft-used non-free-firmware shipped on live systems
+Description-md5: 39edf9ada4565dbd164ec44163f7b0a6
+Section: non-free-firmware/metapackages
+Priority: optional
+Filename: pool/non-free-firmware/l/live-tasks-non-free-firmware/live-task-non-free-firmware-pc_12.0.1_all.deb
+Size: 2224
+MD5sum: eae5067f008b274087e12f8a6144b946
+SHA256: a658b6f8f8d8929251ac41cd4a71bb9148db10a5c5e462092f05b8c5c6c80f79
+
+Package: live-task-non-free-firmware-server
+Source: live-tasks-non-free-firmware
+Version: 12.0.1
+Installed-Size: 9
+Maintainer: Live Systems Maintainers <debian-live@lists.debian.org>
+Architecture: all
+Recommends: firmware-bnx2, firmware-bnx2x, firmware-cavium, firmware-myricom, firmware-netronome, firmware-netxen, firmware-qlogic
+Suggests: vrms
+Description: provides firmware for server network and storage devices
+Description-md5: 2ed1607d198a8085c71bade15fa70773
+Section: non-free-firmware/metapackages
+Priority: optional
+Filename: pool/non-free-firmware/l/live-tasks-non-free-firmware/live-task-non-free-firmware-server_12.0.1_all.deb
+Size: 2184
+MD5sum: c850161c300778337b017da209908c96
+SHA256: 41cc94acbcfd4d90edddc5f845c3e948fef1583b440cae1dc586a7e2d77a3ba8
+
+Package: midisport-firmware
+Version: 1.2-6
+Installed-Size: 97
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Architecture: all
+Depends: fxload, udev
+Description: Firmware loader for M-Audio's MidiSport devices
+Homepage: http://usb-midi-fw.sourceforge.net/
+Description-md5: c96294c63ab5dc12d0321ed6b1d338e0
+Section: non-free-firmware/sound
+Priority: optional
+Filename: pool/non-free-firmware/m/midisport-firmware/midisport-firmware_1.2-6_all.deb
+Size: 21384
+MD5sum: 22400f72ed86482b90d0d2118fdba247
+SHA256: 30a6d505528720918cbd9d39a915f8ee3dca4e71bb4b5b8cf1b56b0371cb1fc1
+
+Package: firmware-nvidia-gsp
+Source: nvidia-graphics-drivers
+Version: 550.163.01-2
+Installed-Size: 60698
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: firmware-nvidia-gsp (= 550.163.01), firmware-nvidia-gsp-550.163.01
+Conflicts: firmware-nvidia-gsp-550.163.01
+Description: NVIDIA GSP firmware
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Description-md5: 662e57a0e8a9d9abcd4ca747c6e5e11f
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/n/nvidia-graphics-drivers/firmware-nvidia-gsp_550.163.01-2_amd64.deb
+Size: 37155068
+MD5sum: 404f5fd5c586eb436a157937e517a4fd
+SHA256: e07e243f33cf7066737e3f556f3325a5e57199a9549a93f2158eec3921ea0beb
+
+Package: firmware-nvidia-tesla-535-gsp
+Source: nvidia-graphics-drivers-tesla-535
+Version: 535.274.02-1~deb13u1
+Installed-Size: 60869
+Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+Architecture: amd64
+Provides: firmware-nvidia-gsp-535.274.02, firmware-nvidia-tesla-535-gsp (= 535.274.02)
+Conflicts: firmware-nvidia-gsp-535.274.02
+Description: NVIDIA GSP firmware (Tesla 535 version)
+Multi-Arch: foreign
+Homepage: https://www.nvidia.com
+Description-md5: f2411750ef496afa145fcd1a4f387d9f
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/n/nvidia-graphics-drivers-tesla-535/firmware-nvidia-tesla-535-gsp_535.274.02-1~deb13u1_amd64.deb
+Size: 38554788
+MD5sum: 9862330b456cb9c400882d8f209e97ff
+SHA256: 912ff4a9eb3ba54dd5c1d315e059cac0d9df439a48b53d59b3a4ea46b8fb2c34
+
+Package: raspi-firmware
+Version: 1.20240424+ds-6
+Installed-Size: 22342
+Maintainer: pkg-raspi <pkg-raspi-maintainers@lists.alioth.debian.org>
+Architecture: all
+Replaces: linux-firmware-raspi3 (<< 1.20161123-2), raspi3-firmware (<< 1.20190718-1~)
+Depends: dosfstools
+Pre-Depends: dpkg (>= 1.17.14)
+Suggests: firmware-brcm80211, firmware-misc-nonfree, bluez-firmware
+Breaks: linux-firmware-raspi3 (<< 1.20161123-2), raspi3-firmware (<< 1.20190718-1~)
+Description: Raspberry Pi family GPU firmware and bootloaders
+Homepage: https://github.com/raspberrypi/firmware
+Description-md5: 1d52938bf8f18e15a1948e9778a9e310
+Section: non-free-firmware/misc
+Priority: optional
+Filename: pool/non-free-firmware/r/raspi-firmware/raspi-firmware_1.20240424+ds-6_all.deb
+Size: 4828544
+MD5sum: 026ff4421a76c1ecae6fba9df6406df1
+SHA256: f95a3d3c41df10bac33580be91b595efa1e126ad5e4b7eca75ce26fbbc69af06
+
+Package: firmware-zd1211
+Source: zd1211-firmware
+Version: 1:1.5-13
+Installed-Size: 65
+Maintainer: Christian Kastner <ckk@debian.org>
+Architecture: all
+Replaces: zd1211-firmware (<< 2.21.0.0-2~)
+Provides: zd1211-firmware
+Suggests: initramfs-tools
+Breaks: zd1211-firmware (<< 2.21.0.0-2~)
+Description: binary firmware for the zd1211rw wireless driver
+Homepage: https://sourceforge.net/projects/zd1211/
+Description-md5: 9a4c91f1dbe60f3cd5fcc23767b00174
+Section: non-free-firmware/kernel
+Priority: optional
+Filename: pool/non-free-firmware/z/zd1211-firmware/firmware-zd1211_1.5-13_all.deb
+Size: 13524
+MD5sum: 06269d6f3902c45c2fcd62f779bac830
+SHA256: 67ded020fbf771c60c9bdece6fc98093ae3eb3f17e967b6503bfc56b405bafbc
+

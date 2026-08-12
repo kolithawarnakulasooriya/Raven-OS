@@ -1,0 +1,5 @@
+0b269e39d2b5322ffbe48fcd50e0802a  usr/lib/x86_64-linux-gnu/libbsd.so.0.12.2
+1f0472160b8065beb3c6cdb7a6dd10ad  usr/share/doc/libbsd0/changelog.Debian.gz
+f96a0e80d66a105280ef8c7ef843627f  usr/share/doc/libbsd0/changelog.gz
+b83e4aa2e1a9249493fff7d564eeee82  usr/share/doc/libbsd0/copyright
+49c5973f0f93e28269f634795ef84b97  usr/share/lintian/overrides/libbsd0

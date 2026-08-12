@@ -1,0 +1,113 @@
+#!/bin/sh
+
+set -e
+
+_systemctl() {
+    if [ -z "$DPKG_ROOT" ] && [ -d /run/systemd/system ]; then
+        systemctl "$@"
+    fi
+}
+
+_update_catalog() {
+    journalctl ${DPKG_ROOT:+--root="$DPKG_ROOT"} --update-catalog || true
+}
+
+_update_binfmt() {
+    if [ "$(_systemctl show -P LoadState systemd-binfmt.service)" != "masked" ]; then
+        _systemctl restart systemd-binfmt.service || true
+    fi
+}
+
+_update_sysctl() {
+    if [ "$(_systemctl show -P LoadState systemd-sysctl.service)" != "masked" ]; then
+        _systemctl restart systemd-sysctl.service || true
+    fi
+}
+
+_restart_managers() {
+    _systemctl daemon-reexec || true
+    # Re-exec user instances so that running user managers are updated too.
+    # SIGRTMIN+25 -> reexec. Note that this is asynchronous, but we can't use
+    # D-Bus as dbus-user-session is not guaranteed to be available.
+    _systemctl kill --kill-whom='main' --signal='SIGRTMIN+25' 'user@*.service' || true
+    # do not restart logind
+    # https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=919509
+    _systemctl try-restart systemd-networkd.service || true
+    _systemctl try-restart systemd-journald.service || true
+}
+
+# Update Message Catalogs database and binfmt registrations in response to dpkg triggers
+if [ "$1" = "triggered" ]; then
+    shift
+    for trigger in $@; do
+        case $trigger in
+            /usr/lib/systemd/catalog)
+                _update_catalog
+                ;;
+            /usr/lib/binfmt.d)
+                _update_binfmt
+                ;;
+            /usr/lib/sysctl.d)
+                _update_sysctl
+                ;;
+            libc-upgrade)
+                _restart_managers
+                ;;
+        esac
+    done
+    exit 0
+fi
+
+# Enable getty, remote-fs.target and systemd-pstore by default on new installs
+if [ -z "$2" ]; then
+    systemctl ${DPKG_ROOT:+--root="$DPKG_ROOT"} enable getty@tty1.service || true
+    systemctl ${DPKG_ROOT:+--root="$DPKG_ROOT"} enable remote-fs.target || true
+    systemctl ${DPKG_ROOT:+--root="$DPKG_ROOT"} enable systemd-pstore.service || true
+fi
+
+# Create /etc/machine-id
+systemd-machine-id-setup ${DPKG_ROOT:+--root="$DPKG_ROOT"}
+
+# Enable persistent journal, in auto-mode, by default on new installs
+if [ -z "$2" ]; then
+    mkdir -p "$DPKG_ROOT/var/log/journal"
+fi
+
+# Initial update of the Message Catalogs database
+_update_catalog
+
+# begin-remove-after: released:trixie
+# Move the old locale file into /etc. Symlinks will be created by tmpfiles.d later
+if [ -f "$DPKG_ROOT/etc/default/locale" ] && [ ! -L "$DPKG_ROOT/etc/default/locale" ] && [ ! -f "$DPKG_ROOT/etc/locale.conf" ]; then
+    mv "$DPKG_ROOT/etc/default/locale" "$DPKG_ROOT/etc/locale.conf"
+fi
+
+# On upgrade for now keep the current tmpfiles.d (as it used to be after patches),
+# drop in Forky
+if [ -n "$2" ] && dpkg --compare-versions "$2" lt 256~rc3-3 && [ ! -f "$DPKG_ROOT/etc/tmpfiles.d/tmp.conf" ]; then
+    mkdir -p "$DPKG_ROOT/etc/tmpfiles.d/"
+    echo 'D /tmp 1777 root root -' > "$DPKG_ROOT/etc/tmpfiles.d/tmp.conf"
+fi
+# end-remove-after
+
+# Automatically added by dh_installsysusers/13.24.2
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+   systemd-sysusers ${DPKG_ROOT:+--root="$DPKG_ROOT"} basic.conf systemd-journal.conf systemd-network.conf
+fi
+# End automatically added section
+# Automatically added by dh_installtmpfiles/13.24.2
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	if [ -x "$(command -v systemd-tmpfiles)" ]; then
+		systemd-tmpfiles ${DPKG_ROOT:+--root="$DPKG_ROOT"} --create 20-systemd-shell-extra.conf 20-systemd-ssh-generator.conf 20-systemd-stub.conf credstore.conf debian.conf home.conf journal-nocow.conf legacy.conf provision.conf systemd-network.conf systemd-nologin.conf systemd-pstore.conf systemd-tmp.conf systemd.conf tmp.conf var.conf x11.conf || true
+	fi
+fi
+# End automatically added section
+# Automatically added by dh_installdeb/13.24.2
+dpkg-maintscript-helper rm_conffile /etc/systemd/resolved.conf 251.3-2\~ -- "$@"
+# End automatically added section
+
+
+# skip daemon-reexec and try-restarts during shutdown to avoid hitting LP: #1803391
+if [ -n "$2" ] && [ "$(systemctl is-system-running)" != "stopping" ]; then
+    _restart_managers
+fi

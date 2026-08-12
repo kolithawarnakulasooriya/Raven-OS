@@ -1,0 +1,45 @@
+#!/bin/sh
+
+set -e
+
+_update_sysctl() {
+    # Conditionally apply the updated sysctl configuration:
+    # - The init system must not be systemd; if it is then its own
+    #   file trigger will handle this.
+    # - /proc/sys must be available.
+    # - We must not be running in a chroot, as we would then wrongly
+    #   override the outer system.
+    # - We must not be running in a container, as many sysctls will
+    #   not be writable and we don't know how to handle that.
+    if ! [ -d /run/systemd/system ] \
+       && [ -d /proc/sys ] \
+       && ! ischroot \
+       && ! grep -qz '^container=' /proc/1/environ; then
+	echo 'procps: Applying updated sysctl configuration'
+        sysctl -q --system || true
+    fi
+}
+
+if [ "$1" = "triggered" ]; then
+    shift
+    for trigger in "$@"; do
+        case "$trigger" in
+            /usr/lib/sysctl.d)
+                _update_sysctl
+                ;;
+        esac
+    done
+    exit 0
+fi
+
+# Automatically added by dh_installdeb/13.24.2
+dpkg-maintscript-helper rm_conffile /etc/sysctl.conf 2:4.0.4-7\~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installinit/13.24.2
+if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ] || [ "$1" = "abort-deconfigure" ] || [ "$1" = "abort-remove" ] ; then
+	if [ -x "/etc/init.d/procps" ]; then
+		update-rc.d procps defaults >/dev/null || exit 1
+	fi
+fi
+# End automatically added section
+

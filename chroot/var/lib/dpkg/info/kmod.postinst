@@ -1,0 +1,54 @@
+#!/bin/sh -e
+
+delete_old_etc_modules() {
+  [ -e /etc/modules ] || return 0
+  # normalize the files by ignoring empty lines
+  local modules_hash="$(sed -e '/^$/d' /etc/modules | md5sum | cut -d ' ' -f1)"
+
+  case "$modules_hash" in
+    330dcf902eae56682d44133c168fee89) ;;
+    6e5894c5d926d1e69968e64e3ffa1cbd) ;;
+    *) return ;;
+  esac
+
+  # delete the unmodified /etc/modules
+  rm -f /etc/modules
+}
+
+create_etc_modules() {
+  [ -e /etc/modules ] && return 0
+  cat <<END > /etc/modules
+# /etc/modules is obsolete and has been replaced by /etc/modules-load.d/.
+# Please see modules-load.d(5) and modprobe.d(5) for details.
+#
+# Updating this file still works, but it is undocumented and unsupported.
+END
+  chmod 644 /etc/modules
+  if which restorecon > /dev/null 2>&1; then
+    restorecon /etc/modules
+  fi
+}
+
+sysvinit_cleanup() {
+  [ "$2" ] || return 0
+
+  dpkg --compare-versions $2 lt 34-3~ || return 0
+  # update-rc.d removes symlinks even if LSB initscript exists, contrary to
+  # update-rc-d(8). See #680293. Can be removed once it is fixed.
+  [ -f /etc/init.d/kmod ] && return 0
+  update-rc.d kmod remove || true
+}
+
+case "$1" in
+  configure)
+  sysvinit_cleanup "$@"
+  delete_old_etc_modules
+  create_etc_modules
+esac
+
+# Automatically added by dh_installdeb/13.24.2
+dpkg-maintscript-helper rm_conffile /etc/init.d/kmod 34-1\~ -- "$@"
+# End automatically added section
+
+
+exit 0

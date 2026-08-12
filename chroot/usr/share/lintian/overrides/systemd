@@ -1,0 +1,10 @@
+systemd: maintainer-script-calls-systemctl
+# Our units without [Install] are either event driven or statically enabled
+systemd: systemd-service-file-missing-install-key
+# Lintian is really bad at associating manpages
+systemd: spare-manual-page
+# netlink keyword
+systemd: spelling-error-in-binary iif if [usr/lib/systemd/systemd-networkd]
+# False positives due to the '/tmp' string mentioned for tmpfiles.d/tmp.conf
+systemd: possibly-insecure-handling-of-tmp-files-in-maintainer-script /tmp [postinst:*]
+systemd: possibly-insecure-handling-of-tmp-files-in-maintainer-script /tmp [postrm:*]

@@ -1,0 +1,4182 @@
+Package: 1oom
+Description-md5: 5f91cd9d6749d593ed0c26e4ada69fa4
+Description-en: Master of Orion engine
+ This package provides an open source re-implementaiton of the game engine
+ for Master of Orion (1993).
+ .
+ Note: This package only contains the engine. You will need the original
+ game files (*.LBX) in order to play.
+
+Package: alex4
+Description-md5: 3566f87583f865118de0e26a364d6511
+Description-en: Alex the Allegator 4 - a retro platform game
+ Guide Alex the Allegator through the jungle in order to save his
+ girlfriend Lola from evil humans who want to make a pair of shoes out
+ of her. Plenty of classic platforming in four nice colors guaranteed!
+ .
+ The game includes a built-in editor so you can design and share your
+ own maps.
+
+Package: alien-arena
+Description-md5: de2b3d0db5845c79b22ffc0c38842f1b
+Description-en: Standalone 3D first person online deathmatch shooter
+ ALIEN ARENA is a standalone 3D first person online death-match shooter crafted
+ from the original source code of Quake II and Quake III, released by id
+ Software under the GPL license. With features including 32-bit graphics, a new
+ particle engine and effects, light blooms, reflective water, hi-resolution
+ textures and skins, and hi-poly models and stain maps, ALIEN ARENA pushes the
+ envelope of graphical beauty rivaling today's top games.
+ .
+ This package installs the SDL client for Alien Arena.
+
+Package: alien-arena-server
+Description-md5: 5096fa975d49e1d2781f93bd7781f913
+Description-en: Dedicated server for Alien Arena
+ ALIEN ARENA is a standalone 3D first person online death-match shooter crafted
+ from the original source code of Quake II and Quake III, released by id
+ Software under the GPL license. With features including 32-bit graphics, a new
+ particle engine and effects, light blooms, reflective water, hi-resolution
+ textures and skins, and hi-poly models and stain maps, ALIEN ARENA pushes the
+ envelope of graphical beauty rivaling today's top games.
+ .
+ This package installs the dedicated server for Alien Arena.
+
+Package: alsa-firmware-loaders
+Description-md5: 631dd818c28b45f8af844a1ba49ddcd6
+Description-en: ALSA software loaders for specific hardware
+ A collection of software loaders for specific hardware:
+ .
+  cspctl - Sound Blaster 16 ASP/CSP control program
+  hdsploader - firmware loader for the RME Hammerfall DSP cards
+  mixartloader - firmware loader for Digigram's miXart board sound drivers
+  pcxhrloader - firmware loader for Digigram pcxhr compatible soundcards
+  sscape_ctl - SoundScape control utility and firmware loader
+  usx2yloader - firmware loader for Tascam USX2Y USB soundcards
+  vxloader - firmware loader for Digigram VX soundcards
+
+Package: amoeba
+Description-md5: d79071f380a0fcf700f7b1ed1856dab1
+Description-en: fast-paced, polished OpenGL demonstration by Excess
+ Amoeba is a fast-paced, cross-platform OpenGL demonstration by Excess,
+ showing realtime graphics effects in perfect sync with music. It
+ features a full customizable demo engine, several visual effects, lots
+ of graphics and a pumping soundtrack.
+ .
+ Amoeba won first prize in the demo competition at Underscore 02, a
+ demoscene party held in Gothenburg, Sweden.
+ .
+ Note that this is only the demo engine -- to watch the demo itself, you
+ will also need the package amoeba-data.
+
+Package: octave-astra-toolbox
+Description-md5: 19af48502a78cfefea101547a3f3aa12
+Description-en: toolbox of high-performance GPU primitives for 2D and 3D tomography (octave)
+ It supports 2D parallel and fan beam geometries, and 3D parallel and
+ cone beam. All of them have highly flexible source/detector
+ positioning.
+ .
+ A large number of 2D and 3D algorithms are available, including FBP,
+ SIRT, SART, CGLS.
+ .
+ The basic forward and backward projection operations are
+ GPU-accelerated, and directly callable from Octave and Python to
+ enable building new algorithms.
+ .
+ This is the Octave library.
+
+Package: python3-astra-toolbox
+Description-md5: 7f59c83f6c23c2f985b14da805dfece4
+Description-en: toolbox of high-performance GPU primitives for 2D and 3D tomography (Python3)
+ It supports 2D parallel and fan beam geometries, and 3D parallel and
+ cone beam. All of them have highly flexible source/detector
+ positioning.
+ .
+ A large number of 2D and 3D algorithms are available, including FBP,
+ SIRT, SART, CGLS.
+ .
+ The basic forward and backward projection operations are
+ GPU-accelerated, and directly callable from Octave and Python to
+ enable building new algorithms.
+ .
+ This is the Python3 library.
+
+Package: astromenace
+Description-md5: 7c917fc438581d4d2c23163e30ce5289
+Description-en: hardcore 3D space shooter with spaceship upgrade possibilities
+ AstroMenace is an astonishing hardcore scroll-shooter where brave space
+ warriors may find a great opportunity to hone their combat skills.
+ Gather money during the battle to spend them on turning your spaceship
+ into an ultimate weapon of mass destruction and give hell to swarms of
+ adversaries. Enjoy the wonderfully crafted 3d graphics and high-quality
+ special effects along with a detailed difficulty adjustment and a handy
+ interface of AstroMenace.
+
+Package: astrometry-data-2mass
+Description-md5: b23dcaa90c3e25f65e6fabb403e38f31
+Description-en: Astrometry.net 2MASS index files downloader
+ The astrometry engine will take any image and return the astrometry
+ world coordinate system (WCS), a standards-based description of the
+ transformation between image coordinates and sky coordinates.
+ .
+ This package downloads all index files built from the 2MASS survey.
+ The installation requires a working internet connection.
+
+Package: astrometry-data-2mass-00
+Description-md5: b0effd246d35f7c4108f5a91527965cd
+Description-en: Astrometry.net 2MASS index files downloader (2'-2.8')
+ The astrometry engine will take any image and return the astrometry
+ world coordinate system (WCS), a standards-based description of the
+ transformation between image coordinates and sky coordinates.
+ .
+ This package downloads the 4200 index files from the 2MASS survey
+ containing skymarks of sizes 2 arcminutes to 2.8 arcminutes from
+ data.astrometry.net. The installation requires a working internet
+ connection.
+
+Package: astrometry-data-2mass-01
+Description-md5: 857ff1a4c873a2a5eeb56b384c0a6311
+Description-en: Astrometry.net 2MASS index files downloader (2.8'-4')
+ The astrometry engine will take any image and return the astrometry
+ world coordinate system (WCS), a standards-based description of the
+ transformation between image coordinates and sky coordinates.
+ .
+ This package downloads the 4201 index files from the 2MASS survey
+ containing skymarks of sizes 2.8 arcminutes to 4 arcminutes from
+ data.astrometry.net. The installation requires a working internet
+ connection.
+
+Package: astrometry-data-2mass-02
+Description-md5: 32c8e0c12cf3232e41e62b2d5493d1f7
+Description-en: Astrometry.net 2MASS index files downloader (4'-5.6')
+ The astrometry engine will take any image and return the astrometry
+ world coordinate system (WCS), a standards-based description of the
+ transformation between image coordinates and sky coordinates.
+ .
+ This package downloads the 4202 index files  from the 2MASS survey
+ containing skymarks of sizes 4 arcminutes to 5.6 arcminutes from
+ data.astrometry.net. The installation requires a working internet
+ connection.
+
+Package: astrometry-data-2mass-03
+Description-md5: 7adf1a9d39474be67ec0fb8b33ba93fc
+Description-en: Astrometry.net 2MASS index files downloader (5.6'-8')
+ The astrometry engine will take any image and return the astrometry
+ world coordinate system (WCS), a standards-based description of the
+ transformation between image coordinates and sky coordinates.
+ .
+ This package downloads the 4203 index files from the 2MASS survey
+ containing skymarks of sizes 5.6 arcminutes to 8 arcminutes from
+ data.astrometry.net. The installation requires a working internet
+ connection.
+
+Package: astrometry-data-2mass-04
+Description-md5: 1f79ae10b1fe4f8804487acf4571e8c6
+Description-en: Astrometry.net 2MASS index files downloader (8'-11')
+ The astrometry engine will take any image and return the astrometry
+ world coordinate system (WCS), a standards-based description of the
+ transformation between image coordinates and sky coordinates.
+ .
+ This package downloads the 4204 index files from the 2MASS survey
+ containing skymarks of sizes 8 arcminutes to 11 arcminutes from
+ data.astrometry.net. The installation requires a working internet
+ connection.
+
+Package: astrometry-data-2mass-05
+Description-md5: 7800a7dfefa756998f89d90755ca6bb0
+Description-en: Astrometry.net 2MASS index files downloader (11'-16')
+ The astrometry engine will take any image and return the astrometry
+ world coordinate system (WCS), a standards-based description of the
+ transformation between image coordinates and sky coordinates.
+ .
+ This package downloads the 4205 index files from the 2MASS survey
+ containing skymarks of sizes 11 arcminutes to 16 arcminutes from
+ data.astrometry.net. The installation requires a working internet
+ connection.
+
+Package: astrometry-data-2mass-06
+Description-md5: 55d5d613c4b97100d7a55da2373a32c4
+Description-en: Astrometry.net 2MASS index files downloader (16'-22')
+ The astrometry engine will take any image and return the astrometry
+ world coordinate system (WCS), a standards-based description of the
+ transformation between image coordinates and sky coordinates.
+ .
+ This package downloads the 4206 index files from the 2MASS survey
+ containing skymarks of sizes 16 arcminutes to 22 arcminutes from
+ data.astrometry.net. The installation requires a working internet
+ connection.
+
+Package: astrometry-data-2mass-07
+Description-md5: ccdb792699a8ab1c9e2e99e1d9e57826
+Description-en: Astrometry.net 2MASS index files downloader (22'-30')
+ The astrometry engine will take any image and return the astrometry
+ world coordinate system (WCS), a standards-based description of the
+ transformation between image coordinates and sky coordinates.
+ .
+ This package downloads the 4207 index files from the 2MASS survey
+ containing skymarks of sizes 22 arcminutes to 30 arcminutes from
+ data.astrometry.net. The installation requires a working internet
+ connection.
+
+Package: astrometry-data-2mass-08-19
+Description-md5: 695536828c3e05000a9e14b10da45d2c
+Description-en: Astrometry.net 2MASS index files downloader (30'-2000')
+ The astrometry engine will take any image and return the astrometry
+ world coordinate system (WCS), a standards-based description of the
+ transformation between image coordinates and sky coordinates.
+ .
+ This package downloads the 4208-4219 index files from the 2MASS survey
+ containing skymarks of sizes 30 arcminutes to 2000 arcminutes from
+ data.astrometry.net. The installation requires a working internet
+ connection.
+
+Package: atari800
+Description-md5: 9526e2deeb23f4395bbefbf22fb9ee74
+Description-en: Atari 8-bit emulator for SDL
+ Atari800 is an emulator of Atari 8-bit computer systems including the 400, 800,
+ 1200XL, 600XL, 800XL, 65XE, 130XE, 800XE and the XE Game System,
+ and also of the Atari 5200 SuperSystem console.
+ .
+ The Atari Operating System ROMs are not available with this package, due to
+ copyright. You'll have to either make copies of them from an old Atari
+ computer, or see README.Debian for other ways to obtain them.
+
+Package: b43-fwcutter
+Description-md5: 19713b4b3c64e57d9fe7a1aec56c25e1
+Description-en: utility for extracting Broadcom 43xx firmware
+ This package provides a tool for extracting BCM43xx wireless chip
+ firmware from Broadcom's proprietary driver files.
+ .
+ It is used by the firmware-b43(legacy)-installer packages as part of
+ the automated process of downloading and installing firmware.
+
+Package: firmware-b43-installer
+Description-md5: 571d238de28bee9095c3b72db3bada7e
+Description-en: firmware installer for the b43 driver
+ This package downloads and installs the firmware needed by the b43
+ kernel driver for some Broadcom 43xx wireless network cards.
+ .
+ Supported chipsets:
+  * BCM4306/3 (chip revision 3 only);
+  * BCM4311 (NOT PCI Id 14e4:4313);
+  * BCM4312;
+  * BCM43131;
+  * BCM4318;
+  * BCM4321 (only partial support, not all versions tested);
+  * BCM43217;
+  * BCM4322 (only partial support for some versions, not all versions tested);
+  * BCM43222 (not all versions tested);
+  * BCM43224 (not all versions tested);
+  * BCM43225;
+  * BCM43227;
+  * BCM43228;
+  * BCM4331;
+  * BCM47xx (detection not reliable, may not support all versions).
+
+Package: firmware-b43legacy-installer
+Description-md5: abb8ff7bda8ade8bcb3e2ea7c10b69ef
+Description-en: firmware installer for the b43legacy driver
+ This package downloads and installs the firmware needed by the b43legacy
+ kernel driver for some Broadcom 43xx wireless network cards.
+ .
+ Supported chipsets:
+  * BCM4301;
+  * BCM4306/2;
+  * BCM4306.
+
+Package: basilisk2
+Description-md5: e83e142cb49b01600e0e123d5566127b
+Description-en: 68k Macintosh emulator
+ Basilisk II is an Open Source 68k Macintosh emulator. That is, it enables
+ you to run 68k MacOS software on you computer, even if you are using a
+ different operating system. However, you still need a copy of MacOS and
+ a Macintosh ROM image to use Basilisk II.
+ .
+ Some features of Basilisk II:
+  - Emulates either a Mac Classic (which runs MacOS 0.x thru 7.5)
+    or a Mac II series machine (which runs MacOS 7.x, 8.0 and 8.1),
+    depending on the ROM being used
+  - Color video display
+  - CD quality sound output
+  - Floppy disk driver (only 1.44MB disks supported)
+  - Driver for HFS partitions and hardfiles
+  - CD-ROM driver with basic audio functions
+  - Easy file exchange with the host OS via a "Host Directory Tree" icon
+    on the Mac desktop
+  - Ethernet driver
+  - Serial drivers
+  - SCSI Manager (old-style) emulation
+  - Emulates extended ADB keyboard and 3-button mouse
+  - Uses UAE 68k emulation or (under AmigaOS and NetBSD/m68k) real 68k
+    processor
+
+Package: bgoffice-dict-downloader
+Description-md5: 4999911e18e26881818d162507bf0e44
+Description-en: download dictionaries for gbgoffice
+ bgoffice is a project aimed on creating a full-featured desktop environment,
+ translated and localized for Bulgarian users.
+ .
+ This package contains a helper scripts to automate downloading and
+ installation of dictionaries for gbgoffice. These can't be distributed by
+ Debian, due to licensing problems.
+
+Package: bladerf-firmware-fx3
+Description-md5: a06b4860e88296dcac8bb2c513c13dc5
+Description-en: Nuand bladeRF firmware downloader (FX3)
+ This empty package will, at the time of installation, download an appropriate
+ firmware image for using the Nuand bladeRF with a Cypress FX3 USB
+ controller.  The image will be downloaded from http://Nuand.com/fx3/
+ and saved to /usr/share/Nuand/bladeRF.
+ .
+ This bitstream will work for either the Nuand bladeRF x40 or the x115.
+ .
+ Note that this will not upgrade the bladeRF itself.  That can be done
+ with the bladeRF-cli utility.
+
+Package: bladerf-fpga-hostedx115
+Description-md5: 9716950fc495a67364372356bdbfb28a
+Description-en: Nuand bladeRF FPGA bitstream downloader (hostedx115)
+ This empty package will, at the time of installation, download an appropriate
+ FPGA bitstream for using the Nuand bladeRF in a hosted (USB-controlled)
+ configuration.  The FPGA bitstream will be downloaded from
+ http://Nuand.com/fpga/ and saved to /usr/share/Nuand/bladeRF.
+ .
+ This bitstream is for the bladeRF x115 with the Altera Cyclone IV
+ EP4CE115 FPGA.
+ .
+ Note that this will not upgrade the bladeRF itself.  That can be done
+ with the bladeRF-cli utility.
+
+Package: bladerf-fpga-hostedx40
+Description-md5: 9c067a60acfcb3d3e8746ad8b8cfb5d9
+Description-en: Nuand bladeRF FPGA bitstream downloader (hostedx40)
+ This empty package will, at the time of installation, download an appropriate
+ FPGA bitstream for using the Nuand bladeRF in a hosted (USB-controlled)
+ configuration.  The FPGA bitstream will be downloaded from
+ http://Nuand.com/fpga/ and saved to /usr/share/Nuand/bladeRF.
+ .
+ This bitstream is for the bladeRF x40 with the Altera Cyclone IV
+ EP4CE40 FPGA.
+ .
+ Note that this will not upgrade the bladeRF itself.  That can be done
+ with the bladeRF-cli utility.
+
+Package: bladerf-fpga-hostedxa4
+Description-md5: cb79f457caed164ec9b959f01add116e
+Description-en: Nuand bladeRF FPGA bitstream downloader (hostedxA4)
+ This empty package will, at the time of installation, download an appropriate
+ FPGA bitstream for using the Nuand bladeRF in a hosted (USB-controlled)
+ configuration.  The FPGA bitstream will be downloaded from
+ https://nuand.com/fpga/ and saved to /usr/share/Nuand/bladeRF.
+ .
+ This bitstream is for the bladeRF 2.0 Micro xA4 with the Altera Cyclone V
+ 5CEBA4 FPGA.
+ .
+ Note that this will not upgrade the bladeRF itself.  That can be done
+ with the bladeRF-cli utility.
+
+Package: bladerf-fpga-hostedxa5
+Description-md5: 2e3a60ab67d4d913c57d47757768f192
+Description-en: Nuand bladeRF FPGA bitstream downloader (hostedxA5)
+ This empty package will, at the time of installation, download an appropriate
+ FPGA bitstream for using the Nuand bladeRF in a hosted (USB-controlled)
+ configuration.  The FPGA bitstream will be downloaded from
+ https://nuand.com/fpga/ and saved to /usr/share/Nuand/bladeRF.
+ .
+ This bitstream is for the bladeRF 2.0 Micro xA5 with the Altera Cyclone V
+ 77KLE FPGA
+ .
+ Note that this will not upgrade the bladeRF itself.  That can be done
+ with the bladeRF-cli utility.
+
+Package: bladerf-fpga-hostedxa9
+Description-md5: 8383e6b59b8caf083dce6fe23d96c91b
+Description-en: Nuand bladeRF FPGA bitstream downloader (hostedxA9)
+ This empty package will, at the time of installation, download an appropriate
+ FPGA bitstream for using the Nuand bladeRF in a hosted (USB-controlled)
+ configuration.  The FPGA bitstream will be downloaded from
+ https://nuand.com/fpga/ and saved to /usr/share/Nuand/bladeRF.
+ .
+ This bitstream is for the bladeRF 2.0 Micro xA9 with the Altera Cyclone V
+ 5CEBA9 FPGA.
+ .
+ Note that this will not upgrade the bladeRF itself.  That can be done
+ with the bladeRF-cli utility.
+
+Package: boinc-client-nvidia-cuda
+Description-md5: 9384e2173f2ed43c0d057c1770da614c
+Description-en: metapackage for CUDA-savvy BOINC client and manager
+ The Berkeley Open Infrastructure for Network Computing (BOINC) is a
+ software platform for distributed computing: several initiatives of
+ various scientific disciplines all compete for the idle time of
+ desktop computers. The developers' web site at the University of
+ Berkeley serves as a common portal to the otherwise independently run
+ projects.
+ .
+ Regular users (righteously) often find it an unbearable nuisance to
+ care for the exact configuration of BOINC for CUDA-savvy graphics
+ cards. This package adds a series of dependencies from the non-free
+ section to the regular boinc package. This also meant this binary
+ package to be redistributed in the contrib section of Debian.
+
+Package: boinc-client-opencl
+Description-md5: 1d8bb1ed221af82159a83aac2ed26b88
+Description-en: metapackage for AMD/ATI OpenCL-savvy BOINC client and manager
+ The Berkeley Open Infrastructure for Network Computing (BOINC) is a
+ software platform for distributed computing: several initiatives of
+ various scientific disciplines all compete for the idle time of
+ desktop computers. The developers' web site at the University of
+ Berkeley serves as a common portal to the otherwise independently run
+ projects.
+ .
+ Regular users (righteously) often find it an unbearable nuisance to
+ care for the configuration of BOINC for the OpenCL-savvy AMD/ATI
+ graphics cards.  This package adds a series of dependencies from the
+ non-free section to the regular boinc package. This also meant this
+ binary package to be redistributed in the contrib section of Debian.
+
+Package: boinc-virtualbox
+Description-md5: 690093958a0070907b98b36b21fb062c
+Description-en: metapackage for virtualbox-savvy projects
+ The Berkeley Open Infrastructure for Network Computing (BOINC) is a
+ software platform for distributed computing: several initiatives of
+ various scientific disciplines all compete for the idle time of
+ desktop computers. The developers' web site at the University of
+ Berkeley serves as a common portal to the otherwise independently run
+ projects.
+ .
+ Regular users (righteously) often find it an unbearable nuisance to
+ care for the exact configuration of BOINC for virtualbox-based projects.
+ This package adds a series of dependencies from the contrib
+ section to the regular boinc package. This also meant this binary
+ package to be redistributed in the contrib section of Debian.
+
+Package: bumblebee-nvidia
+Description-md5: 1590560d4120c0dce5a765cdd8ec59b7
+Description-en: NVIDIA Optimus support using the proprietary NVIDIA driver
+ This metapackage ensures that the proprietary NVIDIA driver is installed in a
+ way such that 3D acceleration does not break. It does so by configuring the
+ OpenGL library path to use the Mesa graphics library.
+
+Package: cltl
+Description-md5: 981097f297a723afe41afec3b96d5a27
+Description-en: Common Lisp the Language, second edition, book (Pre-ANSI)
+ This package installs the HTML version of Guy L. Steele book Common
+ Lisp the Language, second edition. This book describes a snapshot of
+ the Common Lisp language during the period that the ANSI Common
+ Lisp standard was created. Thus, this book describe a NON-STANDARD
+ version of Common Lisp which is similar to, but is *NOT*, ANSI
+ Common Lisp.
+ .
+ For reference on ANSI Common Lisp, use the Debian package
+ "hyperspec".  This book is included in Debian because, while it does
+ differ from the ANSI standard, it has more details than the "hyperspec"
+ about the design and usage of Lisp.
+ .
+ This package does not contain the actual HTML files, but rather
+ downloads the HTML archive from the Internet and then installs it.
+
+Package: corsix-th
+Description-md5: 4837b5b40e2d286752bfb4bcb28d3484
+Description-en: Open source clone of Theme Hospital
+ Theme Hospital was a simulation computer game developed by Bullfrog
+ Productions and published by Electronic Arts in 1997, in which the player
+ designs and operates a hospital.
+ .
+ The game currently requires the original graphics and tries to mimic the
+ original as closely as possible. Therefore you will need a copy of the
+ original game for this package to be useful.
+
+Package: corsix-th-data
+Description-md5: 6cf11fd08074f2517b96d74d73373ec7
+Description-en: Open source clone of Theme Hospital (data package)
+ Theme Hospital was a simulation computer game developed by Bullfrog
+ Productions and published by Electronic Arts in 1997, in which the player
+ designs and operates a hospital.
+ .
+ The game currently requires the original graphics and tries to mimic the
+ original as closely as possible. Therefore you will need a copy of the
+ original game for this package to be useful.
+ .
+ (This package contains the data files)
+
+Package: crafty-bitmaps
+Description-md5: fc82f8f8f4819d64151c66bfa09cbf92
+Description-en: bitmap images for crafty chess game annotation mode
+ crafty is able to annotate PGN (Portable Game Notation) format chess
+ games. This annotaion mode produces output in HTML-format and needs
+ graphics to be user viewable. This package provides these graphics.
+
+Package: crafty-books-medium
+Description-md5: 45b811e83f4d2d1ec04cb992131cabac
+Description-en: Medium size opening books for the crafty chess engine
+ Opening books that crafty use to evaluate the position during the game.
+ This is the medium version, occupying 4MB and containing +7500 games
+ computed until the 60th ply.
+
+Package: crafty-books-medtosmall
+Description-md5: 125f4ba5d111686d0dfc99ebdcf6acee
+Description-en: Medium-to-small size opening books for crafty chess engine
+ Opening books that crafty use to evaluate the position during the game.
+ This is the medium-to-small version, occupying 4MB and containing +7500
+ games computed until the 60th ply.
+
+Package: crafty-books-small
+Description-md5: b9b430941f6902c05294f3ad6b6b0a67
+Description-en: Small-size opening books for crafty chess engine
+ Opening books that crafty use to evaluate the position during the game.
+ This is the small version, occupying 1MB and containing +4500 games
+ computed until the 60th ply.
+
+Package: cytadela
+Description-md5: 17a053ba85af9173021f6b78e5efd1ae
+Description-en: old-school first person shooter game
+ Cytadela is a single player game in which the player fights against
+ computer-controlled (AI) enemies. The goal of the game is to find six
+ bomb parts with which the Citadel has to be blown up.
+ .
+ To achieve it, the player not only has to defend himself against the
+ enemies, but (s)he also has to solve many riddles, such as switching
+ appropriate buttons in order to open some door, move some walls, etc.
+ .
+ It's a conversion of a first person shooter Amiga game originally
+ released in mid 1990's, first in Poland and then in other countries.
+ .
+ Cytadela requires a 3D graphics card.  It uses the OpenGL and GLU
+ libraries for 3D, and SDL and SDL_mixer for 2D, music, sounds and
+ controllers.
+
+Package: cytadela-data
+Description-md5: 84a23110edcb1420ece53cbbb06c852e
+Description-en: game data for cytadela
+ This package contains data files required by the game Cytadela.
+
+Package: dbab
+Description-md5: 5ffc3e07daf90f788aff1b487ffa8245
+Description-en: dnsmasq-based ad-blocking using pixelserv
+ Block advertising sites at the DNS level. dbab is feather weight,
+ both in terms of package size and CPU usage, because no pattern matching or
+ string substitution is involved. Thus it is super efficient and extremely
+ fast.  All ads are be replaced by a 1x1 pixel gif image served locally by
+ the tiny pixelserv server. The ad-block list can be periodically downloaded
+ from pgl.yoyo.org, and can be tweaked locally. Speed up mobile device
+ browsing without installing any apps to them.
+
+Package: descent3
+Description-md5: 141dbcdd4e1be425ba4c87b19a3275e3
+Description-en: port of the 1999 classic game Descent 3
+ This is the Descent 3 open source engine by Outrage Entertainment.
+ .
+ In this video game, the player must control a flying ship that has
+ a six degrees of freedom movement scheme, allowing the player to move
+ and rotate in any 3D direction.
+ .
+ To make this package useful, you will need the original game data.
+ You can install them by using the game-data-packager package.
+
+Package: dhewm3
+Description-md5: f625d3c7626ec44fdef979913e4fb88e
+Description-en: GPL Doom 3 game engine
+ The goal of dhewm 3 is bring the DOOM3 engine with the help of SDL to all
+ suitable platforms.
+ .
+ This game engine is compatible with the original Doom3 data files and the
+ Resurrection of Evil extension. To play it, you need to own the game data.
+ .
+ Bugs present in the original DOOM 3 will be fixed (when identified) without
+ altering the original gameplay.
+
+Package: dhewm3-d3xp
+Description-md5: d6ab5641afa5287c2c0a525d43516e3d
+Description-en: dhewm3's gamelibrary for the title DOOM³: Resurrection of Evil
+ This package contains the shared library containing the game logic for
+ the add-on DOOM3³: Resurrection of Evil
+ .
+ Please note that this package does not contain any game data, which is
+ required to actually play the game.
+ .
+ The package game-data-packager can help you to package your copy of the
+ game data. Please see README.Debian for details.
+
+Package: dhewm3-doom3
+Description-md5: e6814d22bd9c206b8ec0d560ca2f21bd
+Description-en: dhewm3's gamelibrary for the title DOOM³
+ This package contains the shared library containing the game logic for DOOM³
+ .
+ Please note that this package does not contain any game data, which is
+ required to actually play the game.
+ .
+ The package game-data-packager can help you to package your copy of the
+ game data. Please see README.Debian for details.
+
+Package: diaspora-installer
+Description-md5: 120c7fb469648e6eb3e942926e8b1ea0
+Description-en: distributed social networking service - installer
+ Diaspora (currently styled diaspora* and formerly styled DIASPORA*) is a free
+ personal web server that implements a distributed social networking service.
+ Installations of the software form nodes (termed "pods") which make up the
+ distributed Diaspora social network.
+ .
+ Diaspora is intended to address privacy concerns related to centralized
+ social networks by allowing users to set up their own server (or "pod") to
+ host content; pods can then interact to share status updates, photographs,
+ and other social data. It allows its users to host their data with a
+ traditional web host, a cloud-based host, an ISP, or a friend. The framework,
+ which is being built on Ruby on Rails, is free software and can be
+ experimented with by external developers.
+ .
+ Learn more about Diaspora at http://diasporafoundation.org
+ .
+ This dummy package downloads diaspora (also pulling in runtime
+ dependencies as rubygems) and configures it to use PostgreSQL and
+ Nginx.
+ .
+ Unlike the normal Debian package, this package installs exact versions of the
+ dependencies supported by upstream.
+
+Package: diaspora-installer-mysql
+Description-md5: c18a155ca94ebb0900ab3ea2aa77e4b9
+Description-en: distributed social networking service - installer (with MySQL)
+ Diaspora (currently styled diaspora* and formerly styled DIASPORA*) is a free
+ personal web server that implements a distributed social networking service.
+ Installations of the software form nodes (termed "pods") which make up the
+ distributed Diaspora social network.
+ .
+ Diaspora is intended to address privacy concerns related to centralized
+ social networks by allowing users to set up their own server (or "pod") to
+ host content; pods can then interact to share status updates, photographs,
+ and other social data. It allows its users to host their data with a
+ traditional web host, a cloud-based host, an ISP, or a friend. The framework,
+ which is being built on Ruby on Rails, is free software and can be
+ experimented with by external developers.
+ .
+ Learn more about Diaspora at http://diasporafoundation.org
+ .
+ This dummy package downloads diaspora (also pulling in runtime
+ dependencies as rubygems) and configures it to use MySQL and  Nginx.
+ .
+ Unlike the normal Debian package, this package installs exact versions of the
+ dependencies supported by upstream.
+
+Package: doris
+Description-md5: db1388b0191052ca76d5baa39ad74a83
+Description-en: Delft object-oriented radar interferometric software
+ DORIS is an Interferometric Synthetic Aperture Radar (InSAR) processor
+ developed by the Delft Institute of Earth Observation and Space Systems
+ of Delft University of Technology.
+ .
+ Interferometric products and endproducts such as Digital Elevation
+ Models and displacement maps can be generated with this software from
+ Single Look Complex data.
+ Data from the satellites ERS, ENVISAT (first ENVISAT interferogram,
+ DEM, and perspective view, JERS (first JERS interferogram), and
+ RADARSAT (first RADARSAT interferogram) can be processed with the
+ Doris software.
+
+Package: python3-doris
+Description-md5: d6868bea920249915967f127f9ea0fa4
+Description-en: Delft object-oriented radar interferometric software -- Python Tools
+ DORIS is an Interferometric Synthetic Aperture Radar (InSAR) processor
+ developed by the Delft Institute of Earth Observation and Space Systems
+ of Delft University of Technology.
+ .
+ Interferometric products and endproducts such as Digital Elevation
+ Models and displacement maps can be generated with this software from
+ Single Look Complex data.
+ Data from the satellites ERS, ENVISAT (first ENVISAT interferogram,
+ DEM, and perspective view, JERS (first JERS interferogram), and
+ RADARSAT (first RADARSAT interferogram) can be processed with the
+ Doris software.
+ .
+ This package contains support modules written in Python.
+
+Package: dynare-matlab
+Description-md5: 90e8fcabb135fcf60e09f0be51774946
+Description-en: MATLAB support for Dynare
+ Dynare is a software platform for handling a wide class of economic models, in
+ particular dynamic stochastic general equilibrium (DSGE) and overlapping
+ generations (OLG) models. The models solved by Dynare include those relying on
+ the rational expectations hypothesis, wherein agents form their expectations
+ about the future in a way consistent with the model. But Dynare is also able
+ to handle models where expectations are formed differently: on one extreme,
+ models where agents perfectly anticipate the future; on the other extreme,
+ models where agents have limited rationality or imperfect knowledge of the
+ state of the economy and, hence, form their expectations through a learning
+ process. In terms of types of agents, models solved by Dynare can incorporate
+ consumers, productive firms, governments, monetary authorities, investors and
+ financial intermediaries. Some degree of heterogeneity can be achieved by
+ including several distinct classes of agents in each of the aforementioned
+ agent categories.
+ .
+ Dynare offers a user-friendly and intuitive way of describing these models. It
+ is able to perform simulations of the model given a calibration of the model
+ parameters and is also able to estimate these parameters given a dataset. In
+ practice, the user will write a text file containing the list of model
+ variables, the dynamic equations linking these variables together, the
+ computing tasks to be performed and the desired graphical or numerical
+ outputs.
+ .
+ This package is only useful to users having MATLAB installed on their
+ machine. It contains the source of the MEX files and will recompile them using
+ the existing MATLAB installation.
+
+Package: elpa-elfeed-web
+Description-md5: b432f753d85c03caf12ec47db555f50e
+Description-en: Emacs Atom/RSS feed reader - web interface
+ Elfeed is an extensible web feed reader for Emacs, supporting both Atom and
+ RSS. Elfeed was inspired by notmuch.
+ .
+ This package contains demonstration/toy web interface for remote network
+ access.
+
+Package: eos-downloader
+Description-md5: 6d3345d345d48fc303d825c94396ca8c
+Description-en: Arista EOS download tool
+ CLI tool to download Arista softwares like EOS and CVP.
+
+Package: esix
+Description-md5: 7dac5366e554fbd3ae3feb620991c6c0
+Description-en: PDP-8 Engineering and Scientific Interpreter eXtended
+ ESI-X was the first stored program scientific interpreter
+ for the PDP-8.
+ ESI was designed by Dave Waks on 8/3/66 and was vaguely based on
+ RAND's JOSS.
+ In 1967 Bob Supnik extended the program to support 8KW of memory,
+ and this became the "ESI-extended" or ESI-X
+ FOCAL was eventually the successor of ESI-X.
+
+Package: exult
+Description-md5: 9c39d06a3da0bc0cfd896163aa1493f5
+Description-en: engine for Ultima VII (BG, FOV, SI, SS)
+ Exult is an open source engine for playing Ultima VII on a variety of
+ modern operating systems and environments.  The Black Gate (including
+ Forge of Virtue) and Serpent Isle (plus Silver Seed) are both playable
+ to the end.  Some differences to the original games exist; see sections
+ 5.3/5.4 of the FAQ.
+ .
+ While it is possible to use the engine for other games, no such game has
+ been written yet. Therefore, Exult is useless unless you own a copy of one
+ of the Ultima VIIs.
+
+Package: exult-studio
+Description-md5: 7adf4ae2afb678d80d33b4e8483b0a1f
+Description-en: tools for editing and viewing exult games
+ Includes:
+ .
+   exult_studio - An editor for games using the Exult engine.
+   ucc          - Usecode compiler.
+   cmanip       - Simple commandline conf-file manipulator
+   expack       - Command line tool for creating and extracting Flex (.flx)
+                  files. Flex files are used by Ultima 7 to store most
+                  of its data.
+   ipack        - Create/extract image Flex files using the .png format.
+   mklink       - Create "linkdep1" and "linkdep2" files from usecode file.
+   rip          - Rip specific functions out of usecode.
+   splitshp     - Command line tool to take a multi-frame shp file and
+                  split it into its individual frames.
+   shp2pcx      - Command line tool to convert shp files to pcx format;
+                  the shp files can be extracted using expack.
+   textpack     - Convert text file to a Flex file.
+   ucxt         - Tool to translate usecode back into `human readable',
+                  roughly assembly like code. The output can be presented
+                  in a variety of different format, including one which
+                  will, later, have a suitable compiler back into usecode.
+   wuc          - Wody's Usecode Compiler.
+ .
+ These are all works in progress.
+ .
+ A GIMP plugin is provided, so that if you have the GIMP installed you
+ can edit and create game graphics with it.
+
+Package: libeztrace0-contrib
+Description-md5: 0d7dd19ec5cdd84ca4eb1c67b1cf99b9
+Description-en: Automatic execution trace generation for HPC - runtime libraries
+ EZTrace is a tool that aims at generating automatically execution traces
+ from HPC (High Performance Computing) programs. It generates execution
+ trace files that can be interpreted by visualization tools such as
+ ViTE. It uses LD_PRELOAD and dlsym() to intercept calls to the usual HPC
+ primitives, to be observed.
+ .
+ This package contains the development files depending on CUDA.
+
+Package: fbzx
+Description-md5: 1b0cc85feafa6b46beb8d46d8384f747
+Description-en: ZX Spectrum emulator
+ FBZX is a Sinclair ZX Spectrum emulator for Linux/Unix. It
+ can work over X or in a FrameBuffer console.
+
+Package: fdkaac
+Description-md5: fcbe7317aa8b9e391239fe1281b1c42a
+Description-en: command line encoder frontend for libfdk-aac
+ fdkaac is a command-line AAC encoder based on libfdk-aac.
+ .
+ It reads linear PCM audio in either WAV, raw PCM, or CAF format and
+ encodes it into M4A / AAC files.
+
+Package: festvox-don
+Description-md5: ec2f52602c5371ea1881eb5978a812ca
+Description-en: minimal British English male speaker for festival
+ This is a very small diphone database, which gives poor quality sound
+ output but runs very fast.
+ .
+ The voice contained in this database is a British English male speaker.
+
+Package: festvox-en1
+Description-md5: 73113a75020377d4b66a5e0015a9b80f
+Description-en: mbrola-en1 voice support for festival
+ This package lets festival make use of the non-free mbrola-en1 sample-based
+ voice instead of its own synthesis voices.
+
+Package: festvox-us1
+Description-md5: 4a88a1475767423d39383d867ca65c2e
+Description-en: mbrola-us1 voice support for festival
+ This package lets festival make use of the non-free mbrola-us1 sample-based
+ voice instead of its own synthesis voices.
+
+Package: festvox-us2
+Description-md5: 0d83ae1061b439701a1d7bd8443b18ca
+Description-en: mbrola-us2 voice support for festival
+ This package lets festival make use of the non-free mbrola-us2 sample-based
+ voice instead of its own synthesis voices.
+
+Package: festvox-us3
+Description-md5: 9f9fed2c3cca5ca1d4d49b1a99c0e678
+Description-en: mbrola-us3 voice support for festival
+ This package lets festival make use of the non-free mbrola-us3 sample-based
+ voice instead of its own synthesis voices.
+
+Package: festvox-rablpc16k
+Description-md5: 99e8d97789e3898957461eff03184d83
+Description-en: British English male speaker for festival, 16khz sample rate
+ This is a diphone database for festival that uses 16k samples for high
+ quality sound output. This is a large database (9 MB), and festival will
+ convert text to speech more slowly using it, so you might want to install
+ festvox-rablpc8k instead if you have low disk space or a slow computer.
+ .
+ The voice contained in this database is a British English male speaker.
+
+Package: festvox-rablpc8k
+Description-md5: 9b1f2a5e2a99a3c150568f2f60feb229
+Description-en: British English male speaker for festival, 8khz sample rate
+ This is a diphone database for festival that uses 8k samples so it takes up
+ a minimum of disk space. Using this diphone database, festival also converts
+ text to speech faster than with the 16k version. However, the sound quality
+ is not as good.
+ .
+ The voice contained in this database is a British English male speaker.
+
+Package: fheroes2
+Description-md5: 640f81fa625508124b3bbf6b4be74850
+Description-en: recreation of the Heroes of Might and Magic II game engine
+ Heroes of Might and Magic II is a classic fantasy turn-based
+ strategy/role-playing game which takes place in the land of Enroth,
+ a place of magic.
+ There are a multitude of creature types, from griffins to rocs,
+ golems to pikemen, unicorns to hydras, and four different dragons.
+ Each castle type has six different creatures, from the weak
+ to the strong. There are six castle types, each corresponding to
+ a hero class: Knight, Sorceress, Wizard (Good side), Barbarian,
+ Necromancer and Warlock (Evil side). There are also six different
+ types of neutral creatures you can recruit in special structures
+ scattered about the maps.
+ .
+ Original game files are needed to play this game.
+
+Package: fonts-ibm-plex
+Description-md5: 487af0a2145ab95bafd9ec231ff04447
+Description-en: extensive typeface family designed by IBM
+ IBM Plex is an extensive font family developed by IBM. It comes in four
+ subfamilies (Sans, Sans Condensed, Mono and Serif) and 8 weights (Thin,
+ Extralight, Light, Regular, Text, Medium, Semibold, Bold), with true italics
+ to complement them. A variable-weight counterpart of IBM Plex Sans is also
+ available.
+ .
+ The four basic subfamilies support most of the languages using the Latin
+ alphabet (including Vietnamese), the Cyrillic writing system and monotonic
+ Greek. Hebrew (including cantillation marks), Thai (both looped and loopless),
+ Devanagari and Arabic are supported as separate typefaces.
+ .
+ There is also support for common mathematical and currency symbols as well as
+ ligatures and stylistic alternates.
+ .
+ This package contains the TrueType (CFF) flavored OpenType fonts and
+ the WOFF/WOFF2 web fonts.
+
+Package: freespace2-launcher-wxlauncher
+Description-md5: 6cf1c4ae0b7d9073fe94f47fcb642734
+Description-en: launcher for the Freespace 2 Source Code Project
+ GUI launcher for the Freespace 2 Source Code Project.
+ .
+ FreeSpace is a series of space combat simulation games developed
+ by Volition, Inc. and published by Interplay Entertainment.
+ The games take place in the 24th century. Mankind, referred to as
+ Terrans, has developed means for space traveling, further fueled
+ by the discovery of subspace which makes interstellar travel not
+ only possible but also fast and easy. As a result the Terrans have
+ expanded their territory, eventually encountering another bipedal,
+ sentient species; the Vasudans. However, due to cultural differences
+ and difficulties in communicating with each other, the Galactic Terran
+ Alliance (GTA) and the Parliamentary Vasudan Empire (PVE) end up fighting
+ a war that lasts for 14 years.
+ .
+ Original game files from CD are needed to play this game.
+
+Package: frogatto
+Description-md5: 53484fcad72c00cc156b54442e976787
+Description-en: 2D platformer game starring a quixotic frog
+ Frogatto is a platformer in the style of old arcade, Sega and
+ Nintendo games. The world is viewed as a cross-section seen from the
+ side, and your character walks and jumps between solid platforms
+ whilst fighting monsters.
+ .
+ This package contains game engine.
+
+Package: etqw
+Description-md5: 36f2b3fe69063b347eb3b5d032d815b7
+Description-en: science-fiction-themed multiplayer first person shooter
+ Enemy Territory: Quake Wars is a multiplayer first-person shooter game
+ by Splash Damage and id Software, released in 2007.
+ This package contains a launcher script and menu entry to play
+ ETQW using the proprietary x86 binaries provided by id Software.
+ .
+ Please note that the ETQW engine is not Free Software, and Debian
+ cannot fix any bugs or security flaws in the engine or game code.
+ .
+ To make this package useful, you will need to create and install some
+ non-distributable packages by using the game-data-packager package:
+ etqw-bin, and etqw-data.
+ Creating those packages requires data files from an "Enemy Territory:
+ Quake Wars" installation or DVD.
+
+Package: etqw-server
+Description-md5: f754f9e4d53d6ea1037e9dec690075b3
+Description-en: dedicated server for Enemy Territory: Quake Wars
+ This package contains a launcher script and systemd unit to run a
+ Enemy Territory: Quake Wars server using the proprietary
+ x86 binaries provided by id Software.
+ .
+ Please note that the ETQW engine is not Free Software, and Debian
+ cannot fix any bugs or security flaws in the engine or game code.
+ .
+ To mitigate any security flaws that might exist in this server,
+ the systemd unit is not enabled by default, and must be enabled
+ with systemctl if it should start at boot time. The systemd unit
+ uses various security hardening options to prevent the server from
+ escalating its privileges. There is no sysvinit script,
+ since sysvinit does not provide similar security hardening.
+ .
+ To make this package useful, you will need to create and install some
+ non-distributable packages by using the game-data-packager package:
+ etqw-bin, and etqw-data.
+ Creating those packages requires data files from an "Enemy Territory:
+ Quake Wars" installation or DVD.
+
+Package: game-data-packager
+Description-md5: db543bad2c64571a79ad0c937e882f6b
+Description-en: Installer for game data files
+ Various games are divided into two logical parts: engine
+ and data. Often the engine and data are licensed in
+ different ways, such that the engine can be distributed
+ in Debian but the data cannot.
+ .
+ game-data-packager is a tool which builds .deb files for game
+ data which cannot be distributed in Debian (such as
+ commercial game data).
+ .
+ At the moment, game-data-packager has support for building .deb
+ files for:
+ .
+  * 3 Skulls of the Toltecs
+  * The 7th Guest
+  * A Mind Forever Voyaging
+  * Alex the Allegator 4
+  * Aliens versus Predator
+  * Amazon: Guardians of Eden
+  * Arthur: the Quest for Excalibur
+  * Arx Fatalis
+  * Baldur's Gate 1 and 2
+  * Ballyhoo
+  * Bargon Attack
+  * Beavis and Butthead in Virtual Stupidity
+  * The Bizarre Adventures of Woodruff and the Schnibble
+  * The Black Cauldron
+  * The Blackwell series
+  * Blade Runner
+  * Blake Stone and Planet Strike
+  * Blue Force
+  * Border Zone
+  * Bud Tucker in Double Trouble
+  * Castle of Dr. Brain and The Island of Dr. Brain
+  * Broken Sword
+  * Bureaucracy
+  * Caesar 3
+  * Chex Quest and Chex Quest 2
+  * Chivalry is Not Dead
+  * Civilization: Call to Power
+  * Codename: ICEMAN
+  * Commander Keen 1 to 6
+  * Conquests of Camelot: The Search for the Grail
+  * Conquests of the Longbow: The Legend of Robin Hood
+  * Cruise for a Corpse
+  * Cutthroats
+  * Deadline
+  * Descent 1, 2 and 3
+  * Detective Gallo
+  * The Dig
+  * Discworld 1 and 2
+  * Doom, The Ultimate Doom, Doom 2, The Master Levels for Doom 2, Final Doom
+  * Doom 3 and BFG Edition
+  * Dračí Historie
+  * Dreamweb
+  * Duke Nukem 1 and 3D
+  * Dune 2: Battle for Arrakis
+  * EcoQuest 1 and 2
+  * The Elder Scrolls 3: Morrowind
+  * Elvira 1 and 2
+  * Enchanter
+  * Enclosure
+  * Eye of the Beholder 1 and 2
+  * The Feeble Files
+  * Flashback
+  * Flight of the Amazon Queen
+  * Freddy Pharkas: Frontier Pharmacist
+  * Freespace 2
+  * Full Throttle
+  * Future War (Les Voyageurs du Temps)
+  * Gabriel Knight 1 and 2
+  * Gemini Rue
+  * Gobliiins 1, 2 and 3
+  * Gold Rush!
+  * The Griffon Legend
+  * Grim Fandango
+  * HacX
+  * Hank's Quest
+  * Heavy Gear 2
+  * Heretic, Hexen, Hexen 2 and Heretic 2
+  * Heroes of Might & Magic 2 and 3
+  * The Hitchhiker's Guide to the Galaxy
+  * Hollywood Hijinx
+  * Homeworld
+  * Hopkins FBI
+  * Hoyle's Official Book of Games
+  * Hugo's House of Horrors, Hugo 2, Hugo 3
+  * I Have No Mouth, and I Must Scream
+  * Icewind Dale 1 and 2
+  * Indiana Jones and the Fate of Atlantis
+  * Indiana Jones and the Last Crusade
+  * Infidel
+  * Inherit the Earth
+  * Ion Fury
+  * Jazz Jackrabbit
+  * James Clavell's Shōgun
+  * Jones in the Fast Lane
+  * Journey: Part One of the Golden Age Trilogy
+  * Kathy Rain
+  * King's Quest 1 to 7
+  * Kohan: Immortal Sovereigns
+  * The Labyrinth of Time
+  * Lands of Lore: The Throne of Chaos
+  * Laura Bow 1 and 2
+  * Leather Goddesses of Phobos 1 and 2
+  * Legend of Kyrandiar 1, 2 and 3
+  * Leisure Suit Larry 1, 2, 3, 5, 6 and 7
+  * LGeneral (Panzer General)
+  * Lighthouse: The Dark Being
+  * Little Big Adventure
+  * The Longest Journey
+  * Loom
+  * Lost in Time
+  * The Lurking Horror
+  * The Manhole
+  * Manhunter 1 and 2
+  * Maniac Mansion and Day of the Tentacle
+  * Marathon 1, 2 and 3
+  * Master Of Orion
+  * Medal of Honor: Allied Assault
+  * Mixed-Up Mother Goose & Mixed-Up Fairy Tales
+  * Monkey Island 1, 2 and 3
+  * Moonmist
+  * Mortville Manor
+  * Myst: Masterpiece Edition, Riven, Myst III
+  * Mystery House
+  * The Neverhood
+  * Nippon Safes Inc.
+  * Nord and Bert Couldn't Make Head or Tail of It
+  * Once Upon A Time: Little Red Riding Hood
+  * Operation Stealth
+  * Pajama Sam series
+  * Personal Nightmare
+  * Phantasmagoria 1 and 2
+  * Planescape: Torment
+  * Planetfall
+  * Plundered Hearts
+  * Police Quest 1 to 4
+  * Postal
+  * Prey
+  * Primordia
+  * Quadrilateral Cowboy
+  * Quake, Quake 2, Quake 3 Arena, Quake 4, Enemy Territory: Quake Wars
+  * Quest For Glory 1, 2 and 3
+  * Railroad Tycoon 2
+  * Redneck Rampage
+  * Resonance
+  * Rex Nebular and the Cosmic Gender Bender
+  * Ringworld 1 and 2
+  * Rise of the Triad
+  * Rodney's Funscreen
+  * Roller Coaster Tycoon 1 and 2
+  * Rune
+  * Sam & Max Hit the Road
+  * Seastalker
+  * Serious Sam: The First and Second Encounter
+  * The Settlers 2
+  * Sfinx
+  * Shadow Warrior
+  * Shardlight
+  * The Lost Files of Sherlock Holmes: The Case of the Serrated Scalpel
+  * The Lost Files of Sherlock Holmes: The Case of the Rose Tattoo
+  * Sherlock: The Riddle of the Crown Jewels
+  * The Shivah
+  * Sid Meier's Alpha Centauri
+  * SimCity 3000 Unlimited
+  * Simon the Sorcerer 1, 2 and Puzzle Pack
+  * Slater & Charlie Go Camping
+  * Soldier of Fortune
+  * Soltys
+  * Sorcerer
+  * Space Quest 1 to 6
+  * Spellbreaker
+  * Star Wars: Dark Forces
+  * Star Wars Jedi Knight 2: Jedi Outcast and Jedi Academy
+  * Starcross
+  * Starship Titanic
+  * Stationfall
+  * Strife
+  * Suspect
+  * Suspended
+  * Syndicate
+  * System Shock
+  * Super 3D Noah's Ark
+  * Technobabylon
+  * TeenAgent
+  * Theme Hospital
+  * Thimbleweed Park
+  * Tomb Raider 1
+  * Tony Tough and the Night of Roasted Moths
+  * Toonstruck
+  * Torin's Passage
+  * Touché: The Adventures of the Fifth Musketeer
+  * Transport Tycoon Deluxe
+  * Trinity
+  * Troll's Tale
+  * Tyrian
+  * Ultima IV & VII
+  * Unreal, Unreal Gold and Unreal Tournament (1999 and 2004)
+  * Urban Runner
+  * Waxworks
+  * Ween: The Prophecy
+  * Winnie the Pooh in the Hundred Acre Wood
+  * Wishbringer
+  * Witness
+  * Wolfenstein 3D, Spear of Destiny and Return to Castle Wolfenstein
+  * Wolfenstein: Enemy Territory
+  * X-COM: UFO Defense
+  * Zak McKracken and the Alien Mindbenders
+  * Zork 1, 2 and 3, Beyond Zork, Zork Zero, Return to Zork, Zork: The
+    Undiscovered Underground
+  * Zork Grand Inquisitor and Zork Nemesis
+
+Package: game-data-packager-runtime
+Description-md5: 15dd8590fe384dab6ade3dead31a37a9
+Description-en: Launcher for proprietary games
+ Various games are divided into two logical parts: engine
+ and data. Often the engine and data are licensed in
+ different ways, such that the engine can be distributed
+ in Debian but the data cannot.
+ .
+ Some of the games supported by game-data-packager need to be
+ started by a special launcher script that will create symbolic
+ links or do other setup. This package contains those launcher
+ scripts.
+ .
+ The following games currently require this package:
+ .
+  * Doom 2: The Master Levels (doom2-masterlevels-wad)
+  * Quake series and Enemy Territory: Quake Wars
+    (quake, quake2, quake3, quake4, etqw)
+  * Return to Castle Wolfenstein (rtcw)
+  * Star Wars Jedi Knight 2: Jedi Outcast and Jedi Academy
+    (openjk-outcast, openjk-academy)
+  * Unreal, Unreal Gold and Unreal Tournament
+    (unreal-classic, unreal-gold, ut99)
+
+Package: game-data-packager-runtime-libs
+Description-md5: 4fb00875abd4eac5fe021d8d12a331eb
+Description-en: Helper libraries required by legacy i386 binary-only games
+ Some old binary-only games released by Loki Entertainment for Linux 2.4
+ in 1999-2001 requires library compatibility workarounds to run on modern
+ systems.
+ .
+ This package is required if you want to play any of these games:
+ .
+  * Civilization: Call to Power
+  * Kohan: Immortal Sovereigns
+  * Sid Meier's Alpha Centauri
+  * SimCity 3000 Unlimited
+
+Package: quake
+Description-md5: 09622cda203c578294901576f5fec0f4
+Description-en: classic gothic/horror-themed first person shooter
+ Quake is a classic first-person shooter game by id Software,
+ released in 1996. This package contains a launcher script and menu
+ entry to play Quake with any suitable engine.
+ .
+ To make this package useful, you will need to create and install the
+ non-distributable quake-registered or quake-shareware package, by using the
+ game-data-packager package.
+ .
+ Creating quake-registered requires data files from a Quake installation or
+ CD-ROM.
+ .
+ Creating quake-shareware requires the shareware version of Quake.
+ .
+ game-data-packager (>= 45) can also produce packages for the official Episode
+ 5, Dimensions of the Past (developed by MachineGames to mark Quake's 20th
+ anniversary), and for the official mission
+ packs Scourge of Armagon (developed by Hipnotic Software) and Dissolution
+ of Eternity (developed by Rogue Entertainment). Additional menu entries
+ should appear automatically if those expansions are installed.
+
+Package: quake-server
+Description-md5: f2d85a7d1334e2ce66699c546170e8b9
+Description-en: classic first person shooter - server and init script
+ This package contains a launcher script and init script to run a
+ Quake 1 server automatically, with any suitable engine.
+ .
+ To make this package useful, you will need to create and install the
+ non-distributable quake-registered or quake-shareware package, by using the
+ game-data-packager package.
+
+Package: quake2
+Description-md5: 73a302e08fa7cec5f3d4ce5eaa0d4cfa
+Description-en: classic science-fiction-themed first person shooter
+ Quake II is a classic first-person shooter game by id Software,
+ released in 1997. This package contains a launcher script and menu
+ entry to play Quake II with any suitable engine.
+ .
+ To make this package useful, you will need to create and install some
+ non-distributable packages by using the game-data-packager package:
+ either quake2-full-data or quake2-demo-data. Creating quake2-full-data
+ requires data files from a Quake II installation or CD-ROM.
+ .
+ game-data-packager (>= 39) can also produce packages for the official mission
+ packs The Reckoning (developed by Xatrix Entertainment) and Ground Zero
+ (developed by Rogue Entertainment). Additional menu entries should
+ appear automatically if those expansions are installed.
+
+Package: quake2-server
+Description-md5: 083b1ceafe9ac6ce848313811be0e4de
+Description-en: dedicated server for Quake II
+ This package contains a launcher script and init script to run a
+ Quake II server automatically, with any suitable engine.
+ .
+ To make this package useful, you will need to create and install some
+ non-distributable packages by using the game-data-packager package:
+ either quake2-full-data or quake2-demo-data. Creating quake2-full-data
+ requires data files from a Quake II installation or CD-ROM.
+
+Package: quake3
+Description-md5: 95de72c22be84cf9e01669d0c2eaf9d3
+Description-en: Quake III Arena menu entry and launcher scripts
+ This package contains a launcher script and menu entry to play
+ Quake III Arena or Quake III: Team Arena with the ioquake3 engine.
+ .
+ To make this package useful, you will need to create and install the
+ non-distributable quake3-data or quake3-demo-data package, by using
+ the game-data-packager package.
+ .
+ quake3-data requires pak0.pk3 from a Quake III installation or CD-ROM.
+ quake3-demo-data only requires freely downloadable files, but is
+ not necessarily reliable.
+ .
+ game-data-packager (>= 39) can also produce a package for the official
+ expansion pack Quake III: Team Arena. An additional menu entry should appear
+ automatically if that expansion are installed.
+
+Package: quake3-server
+Description-md5: b581844db5e190ba8c02893ca380aaa8
+Description-en: Quake III Arena dedicated server launcher scripts
+ This package contains a launcher script to run a Quake III Arena or
+ Quake III: Team Arena dedicated server with the ioquake3 engine.
+ .
+ To make this package useful, you will need to create and install the
+ non-distributable quake3-data package, by using the game-data-packager
+ package. This requires pak0.pk3 from a Quake III installation or CD-ROM.
+
+Package: quake4
+Description-md5: 295c3a73cf8fea1b5238b2363b96ecaa
+Description-en: science-fiction-themed first person shooter
+ Quake 4 is a first-person shooter game by Raven Software and id Software,
+ released in 2005. This package contains a launcher script and menu
+ entry to play Quake 4 using the proprietary x86 binaries provided by
+ id Software.
+ .
+ Please note that the Quake 4 engine is not Free Software, and Debian
+ cannot fix any bugs or security flaws in the engine or game code.
+ .
+ To make this package useful, you will need to create and install some
+ non-distributable packages by using the game-data-packager package:
+ quake4-bin, and either quake4-data (for all regions except Germany)
+ or quake4-censored-de-data (for the incompatible version sold in
+ Germany). Creating those packages requires data files from a Quake 4
+ installation or DVD.
+
+Package: quake4-server
+Description-md5: 3daeb23b44625a430d820247d216d21b
+Description-en: dedicated server for Quake 4
+ This package contains a launcher script and systemd unit to run a
+ Quake 4 server using the proprietary x86 binaries provided by id Software.
+ .
+ Please note that the Quake 4 engine is not Free Software, and Debian
+ cannot fix any bugs or security flaws in the engine or game code.
+ .
+ To mitigate any security flaws that might exist in this server,
+ the systemd unit is not enabled by default, and must be enabled
+ with systemctl if it should start at boot time. The systemd unit
+ uses various security hardening options to prevent the server from
+ escalating its privileges. There is no sysvinit script,
+ since sysvinit does not provide similar security hardening.
+ .
+ To make this package useful, you will need to create and install some
+ non-distributable packages by using the game-data-packager package:
+ quake4-bin, and either quake4-data (for the uncensored
+ version sold on Steam and in countries other than Germany) or
+ quake4-censored-de-data (for the incompatible version sold in Germany).
+ Creating those packages requires data files from a Quake 4 installation
+ or DVD.
+
+Package: cpp-doc
+Description-md5: 9214885ed7215843bb04315d3a252cb5
+Description-en: documentation for the GNU C preprocessor (cpp)
+ This is the dependency package that should install manual page
+ and documentation for Debian default version of GNU C preprocessor.
+ .
+ This documentation is available from non-free part of Debian archive.
+
+Package: gcc-doc
+Description-md5: 5c7b4ceecbb8f4546afea54849cba957
+Description-en: documentation for the GNU compilers (gcc, gobjc, g++)
+ This is the dependency package that should install manual pages
+ and documentation for Debian default version of GNU compilers.
+ .
+ This documentation is available from non-free part of Debian archive.
+
+Package: gcc-doc-base
+Description-md5: a3908a0b6cd1c3869235d28e3ac2ca01
+Description-en: several GNU manual pages
+ This package provides gfdl.7, gpl.7, and fsf-funding.7 manual pages,
+ which should be available together with gcc man pages to fit
+ GNU Free Documentation License requirements.
+
+Package: gccgo-doc
+Description-md5: 506744bcc4ca12e7561be814c9ef4da9
+Description-en: documentation for the GNU Go compiler (gccgo)
+ This is the dependency package that should install documentation
+ for Debian default version of GNU Go compiler.
+ .
+ This documentation is available from non-free part of Debian archive.
+
+Package: gfortran-doc
+Description-md5: 19f6059939e948fad2f88eca70ddb7fc
+Description-en: documentation for the GNU Fortran Compiler (gfortran)
+ This is the dependency package that should install manual page
+ and documentation for Debian default version of GNU Fortran compiler.
+ .
+ This documentation is available from non-free part of Debian archive.
+
+Package: gnat-doc
+Description-md5: 5b644ec82e0c0c89da6803e4917b819a
+Description-en: documentation for the GNU Ada Compiler (gnat)
+ This is the dependency package that should install documentation
+ for Debian default version of GNU Ada compiler.
+ .
+ This documentation is available from non-free part of Debian archive.
+
+Package: gemrb
+Description-md5: 0d4bb280924cac93f3c4c62a85d3b8db
+Description-en: Open-source engine to run Baldur's Gate, Icewind Dale and Planescape: Torment
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ It means that you either need some of the original game's data
+ somewhere on your harddisk, or you can try to use the data from the
+ Dragonlance Total Conversion project.
+ .
+ The original game data has to be installed on a windows
+ partition and mounted to your Linux/Unix filesystem, installed on
+ windows and then copied to your filesystem, installed with WINE or
+ extracted manually from the CDs using the tool `unshield'.
+ .
+ Supported games: Baldur's Gate and Icewind Dale series, Planescape:Torment.
+
+Package: gemrb-baldurs-gate
+Description-md5: 2c765486524b46b549fcabe72693d278
+Description-en: GemRB binary and configuration for Baldur's Gate game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains configuration sample and binary for Baldur's Gate game.
+
+Package: gemrb-baldurs-gate-2
+Description-md5: 6d3552fceb237dde4bb49de847854477
+Description-en: GemRB binary and configuration for Baldur's Gate 2 game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains configuration sample and binary for Baldur's Gate 2 game.
+
+Package: gemrb-baldurs-gate-2-data
+Description-md5: 3460eed03052a5fd4cac5df55f1cdbf6
+Description-en: GemRB data files for Baldur's Gate 2 game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains data files for Baldur's Gate 2 game.
+
+Package: gemrb-baldurs-gate-data
+Description-md5: 07c26827ab3ee6eef94dd8859a8e7dee
+Description-en: GemRB data files for Baldur's Gate game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains data files for Baldur's Gate game.
+
+Package: gemrb-data
+Description-md5: 57f3e1de551e53fa269dc1fcdca86ae7
+Description-en: Common data files for GemRB
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains data files used across all supported games.
+
+Package: gemrb-doc
+Description-md5: b5b7cf649a4ea1c54ecc444478d90e9f
+Description-en: Documentation for GemRB
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains documentation about GemRB and how to write custom games.
+
+Package: gemrb-icewind-dale
+Description-md5: b3f5dddf09a6707aa317694c88ce88e3
+Description-en: GemRB binary and configuration for Icewind Dale game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains configuration sample and binary for Icewind Dale game.
+
+Package: gemrb-icewind-dale-2
+Description-md5: c2b5cc41dce3ec01c239f58ed2039d3b
+Description-en: GemRB binary and configuration for Icewind Dale 2 game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains configuration sample and binary for Icewind Dale 2 game.
+
+Package: gemrb-icewind-dale-2-data
+Description-md5: d4fd01edc69fdb9c37d6e2035628d1ef
+Description-en: GemRB data files for Icewind Dale 2 game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains data files for Icewind Dale 2 game.
+
+Package: gemrb-icewind-dale-data
+Description-md5: 65818194c077872a1ec15f27e56c775d
+Description-en: GemRB data files for Icewind Dale game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains data files for Icewind Dale game.
+
+Package: gemrb-planescape-torment
+Description-md5: 9413acf3cd22b2a4b2012c2277e4fcfa
+Description-en: GemRB binary and configuration for Planescape: Torment game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains configuration sample and binary for Planescape: Torment
+ game.
+
+Package: gemrb-planescape-torment-data
+Description-md5: 05352c847b9a8012ce2e3097f0dcf987
+Description-en: GemRB data files for Planescape: Torment game
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains data files for Planescape: Torment game.
+
+Package: libgemrb
+Description-md5: 216ceff6c0ae724e37cedd46ae128ca0
+Description-en: Shared libraries and plugins for GemRB
+ GemRB (Game Engine Made with preRendered Background) is a new implementation
+ of the original Infinity Engine (the one of Baldur's Gate, Icewind Dale,
+ Planescape: Torment, ...) to Linux/Unix, MacOS X and Windows with some
+ enhancements.
+ .
+ This package contains GemRB core shared libraries and plugins.
+
+Package: geoipupdate
+Description-md5: 9fbc9f818790a4878914cd7478378239
+Description-en: MaxMind GeoIP/GeoIP2 database updates
+ The GeoIP Update program performs automatic updates of GeoIP2 and GeoLite2
+ binary databases, as supplied by MaxMind. These may be MaxMind's paid
+ products, or their GeoLite variants that are less accurate but provided
+ without charge.
+
+Package: ruby-kas-grpc
+Description-md5: 49bf131b372a8015f7e8d12a2e2a28db
+Description-en: Auto-generated gRPC client for KAS
+ The Kubernetes Agent Server (KAS) is a GitLab backend service dedicated to
+ managing Kubernetes Agents. This gem is the auto-generated gRPC client for it.
+ .
+ gitlab-agent source package has code for both GitLab Kubernetes Agent and
+ GitLab Kubernetes Agent Server. This binary package include part of KAS.
+
+Package: libgloo-cuda-0
+Description-md5: 11fe5b4bb9197845522ecac87176ae15
+Description-en: Collective communications library (shared object)
+ Gloo is a collective communications library. It comes with a number of
+ collective algorithms useful for machine learning applications. These
+ include a barrier, broadcast, and allreduce.
+ .
+ Transport of data between participating machines is abstracted so that
+ IP can be used at all times, or InifiniBand (or RoCE) when available.
+ In the latter case, if the InfiniBand transport is used, GPUDirect can
+ be used to accelerate cross machine GPU-to-GPU memory transfers.
+ .
+ Where applicable, algorithms have an implementation that works with system
+ memory buffers, and one that works with NVIDIA GPU memory buffers. In the
+ latter case, it is not necessary to copy memory between host and device;
+ this is taken care of by the algorithm implementations.
+ .
+ This package ships the shared object for Gloo.
+
+Package: libgloo-cuda-dev
+Description-md5: 1eb5d67397fdb9a8162c5c082d1e6d78
+Description-en: Collective communications library (development files)
+ Gloo is a collective communications library. It comes with a number of
+ collective algorithms useful for machine learning applications. These
+ include a barrier, broadcast, and allreduce.
+ .
+ Transport of data between participating machines is abstracted so that
+ IP can be used at all times, or InifiniBand (or RoCE) when available.
+ In the latter case, if the InfiniBand transport is used, GPUDirect can
+ be used to accelerate cross machine GPU-to-GPU memory transfers.
+ .
+ Where applicable, algorithms have an implementation that works with system
+ memory buffers, and one that works with NVIDIA GPU memory buffers. In the
+ latter case, it is not necessary to copy memory between host and device;
+ this is taken care of by the algorithm implementations.
+ .
+ This package ships the development files.
+
+Package: glx-alternative-mesa
+Description-md5: 1daacf66b51fd438667e93a67d9e2770
+Description-en: allows the selection of MESA as GLX provider
+ In setups with several GLX providers (e.g. the free MESA implementation and
+ proprietary graphics hardware vendor implementations) this metapackage
+ allows one to switch back to MESA.
+ .
+ Use 'update-glx --config glx' to select an implementation.
+ .
+ This package does not depend on the corresponding MESA libraries.
+ In order to install the MESA libraries, install the libgl1-mesa-glx package
+ instead.
+
+Package: glx-alternative-nvidia
+Description-md5: 4980cfbba830657e456159c5314cc55f
+Description-en: allows the selection of NVIDIA as GLX provider
+ In setups with several GLX providers (e.g. the free MESA implementation and
+ proprietary graphics hardware vendor implementations) this metapackage
+ allows one to switch to the non-free NVIDIA driver and libraries.
+ .
+ Use 'update-glx --config glx' to select an implementation.
+ .
+ This package does not depend on the corresponding NVIDIA libraries.
+ In order to install the NVIDIA driver and libraries, install the
+ nvidia-driver package instead.
+
+Package: glx-diversions
+Description-md5: 11d73a2c74770f5f3371f8803595735d
+Description-en: prepare for using accelerated GLX implementations from GPU vendors
+ Diverts the free libGL.so implementation (MESA) and the xserver module
+ libglx.so (Xorg), preparing the system for plugging in accelerated
+ implementations from GPU vendors via alternatives, see the
+ glx-alternative-* packages.
+
+Package: update-glx
+Description-md5: a3f586907729f883c31ef79c909f860f
+Description-en: utility for switching the GLX implementation
+ In setups with several GLX providers (e.g. the free MESA implementation and
+ proprietary graphics hardware vendor implementations) this utility
+ allows one to switch between the different implementations.
+ .
+ Use 'update-glx --config glx' to select an implementation.
+ .
+ In addition to updating the alternatives, this will trigger further actions
+ needed to complete the switch.
+
+Package: gnuboy-sdl
+Description-md5: d0afd5157478841c7d01808a8cbd6f99
+Description-en: SDL binaries for gnuboy - Game Boy Emulator
+ Gnuboy is a portable Game Boy emulator. It basically allows you to play
+ most games designed for the Game Boy and Game Boy Color on your PC or
+ workstation.
+ .
+ This package includes SDL binaries.
+
+Package: gnuboy-x
+Description-md5: 7dc3af652e412edd9627cb088cd2b13d
+Description-en: X binaries for gnuboy - Game Boy Emulator
+ Gnuboy is a portable Game Boy emulator. It basically allows you to play
+ most games designed for the Game Boy and Game Boy Color on your PC or
+ workstation.
+ .
+ This package includes X binaries.
+
+Package: gobi-loader
+Description-md5: 78aca8ec3f7e9197eb7418bab58057e9
+Description-en: Firmware loader for Qualcomm Gobi USB chipsets.
+ gobi-loader is a firmware loader for Qualcomm Gobi USB chipsets. These devices
+ appear in an uninitialised state when power is applied and require firmware to
+ be loaded before they can be used as modems. gobi-loader adds a udev rule that
+ will trigger loading of the firmware and make the modem usable.
+
+Package: gpustat
+Description-md5: ead43ed93b6051d1032b832df813e981
+Description-en: pretty nvidia device monitor
+ Just less than nvidia-smi?
+ .
+ NOTE: This works with NVIDIA Graphics Devices only, no AMD support as of now.
+
+Package: gstreamer1.0-fdkaac
+Description-md5: 8a6ba7d84515005d9fd880d33f218f45
+Description-en: GStreamer FDK AAC plugins
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+ to the rest. They might be close to being good quality, but they're missing
+ something - be it a good code review, some documentation, a set of tests, a
+ real live maintainer, or some actual wide use.
+ .
+ This package contains the FDK AAC plugins.
+
+Package: hannah-foo2zjs
+Description-md5: 17bd5e201d7e7be1fb42ba47260c88bd
+Description-en: Graphical firmware downloader for the foo2zjs package
+ Hannah is a graphical firmware downloader for the foo2zjs package. You
+ can select one or more firmware(s) from a list, and let hannah download
+ and install them.
+ .
+ With this software you can potentially install non-free software, so
+ beware of that.
+
+Package: hashcat-nvidia
+Description-md5: 730caa533877aab600d795aef8db42c8
+Description-en: Installs hashcat and its dependencies for users with NVIDIA GPU
+ Hashcat is an advanced CPU/GPU-based password recovery utility supporting
+ seven unique modes of attack for over 100 optimized hashing algorithms.
+ .
+ This metapackage makes it easy to install the required dependencies
+ when you want to use hashcat with your NVIDIA GPU (via OpenCL).
+
+Package: hipify-clang
+Description-md5: 8f72447e867761c277436126d1cbbfa2
+Description-en: CUDA to HIP source-to-source translation tool
+ hipify-clang is a tool that converts CUDA sources to HIP. It is built on
+ libclang and operates on an abstract syntax tree. It can therefore translate
+ code containing complex C++ constructs, but it requires input sources to be
+ fully compilable.
+
+Package: horae
+Description-md5: 05d8479ad180769d9adf3591fc732120
+Description-en: interactive graphical processing and analysis of EXAFS data
+ ATHENA is an interactive graphical utility for processing EXAFS data. It
+ handles most of the common data handling chores of interest, including
+ deglitching, aligning, merging, background removal, and Fourier transforms.
+ .
+ ARTEMIS is an interactive graphical utility for fitting EXAFS data using
+ theoretical standards from FEFF and sophisticated data modelling along with
+ flexible data visualization and statistical analysis.
+ .
+ HEPHAESTUS is a souped up periodic table for the x-ray absorption
+ spectroscopist. It provides a number of utilities involving tables of
+ absorption coefficients and other chemical data.
+
+Package: hts-voice-nitech-jp-atr503-m001
+Description-md5: 48d0be37845caa6955d6a5f8ce672ba7
+Description-en: Japanese male voice data for Open JTalk
+ This is a Japanese male voice data for Open JTalk, a Hidden Markov Model
+ based speech synthesis system (a.k.a. HTS) for Japanese.
+ .
+ This voice data was trained by using the HTS voice data "NIT ATR503 M001"
+ and released by HTS Working Group as a part of Open JTalk.
+
+Package: libhwloc-contrib-plugins
+Description-md5: 2b02fbf995ab5fe6645ca4e4ad3e8d3f
+Description-en: Hierarchical view of the machine - contrib plugins
+ libhwloc provides a portable abstraction (across OS, versions,
+ architectures, ...) of the hierarchical topology of modern architectures. It
+ primarily aims at helping high-performance computing applications with
+ gathering information about the hardware so as to exploit it accordingly and
+ efficiently.
+ .
+ libhwloc provides a hierarchical view of the machine, NUMA memory nodes,
+ sockets, shared caches, cores and simultaneous multithreading. It also gathers
+ various attributes such as cache and memory information.
+ .
+ libhwloc supports old kernels not having sysfs topology information,
+ with knowledge of cpusets, offline cpus, and Kerrighed support
+ .
+ This package contains plugins to add discovery support for non-free items. This
+ includes
+  - CUDA support.
+
+Package: hyperspec
+Description-md5: 51d7bf1353fb0967e7492a36a1d1a585
+Description-en: Common Lisp ANSI-standard Hyperspec
+ This is a installer package for the html-ed version of the ANSI standard
+ for Common Lisp. Note that these pages are only FYI and are not valid
+ as a reference.
+ But for all intents and purposes this is a good enough reference for
+ daily work.
+
+Package: indi-asi
+Description-md5: fef3b791f049037f294450d4700e0914
+Description-en: INDI Driver for ZWO Optics ASI cameras
+ This package contains a INDI driver fro ZWO Optics ASI cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-fishcamp
+Description-md5: 166b60359988f3196e262dce85c3c645
+Description-en: INDI driver for Fishcamp Engineering CCD
+ This package contains an INDI driver for CCD cameras made
+ by Fishcamp Engineering.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-inovaplx
+Description-md5: 051f32a61d561b7288a76c0d259a2e5c
+Description-en: INDI driver for iNova PLX Cameras
+ This package contains an INDI driver for iNova PLX Cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-mi
+Description-md5: 972492f2219355825c6f0c51cc9d886f
+Description-en: INDI driver for cameras made by Moravian Instruments
+ This package contains an INDI driver to support cameras
+ made by Moravian Instruments.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-pentax
+Description-md5: fcb9c4bf63087b6503ee2a63bcc8566c
+Description-en: INDI driver for Pentax cameras
+ This package contains an INDI driver for Pentax cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-playerone
+Description-md5: f0c3e9029267e76f9fe63462dfe37236
+Description-en: INDI driver for cameras made by Playerone
+ This package contains an INDI driver for cameras
+ made by Playerone.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: indi-sbig
+Description-md5: bc8ec3942ce34579911062ed3a339949
+Description-en: INDI driver for SBIG cameras
+ This package contains an INDI driver for SBIG Santa Barbra Instrument
+ Group CCD cameras.
+ .
+ This driver is compatible with any INDI client such as KStars or Xephem.
+
+Package: rtcw
+Description-md5: b0b1c16df93826196035daa4288b4987
+Description-en: game engine for Return to Castle Wolfenstein
+ Return to Castle Wolfenstein is a military- and occult-themed first-person
+ shooter game in a Second World War setting, originally released in 2001.
+ It is a sequel to Wolfenstein 3D, which is also available for Debian
+ (in the wolf4sdl package).
+ .
+ This package contains the iortcw game engines for the single-player campaign
+ and multiplayer, based on ioquake3 and the GPL source releases of RTCW.
+ .
+ For security reasons, this version has been modified to prevent native
+ executable code from being unpacked from game packages (PK3 files).
+ Some game modifications will not work as a result of this change.
+ .
+ Return to Castle Wolfenstein requires non-distributable game data files
+ in the rtcw-data package, prepared using the game-data-packager tool.
+
+Package: rtcw-common
+Description-md5: 08a6eb6fc05c5aba9bb913d30587c612
+Description-en: common files for Return to Castle Wolfenstein
+ Return to Castle Wolfenstein is a military- and occult-themed first-person
+ shooter game in a Second World War setting, originally released in 2001.
+ It is a sequel to Wolfenstein 3D, which is also available for Debian
+ (in the wolf4sdl package).
+ .
+ This package contains files shared by the game and the dedicated server.
+ It requires non-distributable game data files from the rtcw-data package,
+ which can be prepared using the game-data-packager tool.
+
+Package: rtcw-server
+Description-md5: d3756cb8ff76af7f83fdf3421c74ca3b
+Description-en: standalone server for Return to Castle Wolfenstein
+ Return to Castle Wolfenstein is a military- and occult-themed first-person
+ shooter game in a Second World War setting, originally released in 2001.
+ It is a sequel to Wolfenstein 3D, which is also available for Debian
+ (in the wolf4sdl package).
+ .
+ This package contains the iortcw dedicated server for multiplayer,
+ based on ioquake3 and the GPL source releases of RTCW. It also contains
+ the init script and systemd unit to start the RTCW server, with support
+ for multiple server instances under systemd.
+ .
+ Return to Castle Wolfenstein requires non-distributable game data files
+ from the rtcw-data package, prepared using the game-data-packager tool.
+
+Package: isight-firmware-tools
+Description-md5: 17c00d9904d218c9804739e81a19fe3e
+Description-en: tools for dealing with Apple iSight firmware
+ Apple Built-in iSight requires firmware that can be extracted from
+ the Mac OS X USBVideo driver. This package provides tools for extracting
+ the firmware from the driver and installing udev rules and tools to
+ automatically load the firmware when needed.
+ .
+ A convenient tool for converting firmware binaries to Intel HEX format
+ is also provided. This may be required later for use with a
+ generic firmware loader such as fxload.
+
+Package: java-package
+Description-md5: 20b1926b722aad2edefb21bf39830687
+Description-en: Utility for creating Java Debian packages
+ This package provides the capability to build a Debian package from
+ a Java binary distribution by running make-jpkg <java binary archive file>.
+ (with archive files downloaded from providers listed below)
+ .
+ Supported java binary distributions currently include:
+   * Oracle (http://www.oracle.com/technetwork/java/javase/downloads) :
+     - The Java Development Kit (JDK), version 6, 7 and 8
+     - The Java Runtime Environment (JRE), version 6, 7 and 8
+     - The Java API Javadoc, version 6, 7 and 8
+ Choose tar.gz archives or self-extracting archives (_not_ RPM).
+ .
+ Please note that Debian recommends the use of openjdk-[78]-jdk and/or
+ openjdk-[78]-jre, which are installed by default-jdk or default-jre for
+ most architectures.
+ .
+ java-package will create non-free packages.
+
+Package: josm-installer
+Description-md5: 6a03f3c780cd85e845b96acc9c4c992b
+Description-en: Editor for OpenStreetMap (installer)
+ JOSM is an editor for OpenStreetMap (OSM) written in Java.
+ The current version supports stand alone GPX tracks, GPX track data
+ from OSM database and existing nodes, line segments and metadata tags
+ from the OSM database.
+ .
+ OpenStreetMap is a project aimed squarely at creating and providing
+ free geographic data such as street maps to anyone who wants them.
+ The project was started because most maps you think of as free actually
+ have legal or technical restrictions on their use, holding back people
+ from using them in creative, productive or unexpected ways.
+ .
+ This package provides a script to install the upstream JARs.
+
+Package: julius
+Description-md5: 46c042bd372c67500057b16e3dff0c21
+Description-en: Re-implementation of the Caesar III engine
+ Julius is a fully working open-source version of Caesar 3, with the same logic
+ as the original, but with some UI enhancements, that is able to be played on
+ multiple platforms. The same logic means that the saved games are 100%
+ compatible, and any gameplay bugs present in the original Caesar 3 game will
+ also be present in Julius. It is meant as a drop-in replacement for Caesar 3,
+ with the same look and feel, so there will be no major UI changes. UI
+ enhancements for Julius include:
+ .
+  - Support for widescreen resolutions
+  - Windowed mode support for 32-bit desktops
+  - Several small in-game quality of life improvements
+ .
+ Julius requires the original assets (graphics, sounds, etc) from Caesar 3 to
+ run. It optionally supports the high-quality MP3 files once provided on the
+ Sierra website.
+
+Package: kinect-audio-setup
+Description-md5: 7be6a0db7681b514dcafeecd75855e6b
+Description-en: Microsoft Kinect sensor audio setup helpers
+ When the Kinect sensor is first plugged in, its audio input device shows
+ up as a generic USB device; after the appropriate firmware is loaded, the
+ device is reset and it becomes available as a USB Audio Class (UAC)
+ device.
+ .
+ Since the firmware is not redistributable, kinect-audio-setup provides
+ tools to download it from the Internet at installation time, and sets up
+ udev rules to call the firmware loader when the device is plugged in to
+ finally get the UAC device.
+ .
+ The UAC firmware is downloaded from the Microsoft Kinect Software
+ Development Kit at http://www.microsoft.com/en-us/kinectforwindows/, the
+ license of which can be found at
+ http://research.microsoft.com/en-us/um/legal/kinectsdk-tou_noncommercial.htm
+
+Package: libdemeter-perl
+Description-md5: 61bcaabdcd578f132064042eed689bdf
+Description-en: comprehensive XAS data analysis system using Feff and Ifeffit or Larch
+ Demeter provides an object oriented interface to the EXAFS data analysis
+ capabilities of the popular and powerful Ifeffit package and its successor
+ Larch. Given that the Ifeffit and Larch APIs involve streams of text
+ commands, this package is, at heart, a code generator. Many methods of this
+ package return text. All actual interaction with Ifeffit or Larch is handled
+ through a single method, dispose, which is described below. The internal
+ structure of this package involves accumulating text in a scalar variable
+ through successive calls to the various code generating methods. This text is
+ then disposed to Ifeffit, to Larch, to a file, or elsewhere. The outward
+ looking methods organize all of the complicated interactions of your data
+ with Ifeffit or Larch.
+ .
+ This package is aimed at many targets. It can be the back-end of a graphical
+ data analysis program, providing the glue between the on-screen
+ representation of the fit and the actual command executed by Ifeffit or
+ Larch. It can be used for one-off data analysis chores -- indeed most of the
+ examples that come with the package can be reworked into useful one-off
+ scripts. It can also be the back-end to sophisticated data analysis chores
+ such as high-throughout data processing and analysis or complex physical
+ modeling.
+
+Package: libdvd-pkg
+Description-md5: 69ffcc3dc82cec634c830f1c06c90f5e
+Description-en: DVD-Video playing library - installer
+ This package provides libraries that are needed for playing video DVDs
+ with a media player (such as VLC, SMplayer, Totem, etc.). It automates
+ the process of downloading source files, compiling them, and installing
+ the binary packages.
+
+Package: matlab-gdf
+Description-md5: e6b3ac7570a50044c7b97d7c7cb7550c
+Description-en: IO library for the GDF -- Matlab interface
+ GDF (General Dataformat for Biosignals) is intended to provide a generic
+ storage for biosignals, such as EEG, ECG, MEG etc.
+ .
+ This package builds Matlab bindings for GDF at installation
+ time. Note that this package depends on Matlab -- a commercial
+ software that needs to be obtain and installed separately.
+
+Package: librem5-flash-image
+Description-md5: a5b5acd906812fd957cca215bfb0ba07
+Description-en: Image flashing tool for Librem 5 devices and related devices
+ Scripts useful to for working with the Librem 5 and the
+ Librem 5 Devkit.
+ .
+ These tools are useful on the host side (e.g. the machine
+ you use to flash the image from). They are not useful on
+ the Librem 5 or the Devkit itself.
+
+Package: libydpdict2
+Description-md5: 6f0652e06ffab3cfa83214c12b0e9cd9
+Description-en: library for reading Collins dictionaries
+ This library makes it easy for a program to read the dictionaries distributed
+ by Young Digital Planet (English-Polish/Polish-English and/or
+ German-Polish/Polish-German).
+ .
+ This package only contains the library, it does not contain the dictionary
+ files. To use it, you need a copy of the dictionary from YDP and a program
+ which can use this library (e.g. ydpdict).
+
+Package: libydpdict2-dev
+Description-md5: 7528115c0533b0012a891c25dc9041d6
+Description-en: library for reading Collins dictionaries - development files
+ This library makes it easy for a program to read the dictionaries distributed
+ by Young Digital Planet (English-Polish/Polish-English and/or
+ German-Polish/Polish-German).
+ .
+ This package only contains the files necessary for compiling programs which
+ use the libydpdict library.
+
+Package: llm
+Description-md5: a2fcaf5b441d6324ee1b96a3e87cf59a
+Description-en: CLI utility and Python library for interacting with Large Language Models
+ A CLI utility and Python library for interacting with Large Language
+ Models, both via remote APIs and models that can be installed and run
+ on your own machine.
+ .
+ This allows users to interact with various language models. Its
+ primary target is obviously the OpenAI API, but it also supports
+ local models like Llama 2, Ollama, and MLC, and other online models
+ like Claude, GEmini and Mistral.
+
+Package: lutris
+Description-md5: 20699e375b114ef44842ce4060474a27
+Description-en: video game preservation platform
+ Lutris helps you install and play video games from all eras and from most
+ gaming systems. By leveraging and combining existing emulators, engine
+ re-implementations and compatibility layers, it gives you a central interface
+ to launch all your games.
+
+Package: libmagma-dev
+Description-md5: 8c96c9659ed332fd1cc18082bb49c285
+Description-en: Matrix Algebra on GPU and Multicore Architectures (dev)
+ The MAGMA project aims to develop a dense linear algebra library similar to
+ LAPACK but for heterogeneous/hybrid architectures, starting with current
+ "Multicore+GPU" systems.
+ .
+ The MAGMA research is based on the idea that, to address the complex challenges
+ of the emerging hybrid environments, optimal software solutions will themselves
+ have to hybridize, combining the strengths of different algorithms within a
+ single framework. Building on this idea, we aim to design linear algebra
+ algorithms and frameworks for hybrid manycore and GPU systems that can enable
+ applications to fully exploit the power that each of the hybrid components
+ offers.
+ .
+ This package contains the headers and the static libraries.
+
+Package: libmagma-doc
+Description-md5: acda0a8ac99c17cd5657815ecee12b3d
+Description-en: Matrix Algebra on GPU and Multicore Architectures (doc)
+ The MAGMA project aims to develop a dense linear algebra library similar to
+ LAPACK but for heterogeneous/hybrid architectures, starting with current
+ "Multicore+GPU" systems.
+ .
+ The MAGMA research is based on the idea that, to address the complex challenges
+ of the emerging hybrid environments, optimal software solutions will themselves
+ have to hybridize, combining the strengths of different algorithms within a
+ single framework. Building on this idea, we aim to design linear algebra
+ algorithms and frameworks for hybrid manycore and GPU systems that can enable
+ applications to fully exploit the power that each of the hybrid components
+ offers.
+ .
+ This package contains the Doxygen HTML documentation.
+
+Package: libmagma-sparse2
+Description-md5: 7466d1ecd53172205761e441ae3ae3e8
+Description-en: Matrix Algebra on GPU and Multicore Architectures (solib, sparse)
+ The MAGMA project aims to develop a dense linear algebra library similar to
+ LAPACK but for heterogeneous/hybrid architectures, starting with current
+ "Multicore+GPU" systems.
+ .
+ The MAGMA research is based on the idea that, to address the complex challenges
+ of the emerging hybrid environments, optimal software solutions will themselves
+ have to hybridize, combining the strengths of different algorithms within a
+ single framework. Building on this idea, we aim to design linear algebra
+ algorithms and frameworks for hybrid manycore and GPU systems that can enable
+ applications to fully exploit the power that each of the hybrid components
+ offers.
+ .
+ This package contains the shared object libmagma_sparse.so.2
+
+Package: libmagma-test
+Description-md5: baed7e032a53edc2a27a115e648b92ee
+Description-en: Matrix Algebra on GPU and Multicore Architectures (tests)
+ The MAGMA project aims to develop a dense linear algebra library similar to
+ LAPACK but for heterogeneous/hybrid architectures, starting with current
+ "Multicore+GPU" systems.
+ .
+ The MAGMA research is based on the idea that, to address the complex challenges
+ of the emerging hybrid environments, optimal software solutions will themselves
+ have to hybridize, combining the strengths of different algorithms within a
+ single framework. Building on this idea, we aim to design linear algebra
+ algorithms and frameworks for hybrid manycore and GPU systems that can enable
+ applications to fully exploit the power that each of the hybrid components
+ offers.
+ .
+ This package contains the test executables.
+
+Package: libmagma2
+Description-md5: 1b5c7a1b292272888775bfbb96c3b347
+Description-en: Matrix Algebra on GPU and Multicore Architectures (solib)
+ The MAGMA project aims to develop a dense linear algebra library similar to
+ LAPACK but for heterogeneous/hybrid architectures, starting with current
+ "Multicore+GPU" systems.
+ .
+ The MAGMA research is based on the idea that, to address the complex challenges
+ of the emerging hybrid environments, optimal software solutions will themselves
+ have to hybridize, combining the strengths of different algorithms within a
+ single framework. Building on this idea, we aim to design linear algebra
+ algorithms and frameworks for hybrid manycore and GPU systems that can enable
+ applications to fully exploit the power that each of the hybrid components
+ offers.
+ .
+ This package contains the shared object libmagma.so.2
+
+Package: mathjax-siunitx
+Description-md5: 3a605b1f12a5c496b15c863c62d3b322
+Description-en: Extension for libjs-mathjax to support siunitx
+ The siunitx package allows to typeset physical quantities consistently
+ using the syntax \SI{299e6}{\metre\per\second}. This extension provides
+ the same syntax in MathJax. Please see the documentation for siunitx
+ on CTAN for details about siunitx.
+ .
+ MathJax was designed with the goal of consolidating the recent advances in web
+ technologies into a single, definitive, math-on-the-web platform supporting
+ the major browsers and operating systems.
+
+Package: matlab-support
+Description-md5: 043f431da8db6fad67528f4d0d2174d2
+Description-en: distro integration for local MATLAB installations
+ This package does not provide MATLAB. Instead, it configures an
+ existing MATLAB installation to integrate more comfortably in
+ a Debian installation.
+ .
+ Currently it provides /usr/bin/matlab through the alternatives
+ system, offers to work around incompatibilities between the libraries
+ bundled with MATLAB and system libraries, and provides a helper
+ utility meant to be used by other packages to compile MEX extensions.
+ .
+ Install this if you would like your MATLAB installation to behave more
+ like an ordinary Debian package. Other packages may depend on
+ this one if they install MATLAB code, for example in order to
+ compile MEX extensions.
+
+Package: mbrola
+Description-md5: ec127a8485012c20e1be3f87d968badb
+Description-en: Multilingual software speech synthesizer
+ Mbrola is Thierry Dutoit's phonemizer for multilingual speech synthesis. The
+ various diphone databases are distributed on separate packages, but they
+ must be used with and only with Mbrola because of license matters. Read the
+ copyright for details.
+ .
+ Mbrola itself doesn't provide full TTS. It is a speech synthesizer based on
+ the concatenation of diphones. It takes a list of phonemes as input,
+ together with prosodic information (duration of phonemes and a piecewise linear
+ description of pitch), and produces speech samples on 16 bits (linear),
+ at the sampling frequency of the diphone database.
+ .
+ Use Mbrola along with Freephone, cicero or espeak to have a complete
+ text-to-speech in English.
+
+Package: molotov
+Description-md5: 5bf614f9a450cd6f35f6d825a5a8ca88
+Description-en: Create a bootable flash drive from a Windows 10/11 ISO image
+ The Molotov project simplifies the creation of a bootable flash drive for
+ Windows installation. You need a Windows ISO image, downloadable from
+ Microsoft's website, and a flash drive with at least 8GB of storage.
+ This program might work with older versions of Windows, but they are
+ not supported.
+
+Package: ttf-mscorefonts-installer
+Description-md5: 3cf2bbaf676bcd51633633514c88751a
+Description-en: Installer for Microsoft TrueType core fonts
+ This package allows for easy installation of the Microsoft True Type
+ Core Fonts for the Web including:
+ .
+   Andale Mono
+   Arial Black
+   Arial (Bold, Italic, Bold Italic)
+   Comic Sans MS (Bold)
+   Courier New (Bold, Italic, Bold Italic)
+   Georgia (Bold, Italic, Bold Italic)
+   Impact
+   Times New Roman (Bold, Italic, Bold Italic)
+   Trebuchet (Bold, Italic, Bold Italic)
+   Verdana (Bold, Italic, Bold Italic)
+   Webdings
+ .
+ You will need an Internet connection to download these fonts if you
+ don't already have them.
+ .
+ NOTE: the package fonts-liberation contains free variants of the Times,
+ Arial and Courier fonts. It's better to use those instead unless you
+ specifically need one of the other fonts from this package.
+
+Package: libmtj-java-doc
+Description-md5: 380f48555fc36f4067152bb8caad7db7
+Description-en: Java library for developing numerical applications (documentation)
+ MTJ is designed to be used as a library for developing numerical
+ applications, both for small and large scale computations. The library
+ is based on BLAS and LAPACK for its dense and structured sparse
+ computations, and on the Templates project for unstructured sparse
+ operations.
+ .
+ MTJ uses the netlib-java project as a backend, which can be set up to
+ use machine-optimised BLAS libraries for improved performance of dense
+ matrix operations, falling back to a pure Java implementation. This
+ ensures perfect portability, while allowing for improved performance in
+ a production environment.
+ .
+ This package contains the javadoc documentation files.
+
+Package: mumax3
+Description-md5: 31b32b8b874fff7a3226df456e85a895
+Description-en: GPU-accelerated micromagnetic simulator
+ mumax3 is a GPU-accelerated micromagnetic simulation program developed
+ at the DyNaMat group of Prof. Van Waeyenberge at Ghent University.
+ .
+ A speed-up of the order of 100x compared to CPU-based simulations can
+ easily be reached, even with relatively inexpensive gaming
+ GPUs. Additionally, the software is optimized for low memory use and
+ can handle about 16 million FD cells with 2GB of GPU RAM.
+ .
+ Features:
+  - Landau-Lifshitz micromagnetic formalism
+  - Magnetostatic field
+  - Heisenberg exchange
+  - Arbitrary inter-region exchange like RKKY coupling
+  - Dzyaloshinskii-Moriya interaction
+  - Spin-transfer torque (Zhang-Li and Slonczewski)
+  - Uniaxial and cubic magnetocrystalline anisotropy
+  - Thermal fluctuations (Brown)
+  - Voronoi tessellation
+  - Time- and space dependent material parameters
+  - Arbitrary complex excitation (field, current)
+  - Simulation window can automatically follow a moving domain wall
+  - Edge charges can be removed to simulate an infinitely long geometry
+  - Optional 1D, 2D or 3D periodic boundary conditions
+
+Package: muttdown
+Description-md5: 42f97c816418c3b99958ff186a4c7154
+Description-en: Compiles annotated text mail into html using the Markdown standard
+ muttdown is a sendmail-replacement designed for use with the mutt email
+ client which will transparently compile annotated text/plain mail into
+ text/html using the Markdown standard.
+ It will recursively walk the MIME tree and compile any text/plain or
+ text/markdown part which begins with the sigil "!m" into Markdown,
+ which it will insert alongside the original in a
+ multipart/alternative container.
+ .
+ It's also smart enough not to break multipart/signed
+
+Package: nbdkit-plugin-vddk
+Description-md5: 3fa95c4ca969bcb2f081111f446b8fd4
+Description-en: vddk plugin for nbdkit
+ nbdkit-vddk-plugin is an nbdkit(1) plugin that makes the contents of
+ VMDK files and VMware disks accessible over NBD.
+ .
+ VDDK (Virtual Disk Development Kit) is a proprietary VMware library
+ for accessing VMDK files and VMware ESX servers. Note that the
+ license of the VDDK library is highly restrictive, preventing any
+ commercial usage without negotiating a separate license from VMware.
+ This plugin does not contain any VMware code. Consult the man page
+ nbdkit-vddk-plugin(1) for details on how to use this plugin.
+
+Package: nvidia-cuda-samples
+Description-md5: 6bcda9b3af467cc806bdb6777effa812
+Description-en: Samples which demonstrate features in NVIDIA CUDA Toolkit
+ This package contains a collection of example codes demonstrating various
+ features of the NVIDIA CUDA Toolkit.
+
+Package: nvidia-cudnn
+Description-md5: aff2caf53c29838279b63dd35dec1798
+Description-en: NVIDIA CUDA Deep Neural Network library (install script)
+ The NVIDIA CUDA Deep Neural Network library (cuDNN) is a GPU-accelerated
+ library of primitives for deep neural networks. cuDNN provides highly
+ tuned implementations for standard routines such as forward and backward
+ convolution, pooling, normalization, and activation layers. cuDNN is part
+ of the NVIDIA Deep Learning SDK.
+ .
+ This package only contains the script "/usr/sbin/update-nvidia-cudnn" to
+ download and install Nvidia cuDNN locally. It will be automatically
+ invoked during installation.
+
+Package: libcudnn-frontend-dev
+Description-md5: 6272d149e1d6d63a6a1faa440ced237d
+Description-en: c++ wrapper for the cudnn backend API (development files)
+ The cuDNN frontend API is a C++ header-only library that wraps the cuDNN C
+ backend API. Both the frontend and backend APIs are entry points to the same
+ set of functionality that we commonly refer to as the "graph API".
+ .
+ While there are two entry points to the graph API (i.e. backend and frontend),
+ we expect that most users will use the frontend entry point because:
+ .
+ It is less verbose without loss of control. All functionality accessible
+ through the backend API is also accessible through the frontend API.  It adds
+ functionality on top of the backend API, like errata filters and autotuning.
+ Also, for those who want to use the backend API, the frontend source can serve
+ as a reference implementation.
+ .
+ This is a header-only C++ library.
+
+Package: libcutlass-dev
+Description-md5: 4d44009005870b8473610afb57050108
+Description-en: CUDA Templates for Linear Algebra Subroutines
+ CUTLASS is a collection of CUDA C++ template abstractions for implementing
+ high-performance matrix-matrix multiplication (GEMM) and related computations
+ at all levels and scales within CUDA. It incorporates strategies for
+ hierarchical decomposition and data movement similar to those used to implement
+ cuBLAS and cuDNN. CUTLASS decomposes these "moving parts" into reusable,
+ modular software components abstracted by C++ template classes. Primitives for
+ different levels of a conceptual parallelization hierarchy can be specialized
+ and tuned via custom tiling sizes, data types, and other algorithmic policy.
+ The resulting flexibility simplifies their use as building blocks within custom
+ kernels and applications.
+ .
+ To support a wide variety of applications, CUTLASS provides extensive support
+ for mixed-precision computations, providing specialized data-movement and
+ multiply-accumulate abstractions for half-precision floating point (FP16),
+ BFloat16 (BF16), Tensor Float 32 (TF32), single-precision floating point
+ (FP32), FP32 emulation via tensor core instruction, double-precision
+ floating point (FP64) types, integer data types (4b and 8b), and binary
+ data types (1b). CUTLASS demonstrates warp-synchronous matrix multiply
+ operations targeting the programmable, high-throughput Tensor Cores
+ implemented by NVIDIA's Volta, Turing, Ampere, and Hopper architectures.
+ .
+ This is a header-only library.
+
+Package: libnvidia-egl-gbm1
+Description-md5: 7fed46c39bde46d5de9b80126105db9e
+Description-en: GBM EGL external platform library for NVIDIA
+ This library provides GBM EGL application support when using the NVIDIA
+ driver.
+
+Package: nvidia-modprobe
+Description-md5: 681d2ef8dc157284d3ffc1ee5f3b75f7
+Description-en: utility to load NVIDIA kernel modules and create device nodes
+ This setuid program is used to create NVIDIA Linux device files and load the
+ NVIDIA kernel module, on behalf of NVIDIA Linux driver components which may
+ not have sufficient privileges to perform these actions on their own.
+
+Package: libnccl-dev
+Description-md5: eb51ac028af4e93d497fb00fb21ea648
+Description-en: NVIDIA Optimized primitives for inter-GPU communication (development)
+ NCCL (pronounced "Nickel") is a stand-alone library of standard communication
+ routines for GPUs, implementing all-reduce, all-gather, reduce, broadcast,
+ reduce-scatter, as well as any send/receive based communication pattern. It
+ has been optimized to achieve high bandwidth on platforms using PCIe, NVLink,
+ NVswitch, as well as networking using InfiniBand Verbs or TCP/IP sockets. NCCL
+ supports an arbitrary number of GPUs installed in a single node or across
+ multiple nodes, and can be used in either single- or multi-process (e.g., MPI)
+ applications.
+ .
+ This package contains the development files.
+
+Package: libnccl2
+Description-md5: 9d65922c97dff88e1fb00aa87e7e5d73
+Description-en: NVIDIA Optimized primitives for inter-GPU communication
+ NCCL (pronounced "Nickel") is a stand-alone library of standard communication
+ routines for GPUs, implementing all-reduce, all-gather, reduce, broadcast,
+ reduce-scatter, as well as any send/receive based communication pattern. It
+ has been optimized to achieve high bandwidth on platforms using PCIe, NVLink,
+ NVswitch, as well as networking using InfiniBand Verbs or TCP/IP sockets. NCCL
+ supports an arbitrary number of GPUs installed in a single node or across
+ multiple nodes, and can be used in either single- or multi-process (e.g., MPI)
+ applications.
+ .
+ This package contains the shared objects.
+
+Package: nvidia-open-kernel-dkms
+Description-md5: fd66cc6ba119b3694f8041effda85293
+Description-en: NVIDIA open kernel module DKMS source
+ This package builds the NVIDIA binary kernel modules needed by
+ nvidia-driver, using DKMS.
+ Provided that you have the kernel header packages installed, the kernel
+ module will be built for your running kernel and automatically rebuilt for
+ any new kernel headers that are installed.
+ .
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
+ for graphics cards using NVIDIA chip sets.
+ .
+ The NVIDIA open driver for graphics cards supports Turing and newer chip sets.
+ .
+ Building the kernel modules has been tested up to Linux 6.15.
+ .
+ Note: The new 'non-free-firmware' archive area has to be enabled in apt's
+ sources.list(.d/) in order to install firmware-nvidia-gsp.
+
+Package: nvidia-open-kernel-source
+Description-md5: a15ee579b93d5c396c5e3e166405b233
+Description-en: NVIDIA open kernel module source
+ This package provides the source for the NVIDIA binary kernel modules
+ needed by nvidia-driver in a form suitable
+ for use by module-assistant.
+ .
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
+ for graphics cards using NVIDIA chip sets.
+ .
+ PLEASE read /usr/share/doc/nvidia-open-kernel-source/README.Debian.gz
+ for building information. If you want the kernel module to be automatically
+ installed via DKMS, install nvidia-open-kernel-dkms instead.
+ .
+ The NVIDIA open driver for graphics cards supports Turing and newer chip sets.
+ .
+ Building the kernel modules has been tested up to Linux 6.15.
+
+Package: nvidia-open-kernel-support
+Description-md5: 6790a47ffe7f29fb1a0a127656863cc9
+Description-en: NVIDIA open kernel module support files
+ The NVIDIA binary driver provides optimized hardware acceleration of
+ OpenGL/GLX/EGL/GLES applications via a direct-rendering X Server
+ for graphics cards using NVIDIA chip sets.
+ .
+ The NVIDIA open driver for graphics cards supports Turing and newer chip sets.
+ .
+ This package provides supporting configuration for the kernel module.
+
+Package: nvidia-persistenced
+Description-md5: 14c6e143827155e1cde8662563f7ee85
+Description-en: daemon to maintain persistent software state in the NVIDIA driver
+ When persistence mode is enabled, the daemon prevents the driver from
+ releasing device state when the device is not in use.
+ This can improve the startup time of new clients in this scenario.
+
+Package: nvidia-settings
+Description-md5: 3ffa050620c90555dbf58d2a6bebfd10
+Description-en: tool for configuring the NVIDIA graphics driver
+ The nvidia-settings utility is a tool for configuring the NVIDIA
+ Linux graphics driver.  It operates by communicating with the NVIDIA
+ X driver, querying and updating state as appropriate.  This
+ communication is done with the NV-CONTROL X extension.
+ .
+ Values such as brightness and gamma, XVideo attributes, temperature,
+ and OpenGL settings can be queried and configured via nvidia-settings.
+
+Package: nvidia-settings-tesla-535
+Description-md5: 3781fe6412f3ed0de9ac65d2bc68b879
+Description-en: tool for configuring the NVIDIA graphics driver (Tesla 535 version)
+ The nvidia-settings utility is a tool for configuring the NVIDIA
+ Linux graphics driver.  It operates by communicating with the NVIDIA
+ X driver, querying and updating state as appropriate.  This
+ communication is done with the NV-CONTROL X extension.
+ .
+ Values such as brightness and gamma, XVideo attributes, temperature,
+ and OpenGL settings can be queried and configured via nvidia-settings.
+
+Package: nvidia-installer-cleanup
+Description-md5: a7e93baeef316d8ae4a7474c8bcd35d5
+Description-en: cleanup after driver installation with the nvidia-installer
+ This package ensures that no remnants of the non-free NVIDIA graphics
+ drivers that were installed with the nvidia-installer remain on the
+ system. Such an installation conflicts with the packaged drivers.
+ .
+ Furthermore using the nvidia-installer to install a new version of the
+ drivers is prevented as long as this package is installed.
+
+Package: nvidia-kernel-common
+Description-md5: 4d3664ed3e608346486328ce3ac6af6e
+Description-en: NVIDIA binary kernel module support files
+ This package contains support files used for any version of the NVIDIA
+ kernel module. It sets up udev and ConsoleKit rules, ensures the NVIDIA
+ control device is created, and performs any other tasks required for the
+ module to work properly.
+
+Package: nvidia-support
+Description-md5: c8b2304ce34323f10197b7d18feaae06
+Description-en: NVIDIA binary graphics driver support files
+ This package contains support files needed for all current and legacy
+ versions of the non-free NVIDIA graphics drivers. These include scripts
+ used for warning about a mismatching version of the kernel module.
+
+Package: nvidia-xconfig
+Description-md5: 8d7f955f355e9e8cb11ecf1d6a0de396
+Description-en: deprecated X configuration tool for non-free NVIDIA drivers
+ This tool is deprecated. The NVIDIA drivers now automatically integrate with
+ the Xorg Xserver configuration. Creating an xorg.conf is no longer needed for
+ normal setups.
+ .
+ The nvidia-xconfig program helps with manipulation of X configuration
+ files, primarily for systems that use the non-free drivers provided by
+ NVIDIA.  It automatically changes the configuration to use the NVIDIA
+ driver and can add additional options given on the command line.
+
+Package: nvitop
+Description-md5: 07407aea3bf2c319ecbce26984f1e0fe
+Description-en: Interactive NVIDIA-GPU process viewer and beyond
+ nvitop is an interactive NVIDIA device and process monitoring tool. It has a
+ colorful and informative interface that continuously updates the status of the
+ devices and processes. As a resource monitor, it includes many features and
+ options, such as tree-view, environment variable viewing, process filtering,
+ process metrics monitoring, etc. Beyond that, the package also ships a CUDA
+ device selection tool nvisel for deep learning researchers. It also provides
+ handy APIs that allow developers to write their own monitoring tools.
+
+Package: libfdkaac-ocaml
+Description-md5: bb2f9e8c4bbbe0171677f3112ec84bc4
+Description-en: OCaml interface to the fdkaac library -- runtime files
+ This package provides an interface to the fdkaac library for
+ OCaml programmers.
+ .
+ The FDK AAC Codec Library For Android contains an encoder implementation
+ of the Advanced Audio Coding (AAC) audio codec.
+ .
+ This package contains only the shared runtime stub libraries.
+
+Package: libfdkaac-ocaml-dev
+Description-md5: 9aeb7a2390ccd3baa5b2d363ba61ce74
+Description-en: OCaml interface to the fdkaac library -- development files
+ This package provides an interface to the fdkaac library for
+ OCaml programmers.
+ .
+ The FDK AAC Codec Library For Android contains an encoder implementation
+ of the Advanced Audio Coding (AAC) audio codec.
+ .
+ This package contains all the development stuff you need to develop
+ OCaml programs which use ocaml-fdkaac.
+
+Package: libfdkaac-ocaml-dynlink
+Description-md5: 70244771865d3116ad8cf83f837f959a
+Description-en: OCaml interface to the fdkaac library -- dynamically load
+ This package provides an interface to the fdkaac library for
+ OCaml programmers.
+ .
+ The FDK AAC Codec Library For Android contains an encoder implementation
+ of the Advanced Audio Coding (AAC) audio codec.
+ .
+ This package contains the modules needed to dynamically load ocaml-fdkaac
+ in a program.
+
+Package: matlab-brain2mesh
+Description-md5: 82b8489a4a2c45cf9c48276e4b0ddc1e
+Description-en: automated brain tetrahedral mesh generation toolbox for MATLAB
+ Brain2Mesh is a fully automated 3D multi-layered brain mesh generator
+ that supports both MATLAB and Octave. This package provides the toolbox
+ for MATLAB. It requires the Image Processing Toolbox of MATLAB.
+
+Package: matlab-iso2mesh
+Description-md5: 70c13d5376ac1a8d098638a8deed9e4e
+Description-en: 3D surface and volumetric mesh generator for MATLAB
+ Iso2Mesh is a MATLAB/Octave-based mesh generation toolbox,
+ designed for easy creation of high quality surface and
+ tetrahedral meshes from 3D volumetric images. It contains
+ a rich set of mesh processing scripts/programs, working
+ either independently or interacting with external free
+ meshing utilities. Iso2Mesh toolbox can directly convert
+ a 3D image stack, including binary, segmented or gray-scale
+ images such as MRI or CT scans, into quality volumetric
+ meshes. This makes it particularly suitable for multi-modality
+ medical imaging data analysis and multi-physics modeling.
+ Iso2Mesh is cross-platform and is compatible with both MATLAB
+ and GNU Octave.
+ .
+ This package contains the MATLAB support for iso2mesh.
+
+Package: matlab-jnifti
+Description-md5: 24850eb9e0467dbd688e49089a9e2803
+Description-en: fast NIfTI-1/2 reader and NIfTI-to-JNIfTI converter for MATLAB
+ The JNIfTI toolbox includes a stand-alone NIfTI-1/2 parser that works on both
+ MATLAB and GNU Octave without needing additional components. To just reading
+ and writing the un-compressed NIfTI and Analyze7.5 files (.nii, .hdr/.img),
+ one only needs to run addpath('/path/to/jnifti'). For MATLAB, JNIfTI toolbox
+ utilizes memmapfile-based disk-reading, making it very fast. For Octave,
+ memmapfile is currently not implemented, so, a full reading is required.
+ .
+ The JNIfTI toolbox is also capable of reading/writing gzip-compressed NIfTI
+ and Analyze7.5 files (.nii.gz, .hdr.gz, .img.gz). This feature is supported
+ in MATLAB directly without needing another toolbox (MATLAB must be in the
+ JVM-enabled mode).
+ .
+ To process gzip-compressed NIfTI/Analyze files in Octave and MATLAB with
+ -nojvm, one need to install the open-source JSONLab and ZMat toolboxes
+
+Package: matlab-jsonlab
+Description-md5: 2aeaa0d5e0504122421ec9a78a14a1a6
+Description-en: native JSON/UBJSON/MassagePack encoder/decoder for MATLAB
+ JSONLab is a free and open-source implementation of a
+ JSON/UBJSON/MessagePack encoder and a decoder in the native MATLAB language.
+ It can be used to convert a MATLAB data structure (array, struct, cell,
+ struct array and cell array) into JSON/UBJSON formatted string, or decode a
+ JSON/UBJSON/MessagePack file into MATLAB data.  JSONLab supports both MATLAB
+ and GNU Octave (a free MATLAB clone). JSONLab is now the official reference
+ implementation for the JData Specification (Draft 3) - the foundation of the
+ OpenJData Project (http://openjdata.org).
+ .
+ This package provides support for MATLAB.
+
+Package: libopenh264-cisco8
+Description-md5: dff704a43d485eb325e4bc04bd302a1e
+Description-en: OpenH264 Video Codec provided by Cisco Systems, Inc.
+ OpenH264 is a codec library which supports H.264 encoding and decoding.
+ It is suitable for use in real time applications such as WebRTC.
+ .
+ In order to comply with the AVC/H.264 Patent Portfolio License Conditions,
+ this package downloads the suitable binary for the architecture and
+ installs it. Besides the download, this is an empty package.
+
+Package: openjazz
+Description-md5: e369da5396fe53397886f836fccdd70b
+Description-en: Jazz Jackrabbit™ game engine reimplementation
+ OpenJazz is a free, open-source version of the classic Jazz Jackrabbit™ games.
+ .
+ Jazz Jackrabbit™ is a PC platform game. Produced by Epic Games (then Epic
+ MegaGames), it was first released in 1994. The fast-paced, colourful gameplay
+ proved popular, and the game won PC Format's Arcade Game of the Year award.
+ Many people still fondly recall the shareware versions.
+ .
+ With the demise of DOS-based operating systems, it has become necessary to use
+ emulators to play old DOS games. Jazz Jackrabbit™ deserves more - and would
+ benefit greatly from new features.
+ .
+ To play, you will need the files from one of the original games. Current
+ releases of `game-data-packager' are able to generate a suitable data package
+ from the Jazz Jackrabbit Collection as published on GOG.
+
+Package: openmohaa
+Description-md5: 86c79ec58f74b0f19bb2b388851792b5
+Description-en: game engine for "Medal of Honor: Allied Assault"
+ Medal of Honor: Allied Assault is a first-person shooter video game
+ that simulates infantry combat in the European and North African theaters
+ during World War II. It was originally released in 2002.
+ .
+ OpenMoHAA is a re-implementation, based on ioquake3, that allows playing
+ "Medal of Honor: Allied Assault" and its two expansions.
+ .
+ You will need the original, non-distributable, game data files.
+ You can install them by using the game-data-packager tool.
+
+Package: openmohaa-common
+Description-md5: fe1e6f8bd1c15c301708cad11664f327
+Description-en: common files for OpenMoHAA
+ This package contains files shared by all openmohaa packages.
+ .
+ It is unnecessary to install this package unless you are installing one
+ of the packages that depends on it.
+
+Package: openmohaa-server
+Description-md5: cff1d2a5380a1015411ea2f8c354e64e
+Description-en: dedicated server for "Medal of Honor: Allied Assault"
+ This package contains a launcher script and systemd unit to run a
+ Medal of Honor: Allied Assault server with the openmohaa engine.
+ .
+ Medal of Honor: Allied Assault is a first-person shooter video game
+ that simulates infantry combat in the European and North African theaters
+ during World War II. It was originally released in 2002.
+ .
+ OpenMoHAA is a re-implementation, based on ioquake3, that allows playing
+ "Medal of Honor: Allied Assault" and its two expansions.
+ .
+ You will need the original, non-distributable, game data files.
+ You can install them by using the game-data-packager tool.
+
+Package: openrct2
+Description-md5: 136f2157dc662607863d657b37a31ab7
+Description-en: Open-source re-implementation of RollerCoaster Tycoon 2
+ OpenRCT2 is an open-source re-implementation of RollerCoaster Tycoon 2
+ (RCT2). The gameplay revolves around building and maintaining an
+ amusement park containing attractions, shops and facilities. The player
+ must try to make a profit and maintain a good park reputation whilst
+ keeping the guests happy. OpenRCT2 allows for both scenario and sandbox
+ play. Scenarios require the player to complete a certain objective in a
+ set time limit whilst sandbox allows the player to build a more flexible
+ park with optionally no restrictions or finance.
+ .
+ RollerCoaster Tycoon 2 was originally written by Chris Sawyer in x86
+ assembly and is the sequel to RollerCoaster Tycoon. The engine was based
+ on Transport Tycoon, an older game which also has an equivalent
+ open-source project, OpenTTD. OpenRCT2 attempts to provide everything
+ from RCT2 as well as many improvements and additional features, some of
+ these include support for modern platforms, an improved interface,
+ improved guest and staff AI, more editing tools, increased limits, and
+ cooperative multiplayer. It also re-introduces mechanics from RollerCoaster
+ Tycoon that were not present in RollerCoaster Tycoon 2. Some of those
+ include; mountain tool in-game, the "have fun" objective, launched coasters
+ (not passing-through the station) and several buttons on the toolbar.
+
+Package: openrct2-data
+Description-md5: ba13feafd937c7243870a1c8ec2b7d37
+Description-en: Required game data for OpenRCT2
+ This package provides the architecture-independent game assets required by
+ the openrct2 executables.
+
+Package: openrct2-objects
+Description-md5: f6bc7e007707cf7a1dba4734f5d1ca70
+Description-en: Object definitions for OpenRCT2
+ This package contains object definitions and translations for
+ RollerCoaster Tycoon and RollerCoaster Tycoon 2 (requires the
+ original game files; not included with this package).
+
+Package: openrct2-openmsx
+Description-md5: 29cffff1edb40b4341c0e58b2bbe1286
+Description-en: New versions of the songs from RollerCoaster Tycoon 2
+ This project aims to create an alternative, high quality soundtrack
+ as replacement for, and addition to RollerCoaster Tycoon 2's
+ soundtrack for use in OpenRCT2.
+
+Package: openrct2-opensfx
+Description-md5: 6b3b132eb8b7ef168c450910d0f11ffa
+Description-en: Project to create a replacement for RCT2's sound effects file
+ A free collection of alternative sound effects from RollerCoaster
+ Tycoon 2 for use in OpenRCT2.
+
+Package: openrct2-title-sequences
+Description-md5: 2950e021be87789c2f6f89fcc1915f8c
+Description-en: Title sequences for OpenRCT2
+ This package contains the custom title sequence for OpenRCT2, along
+ with metadata to select the original title sequences that shipped
+ with RollerCoaster Tycoon and RollerCoaster Tycoon 2 (requires the
+ original game files; not included with this package).
+
+Package: opentyrian
+Description-md5: 4b23246f88846c4ec73316018d1af88e
+Description-en: open-source port of the DOS shoot-em-up Tyrian
+ Tyrian is an arcade-style vertical scrolling shooter. The story is set in
+ 20,031 where you play as Trent Hawkins, a skilled fighter-pilot employed to
+ fight Microsol and save the galaxy.
+ .
+ This package needs game data from the original Tyrian game, which is available
+ as a freeware. It can be installed using game-data-packager.
+
+Package: phosh-osk-data-packager
+Description-md5: 127215b035bc43b17215ed0a39f449e9
+Description-en: OSK completion data packager for Phosh
+ Data to enable text completion in phosh-osk-stub via presage.
+ .
+ This package contains as script to download and package data
+ files.
+
+Package: play.it
+Description-md5: e888d986e41f68273bbcf7197e06c904
+Description-en: Installer for DRM-free commercial games
+ play.it is a free software building native packages from installers for Windows
+ or Linux, mainly those sold by stores focusing on DRM-free games distribution.
+ The goal is that a game installed via ./play.it is indistinguishable from a
+ game installed via the official repositories of your favourite distribution.
+ .
+ The games are installed globally on multi-user systems, avoiding unnecessary
+ duplication. The locations of save games, settings, mods, temporary files and
+ backups are standardized with XDG Base Directory support.
+ .
+ Packaging the games simplifies future updates, uninstalls and handling of any
+ necessary dependencies, including integrated obsolete dependencies if specific
+ versions are needed.
+
+Package: play.it-adventure
+Description-md5: 6981b5040d50bf5d1326aabaa7d73568
+Description-en: Collection of game scripts used by ./play.it
+ play.it is a free software building native packages from installers for
+ Windows or Linux, mainly those sold by stores focusing on DRM-free games
+ distribution. The goal is that a game installed via ./play.it is
+ indistinguishable from a game installed via the official repositories of your
+ favourite distribution.
+ .
+ This specific collection includes only adventure games. These games usually
+ focus on the narrative and should require no fast action from the player. Aside
+ from the narrative, the main drives for the player should be exploration and
+ problem solving.
+
+Package: play.it-community
+Description-md5: 9abe22bb9abb81c7f85826b20c163858
+Description-en: ./play.it game scripts collection - Community-maintained games collection
+ play.it is a free software building native packages from installers for
+ Windows or Linux, mainly those sold by stores focusing on DRM-free games
+ distribution. The goal is that a game installed via ./play.it is
+ indistinguishable from a game installed via the official repositories of your
+ favourite distribution.
+ .
+ This package provides game scripts that can be used with ./play.it
+ to install a collection of DRM-free games. It is maintained by the same team
+ than the ./play.it library and tools.
+
+Package: play.it-puzzle
+Description-md5: 33faa94e2b460d8d795d9e60aebea454
+Description-en: ./play.it game scripts collection - Puzzle games
+ play.it is a free software building native packages from installers for
+ Windows or Linux, mainly those sold by stores focusing on DRM-free games
+ distribution. The goal is that a game installed via ./play.it is
+ indistinguishable from a game installed via the official repositories of your
+ favourite distribution.
+ .
+ This specific collection includes only puzzle games. These games focus on
+ problem solving, most of the time puzzles based on logic. Games included in
+ this collection should not require fast play, so timed puzzles and arcade-like
+ puzzle games can not be found here.
+
+Package: play.it-vv221
+Description-md5: 49ad787a002de5e967cbfb00561e0362
+Description-en: ./play.it game scripts collection - vv221ʼs games collection
+ play.it is a free software building native packages from installers for
+ Windows or Linux, mainly those sold by stores focusing on DRM-free games
+ distribution. The goal is that a game installed via ./play.it is
+ indistinguishable from a game installed via the official repositories of your
+ favourite distribution.
+ .
+ This collection adds support for a collection of games curated by vv221,
+ play.it original author. It can be seen as a very subjective "best of".
+
+Package: playonlinux
+Description-md5: 729a863a5c2d8eb304d4e8e17ffbeafe
+Description-en: front-end for Wine
+ PlayOnLinux is a front-end for wine. It permits you to easily install Windows
+ Games and software on Linux. It is advised to have a functional internet
+ connection.
+
+Package: pokemmo-installer
+Description-md5: 01826557b5ed3497c64f1b6283f37b41
+Description-en: Installer and Launcher for the PokeMMO emulator
+ This program will download and install the PokeMMO client in
+ a user's home directory.
+ .
+ With the launcher, it will assist in the download, installation
+ and maintenance of the game client.
+ .
+ PokeMMO client is an online multiplayer emulator created by fans,
+ allowing you to play the saga of pokemon games, where you can interact with
+ other trainers by talking, fighting and swapping the monsters you encounter.
+ .
+ This emulator has an important requirement where you need to have
+ the ROMs of the games in question available for the game to work,
+ it is absolutely necessary.
+ .
+ You must obtain the compatible ROMs for the emulator and add to the directory:
+ ($HOME/.local/share/pokemmo/roms)
+  * Current Required Compatible ROMS: Black/White 1 (NDS)
+  * Current Optional Content Compatible ROMS: Fire Red, Emerald (GBA)
+  * Current Optional Visuals Compatible ROMS: HeartGold, SoulSilver (NDS)
+ .
+ NOTICE: You must have the legal right to use ROMs. This emulator is not
+ provided and has no option to help you find them, as the files are protected
+ by copyright.
+
+Package: primus-nvidia
+Description-md5: 47ebdd2f5f4085bfde25afb56ffc6f5a
+Description-en: NVIDIA Primus support using the proprietary NVIDIA driver
+ This metapackage ensures that the proprietary NVIDIA driver is installed in a
+ way such that 3D acceleration does not break. It does so by configuring the
+ OpenGL library path to use the Mesa graphics library.
+
+Package: nvidia-primus-vk-common
+Description-md5: 1de48695d37b053918704fd873985909
+Description-en: thin wrapper for the NVIDIA binary Vulkan ICD (common files)
+ This package disables the original NVIDIA binary Vulkan driver and registers
+ the thin wrapper from nvidia-primus-vk-wrapper to ensure that the NVIDIA
+ driver is usable with bumblebee.
+
+Package: nvidia-primus-vk-wrapper
+Description-md5: b56d29bdf2a2c1ac493d1c61f63daef4
+Description-en: thin wrapper for using the NVIDIA binary Vulkan ICD with bumblebee
+ This library is a thin wrapper around the Vulkan API functions of the
+ nvidia Vulkan driver. The Vulkan driver misbehaves for example by reading the
+ DISPLAY environment variable and connecting to that display server. This
+ library works around that misbehaviour, so the driver can be used with
+ bumblebee.
+
+Package: primus-vk-nvidia
+Description-md5: 8b6b25b6894037f56819bf3bc0d80e41
+Description-en: NVIDIA Optimus support for Vulkan applications
+ This metapackage depends on all packages necessary to run
+ OpenGL and Vulkan applications on a dedicated graphics card
+ on systems with Nvidia + Intel Optimus hardware.
+
+Package: publicfile-installer
+Description-md5: 2548f3f2ef97ed2f4adb719d46393759
+Description-en: installer package for the publicfile HTTP and FTP server
+ Publicfile is an HTTP and FTP server, written by Daniel J. Bernstein in
+ 1999; it didn't change a lot after that. Modern features are not
+ supported. However, if you're looking for a small, simple and secure
+ webserver, which integrates with the runit and daemontools UNIX service
+ managers, publicfile will suit your needs.
+ .
+ This installer package downloads the publicfile .tar.gz file from
+ the upstream website, combines it with Debian packaging information
+ from the package maintainer's website; then builds a publicfile Debian
+ package, and installs that. When installing this installer package,
+ one is given the option to postpone downloading and installing
+ publicfile.
+
+Package: pvpgn
+Description-md5: 224c8ef41c7b204a8c707dc79b8ca03c
+Description-en: gaming server that emulates Battle.net(R)
+ The server currently implements most of the same functionality as the
+ real Battle.net(R) servers from Blizzard Entertainment.  You can chat,
+ play games, use / commands, and things like account passwords, user
+ icons, ad banners, and channel operators work too.  It is by no means
+ complete, though.
+
+Package: python-pycuda-doc
+Description-md5: 4b4f2b1e8b32879eefe98c99f3a598ba
+Description-en: module to access Nvidia‘s CUDA computation API (documentation)
+ PyCUDA lets you access Nvidia‘s CUDA parallel computation API from Python.
+ Several wrappers of the CUDA API already exist–so what’s so special about
+ PyCUDA?
+  * Object cleanup tied to lifetime of objects. This idiom, often called
+    RAII in C++, makes it much easier to write correct, leak- and crash-free
+    code.  PyCUDA knows about dependencies, too, so (for example) it won’t
+    detach from a context before all memory allocated in it is also freed.
+  * Convenience. Abstractions like pycuda.driver.SourceModule and
+    pycuda.gpuarray.GPUArray make CUDA programming even more convenient than
+    with Nvidia’s C-based runtime.
+  * Completeness. PyCUDA puts the full power of CUDA’s driver API at your
+    disposal, if you wish.
+  * Automatic Error Checking. All CUDA errors are automatically translated
+    into Python exceptions.
+  * Speed. PyCUDA’s base layer is written in C++, so all the niceties
+    above are virtually free.
+  * Helpful Documentation.
+ .
+ This package contains HTML documentation and example scripts.
+
+Package: python3-pycuda
+Description-md5: 4f446cb70e3ba6723eaae62a94efb36c
+Description-en: Python 3 module to access Nvidia‘s CUDA parallel computation API
+ PyCUDA lets you access Nvidia‘s CUDA parallel computation API from Python.
+ Several wrappers of the CUDA API already exist–so what’s so special about
+ PyCUDA?
+  * Object cleanup tied to lifetime of objects. This idiom, often called
+    RAII in C++, makes it much easier to write correct, leak- and crash-free
+    code.  PyCUDA knows about dependencies, too, so (for example) it won’t
+    detach from a context before all memory allocated in it is also freed.
+  * Convenience. Abstractions like pycuda.driver.SourceModule and
+    pycuda.gpuarray.GPUArray make CUDA programming even more convenient than
+    with Nvidia’s C-based runtime.
+  * Completeness. PyCUDA puts the full power of CUDA’s driver API at your
+    disposal, if you wish.
+  * Automatic Error Checking. All CUDA errors are automatically translated
+    into Python exceptions.
+  * Speed. PyCUDA’s base layer is written in C++, so all the niceties
+    above are virtually free.
+  * Helpful Documentation.
+ .
+ This package contains Python 3 modules.
+
+Package: python3-pycudwt
+Description-md5: 6df6073c729e5bb493e299895787595d
+Description-en: Python-CUDA implementation of the Wavelet Transform
+ pycudwt is a python module for parallel Discrete Wavelet Transform
+ using CUDA.
+
+Package: python3-pynvml
+Description-md5: a70729a5f02f7f1635513991a7e8a017
+Description-en: Python3 bindings to the NVIDIA Management Library
+ Provides a Python interface to GPU management and monitoring functions.
+ .
+ This is a wrapper around the NVML library.
+ For information about the NVML library, see the NVML developer page
+ http://developer.nvidia.com/nvidia-management-library-nvml
+
+Package: python3-scikit-cuda
+Description-md5: b8e69c9959d87567867436e6e0d65aa7
+Description-en: Scikit with CUDA support
+ scikit-cuda provides Python interfaces to many of the functions in
+ the CUDA device/runtime, CUBLAS, CUFFT, and CUSOLVER libraries
+ distributed as part of NVIDIA's CUDA Programming Toolkit, as well as
+ interfaces to select functions in the free and standard versions of
+ the CULA Dense Toolkit.
+ .
+ Both low-level wrapper functions similar to their C counterparts and
+ high-level functions comparable to those in NumPy and Scipy are
+ provided.
+
+Package: python-seqcluster-doc
+Description-md5: 7e4181b00560032b27cb4dc4b37a49ce
+Description-en: analysis of small RNA in NGS data (documentation)
+ Seqcluster investigates small RNA sequences of all sorts in RNA
+ sequencing data. This is especially helpful for the identification of
+ RNA that is neither coding nor belonging to the already well-established
+ group of miRNA, towards many tools feel constrained to.
+ .
+ This package provides the HTML documentation for the
+ Python-implemented seqcluster tool.
+
+Package: python3-seqcluster
+Description-md5: dab0f9f2134fc17ee0bf05421b82e5dc
+Description-en: analysis of small RNA in NGS data
+ Identifies small RNA sequences of all sorts in RNA sequencing data. This is
+ especially helpful for the identification of RNA that is neither coding nor
+ belonging to the already well-established group of miRNA, towards many tools
+ feel constrained to.
+ .
+ This package provides the Python module. For executables see the package
+ 'seqcluster'.
+
+Package: seqcluster
+Description-md5: 6c17cc468ea461a1b077d0e3bee7a08b
+Description-en: analysis of small RNA in NGS data
+ Seqcluster investigates small RNA sequences of all sorts in RNA
+ sequencing data. This is especially helpful for the identification of
+ RNA that is neither coding nor belonging to the already well-established
+ group of miRNA, towards many tools feel constrained to.
+
+Package: python3-vertica
+Description-md5: e4fe2897df4016619c5c391f68a42c8a
+Description-en: native Python client for the Vertica database (Python 3)
+ HP Vertica is a commercial column-oriented database.
+ .
+ This package provides all the source, examples and documentation you need
+ to easily connect to and interact with Vertica.
+ .
+ This is the Python 3 version of the package.
+
+Package: libtorch-cuda-2.6
+Description-md5: 978f54ef388bc124b6b324f4470bc930
+Description-en: Tensors and Dynamic neural networks in Python (Shared Objects)
+ PyTorch is a Python package that provides two high-level features:
+ .
+ (1) Tensor computation (like NumPy) with strong GPU acceleration
+ (2) Deep neural networks built on a tape-based autograd system
+ .
+ You can reuse your favorite Python packages such as NumPy, SciPy and Cython
+ to extend PyTorch when needed.
+ .
+ This is the CUDA version of PyTorch (Shared Objects).
+
+Package: libtorch-cuda-dev
+Description-md5: 0cb5ccaed0784964b2a089c479a9d19a
+Description-en: Tensors and Dynamic neural networks in Python (Development Files)
+ PyTorch is a Python package that provides two high-level features:
+ .
+ (1) Tensor computation (like NumPy) with strong GPU acceleration
+ (2) Deep neural networks built on a tape-based autograd system
+ .
+ You can reuse your favorite Python packages such as NumPy, SciPy and Cython
+ to extend PyTorch when needed.
+ .
+ This is the CUDA version of PyTorch (Development files).
+
+Package: libtorch-cuda-test
+Description-md5: df23ef81761992aa3a0513d2e749cd69
+Description-en: Tensors and Dynamic neural networks in Python (Test Binaries)
+ PyTorch is a Python package that provides two high-level features:
+ .
+ (1) Tensor computation (like NumPy) with strong GPU acceleration
+ (2) Deep neural networks built on a tape-based autograd system
+ .
+ You can reuse your favorite Python packages such as NumPy, SciPy and Cython
+ to extend PyTorch when needed.
+ .
+ This is the CUDA version of PyTorch (Test Binaries).
+
+Package: python3-torch-cuda
+Description-md5: cde338ad524db44d855c0e0fe01fca94
+Description-en: Tensors and Dynamic neural networks in Python (Python Interface)
+ PyTorch is a Python package that provides two high-level features:
+ .
+ (1) Tensor computation (like NumPy) with strong GPU acceleration
+ (2) Deep neural networks built on a tape-based autograd system
+ .
+ You can reuse your favorite Python packages such as NumPy, SciPy and Cython
+ to extend PyTorch when needed.
+ .
+ This is the CUDA version of PyTorch (Python interface).
+
+Package: python3-pyvkfft-cuda
+Description-md5: 57ea98ebe636a6b0393437bac86d8b5e
+Description-en: Binding to the CUDA backends of VkFFT - Python3
+ pyvkfft offers a simple python interface to the CUDA and OpenCL
+ backends of VkFFT, compatible with pyCUDA, CuPy and pyOpenCL.
+ .
+ This package installs the CUDA backend.
+
+Package: reminiscence
+Description-md5: 47982cfbc36238f1225d12baaf1e3605
+Description-en: free implementation of Flashback game engine
+ REminiscence is a free re-implementation of the game engine used to run the
+ Flashback platform action game. It uses the data files from the original
+ PC/DOS game and can make use of the Amiga sound files.
+ .
+ Flashback is a platform action game, in which you control a character that has
+ lost his memory. Your task is to bring the memories back and, ultimately, save
+ the world.
+
+Package: repo
+Description-md5: 1496a967d4bcbc0d6ebc3348869abf22
+Description-en: repository management tool built on top of git
+ Repo is a repository management tool that the Android developers built on top
+ of Git. Repo unifies the many Git repositories when necessary, does the
+ uploads to the Android revision control system, and automates parts of the
+ Android development workflow. Repo is not meant to replace Git, only to make
+ it easier to work with Git in the context of Android. The repo command is an
+ executable Python script that you can put anywhere in your path. In working
+ with the Android source files, you will use Repo for across-network
+ operations. For example, with a single Repo command you can download files
+ from multiple repositories into your local working directory.
+ .
+ repo is an unusual tool because it downloads all of its own Python modules
+ using GPG-signed git tags, and stores those files as part of the project that
+ it is working with.  So this package just provides the wrapper script, which
+ provides the GPG signing keys for verifying that the correct Python code was
+ downloaded.
+
+Package: rocksndiamonds
+Description-md5: b92f1c7c681792183cf09382ad94e606
+Description-en: arcade-style game
+ This package provides the game engine for Rocks'n'Diamonds, an arcade
+ game in the tradition of "Boulder Dash", "Emerald Mine", "Supaplex",
+ "Sokoban", etcetera. Game levels emulating all of these can be
+ downloaded from ArtSoft.org.
+
+Package: rott
+Description-md5: 33b73fa3a3248365bd54091b7dbb5f4d
+Description-en: SDL-Port of Rise of the Triad
+ Rise of the Triad is a high quality, fast scrolling first-person perspective
+ 3D action game. It includes a lot of destructive enemies, an arsenal of
+ weapons from simple pistols to missile launchers, life-preserving armor, traps
+ and ambushes galore.
+ .
+ WARNING: Rise of the Triad features wanton and gratuitous violence.
+ .
+ This package contains no data files: use `game-data-packager' to generate
+ a suitable data package from the publicly available "Rise of the Triad:
+ The HUNT Begins" shareware episode.
+
+Package: ruby-googlecharts
+Description-md5: 5a7010693764f607269fd6853c91aafd
+Description-en: Ruby library to generate charts using Google Chart API
+ Googlecharts is a nice and simple wrapper for the Google Chart API.
+ It allows one to draw a large variety of kinds of graphs such as bars or pies.
+ .
+ This library relies on external code hosted on Google servers, accessed
+ through this API.
+
+Package: ruby-spamcheck
+Description-md5: a613cc2a1a9517ddd0dd563714333f07
+Description-en: Auto-generated gRPC client for SpamCheck
+ This library allows connecting to spamcheck service using google rpc service.
+ .
+ Since regenerating these generated ruby files require updating some core
+ golang modules, this package is uploaded to contrib with upstream provided
+ *_pb.rb files.
+
+Package: librust-proton-call-dev
+Description-md5: 18bbec82c643d06fbec943f22a6abfc2
+Description-en: Run any Windows program through Valve's Proton - Rust source code
+ This package contains the source for the Rust proton-call crate, packaged by
+ debcargo for use with cargo and dh-cargo.
+
+Package: proton-caller
+Description-md5: 9d1188f7c1f70265f3ba34a7b6e84f3c
+Description-en: Run any Windows program through Valve's Proton
+ Proton-caller allows you to run any Windows program through
+ Valve's Proton compatibility layer as easy as running it with WINE.
+ Simply configure your Steam and common directories, and run the executable
+ with proton-call -r foo.exe. Other usage examples can be found in the
+ manual page. The last arguments are passed to the windows executable.
+
+Package: sabnzbdplus
+Description-md5: 9af99c00c3efdc0801f9fda555ddbd78
+Description-en: web-based binary newsreader with nzb support
+ SABnzbd+ is a web-based binary newsgrabber written in Python, with support for
+ the popular nzb file format. It greatly simplifies the process of downloading
+ from Usenet, thanks to a friendly web-based, fully customizable user interface
+ and advanced built-in post-processing options including the ability to
+ automatically verify, repair, extract and clean up downloaded posts.
+ .
+ Multiple servers are supported, as well as secure (ssl) connections, ipv6,
+ scheduling, pausing and resuming downloads, queue manipulation, rss feeds,
+ automatic sorting, a download history, email notifications, and custom
+ post-processing scripts. An extensive API allows third party applications to
+ interact with the program.
+ .
+ This package contains the program itself and all interface templates.
+
+Package: serious-sam-tfe
+Description-md5: 17a5711c818d04a0aad02d25d66517bb
+Description-en: Serious Sam - The First Encounter
+ a first-person shooter video game developed by Croteam and originally
+ published in March 2001.
+ .
+ The series follows the adventures of protagonist Sam "Serious" Stone
+ and his fight against the forces of the notorious extraterrestrial
+ overlord Mental, who seeks to destroy humanity.
+ .
+ This package alone isn't of any use; it only contains the game engine,
+ you will need a copy of the original game for this package to be useful.
+
+Package: serious-sam-tse
+Description-md5: 6705571dac55362c441049fd2ee86c58
+Description-en: Serious Sam - The Second Encounter
+ a first-person shooter video game developed by Croteam and originally
+ published in February 2002.
+ .
+ The series follows the adventures of protagonist Sam "Serious" Stone
+ and his fight against the forces of the notorious extraterrestrial
+ overlord Mental, who seeks to destroy humanity.
+ .
+ This package alone isn't of any use; it only contains the game engine,
+ you will need a copy of the original game for this package to be useful.
+
+Package: simplesnap
+Description-md5: 33b75cd389d8b320694dd2271ffbae47
+Description-en: Simple and powerful network transmission of ZFS snapshots
+ simplesnap is a simple way to send ZFS snapshots across a net‐
+ work. Although it can serve many purposes, its primary goal is
+ to manage backups from one ZFS filesystem to a backup filesystem
+ also running ZFS, using incremental backups to minimize network
+ traffic and disk usage.
+ .
+ simplesnap it is designed to perfectly compliment
+ snapshotting tools, permitting rotating backups with arbitrary
+ retention periods. It lets multiple machines back up a single
+ target, lets one machine back up multiple targets, and keeps it
+ all straight.
+ .
+ simplesnap is easy; there is no configuration file needed. One
+ ZFS property is available to exclude datasets/filesystems. ZFS
+ datasets are automatically discovered on machines being backed
+ up.
+ .
+ simplesnap  is robust in the face of interrupted
+ transfers, and needs little help to keep running.
+ .
+ Unlike many similar tools, simplesnap does not
+ require full root access to the machines being backed up. It
+ runs only a small wrapper as root, and the wrapper has only three
+ commands it implements.
+
+Package: slurm-wlm-nvml-plugin
+Description-md5: 382ad5eb1a96045c9ecbf90f2e89d21b
+Description-en: SLURM NVML plugins
+ SLURM, the Simple Linux Utility for Resource Management,
+ is an open-source cluster resource management and job scheduling.
+ .
+ This package contains the Nvidia NVML-based SLURM plugin.
+
+Package: slurm-wlm-nvml-plugin-dev
+Description-md5: 25e2f364af04a256ac8860bffe699da0
+Description-en: SLURM NVML plugin development files
+ SLURM, the Simple Linux Utility for Resource Management,
+ is an open-source cluster resource management and job scheduling.
+ .
+ This package contains development files for the Nvidia NVML-based
+ SLURM plugins.
+
+Package: spectemu-common
+Description-md5: 26bc6bd9e66de9535a2d1d86848d0e2c
+Description-en: Fast 48k ZX Spectrum Emulator (common files)
+ Spectemu emulates the 48k ZX Spectrum, which uses the Z80 microprocessor.
+ This package contains common configuration files and utilities which are or
+ can be used by either the X11 or the SVGAlib frontend.
+ .
+ It emulates the Z80 processor as well as the 48k Spectrum's other
+ hardware: keyboard, screen, sound, tape I/O. The emulation is very
+ close to the real thing, but it is still quite fast (It was reported
+ to be working well on a laptop with 486 at 25MHz!). On the other hand,
+ the user interface is not the best.
+ .
+ Features include:
+    - Sound support through Linux kernel sound-card driver.
+    - Snapshot saving and loading (.Z80 and .SNA format)
+    - Tape emulation: loading from tape files (.TAP and .TZX format)
+    - Optional quick loading of tapes.
+    - Saving to tape files.
+    - Separate utility to save tape files to real tape
+    - Configurable with config files and from command line
+
+Package: spectemu-x11
+Description-md5: 0bf9dc39a82ac7415decd677a04bcf9b
+Description-en: Fast 48k ZX Spectrum Emulator for X11
+ xspect is the X11 version of Spectemu which emulates the 48k ZX
+ Spectrum, which uses the Z80 microprocessor.
+ .
+ It emulates the Z80 processor as well as the 48k Spectrum's other
+ hardware: keyboard, screen, sound, tape I/O. The emulation is very
+ close to the real thing, but it is still quite fast (It was reported
+ to be working well on a laptop with 486 at 25MHz!). On the other hand,
+ the user interface is not the best.
+ .
+ Features include:
+    - Sound support through Linux kernel sound-card driver.
+    - Snapshot saving and loading (.Z80 and .SNA format)
+    - Tape emulation: loading from tape files (.TAP and .TZX format)
+    - Optional quick loading of tapes.
+    - Saving to tape files.
+    - Separate utility to save tape files to real tape
+    - Configurable with config files and from command line
+
+Package: speech-dispatcher-baratinoo
+Description-md5: 084e6e01506ac290c402b752a5ca7014
+Description-en: Speech Dispatcher: Baratinoo (VoxyGen) output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the Baratinoo speech synthesizer,
+ also called VoxyGen, which needs to be installed separately.
+
+Package: speech-dispatcher-ibmtts
+Description-md5: 58e52cccb215af6ea193914e90fd5155
+Description-en: Speech Dispatcher: IBM TTS output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the IBM TTS (aka Eloquence),
+ which needs to be installed separately.
+
+Package: speech-dispatcher-ivona
+Description-md5: 86870f9edb7fda6696c749808c9ab8ad
+Description-en: Speech Dispatcher: Ivona output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the Ivona speech synthesizer,
+ which needs to be installed separately.
+
+Package: speech-dispatcher-kali
+Description-md5: ed862f91a9dfc6b45f556e27600025f3
+Description-en: Speech Dispatcher: Kali output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the Kali speech synthesizer,
+ which needs to be installed separately.
+
+Package: speech-dispatcher-pico
+Description-md5: 3f7b0336934407e292229150a3407010
+Description-en: Speech Dispatcher: Pico output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the pico speech synthesizer.
+
+Package: speech-dispatcher-voxin
+Description-md5: 83b1d95c5cad4931b0402c5c5475c962
+Description-en: Speech Dispatcher: Voxin output module
+ Speech Dispatcher provides a device independent layer for speech synthesis.
+ It supports various software and hardware speech synthesizers as
+ backends and provides a generic layer for synthesizing speech and
+ playing back PCM data via those different backends to applications.
+ .
+ Various high level concepts like enqueueing vs. interrupting speech and
+ application specific user configurations are implemented in a device
+ independent way, therefore freeing the application programmer from
+ having to yet again reinvent the wheel.
+ .
+ This package contains the output module for the Voxin speech synthesizer,
+ which supports IBM TTS (aka Eloquence) and Vocalizer Embedded, which needs to
+ be installed separately.
+
+Package: libsocl-contrib-1.4-1t64
+Description-md5: 4a69ce3f02f2cf01466ed8b9a22d8758
+Description-en: Task scheduler for heterogeneous multicore machines
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains an OpenCL-compatible library interface to StarPU.
+ This "contrib" version is built against CUDA.
+
+Package: libstarpu-contrib-1.4-6
+Description-md5: f0ca811d02d6bbb6c830781bf9811bff
+Description-en: Task scheduler for heterogeneous multicore machines
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains the main StarPU library
+ This "contrib" version is built against CUDA.
+
+Package: libstarpu-contrib-dev
+Description-md5: e7f42763fbe9c087a6defa203190f56e
+Description-en: Task scheduler for heterogeneous multicore machines - dev
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains development headers and libraries.
+ This "contrib" version is built against CUDA.
+
+Package: libstarpu-contrib-openmp-llvm-1.4-1t64
+Description-md5: 0c4cf9967f5b66c184481dbb23c8faa6
+Description-en: Task scheduler for heterogeneous multicore machines
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains the runtime support for LLVM OpenMP.
+ This "contrib" version is built against CUDA.
+
+Package: libstarpu-contribfft-1.4-1t64
+Description-md5: 1079179920c93a735ab89566a3855d36
+Description-en: Task scheduler for heterogeneous multicore machines
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains a hybrid CPU+GPU FFT library.
+ This "contrib" version is built against CUDA.
+
+Package: libstarpu-contribmpi-1.4-3t64
+Description-md5: 4d3ce5602db3c9fbd91b7e19dcc14e2a
+Description-en: Task scheduler for heterogeneous multicore machines
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains MPI extensions for StarPU.
+ This "contrib" version is built against CUDA.
+
+Package: libstarpu-contribrm-1.4-1t64
+Description-md5: 3008682b6502a417f1d5f1b0170499a0
+Description-en: Task scheduler for heterogeneous multicore machines
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains the resource management library.
+ This "contrib" version is built against CUDA.
+
+Package: starpu-contrib-examples
+Description-md5: 11b8c6811b08d3b761c4e2f5fd0e0890
+Description-en: Task scheduler for heterogeneous multicore machines - exs
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains application examples.
+ This "contrib" version is built against CUDA.
+
+Package: starpu-contrib-tools
+Description-md5: 21e204c0915cd3972a9cf41ad059d147
+Description-en: Task scheduler for heterogeneous multicore machines - tools
+ StarPU is a runtime system that offers support for heterogeneous
+ multicore machines. While many efforts are devoted to design efficient
+ computation kernels for those architectures (e.g. to implement BLAS
+ kernels on GPUs or on Cell's SPUs), StarPU not only takes care of
+ offloading such kernels (and implementing data coherency across
+ the machine), but it also makes sure the kernels are executed as
+ efficiently as possible.
+ .
+ This package contains StarPU tools.
+ This "contrib" version is built against CUDA.
+
+Package: libstdgpu-cuda-dev
+Description-md5: e4dd50a6deda827edd854dc36f6898ac
+Description-en: Efficient STL-like Data Structures on the GPU (CUDA development headers)
+ stdgpu is an open-source library providing several generic GPU data structures
+ for fast and reliable data management. Multiple platforms such as CUDA,
+ OpenMP, and HIP are supported allowing you to rapidly write highly complex
+ agnostic and native algorithms that look like sequential CPU code but are
+ executed in parallel on the GPU.
+ .
+ This package installs the development headers for the CUDA version.
+
+Package: libstdgpu-cuda0d
+Description-md5: 86f2a09d523e7b55fff456ecf5defbc3
+Description-en: Efficient STL-like Data Structures on the GPU (CUDA backend)
+ stdgpu is an open-source library providing several generic GPU data structures
+ for fast and reliable data management. Multiple platforms such as CUDA,
+ OpenMP, and HIP are supported allowing you to rapidly write highly complex
+ agnostic and native algorithms that look like sequential CPU code but are
+ executed in parallel on the GPU.
+ .
+ This package installs the shared library that runs on CUDA.
+
+Package: steam
+Description-md5: f00a8e4dbf0f43d67b9a04b8ee3d3c03
+Description-en: Transitional package for Steam
+ Steam (https://www.steampowered.com) is a software content delivery system
+ developed by Valve software (https://www.valvesoftware.com).  There is
+ some free software available, but for the most part the content delivered
+ is non-free.
+ .
+ This transitional package upgrades from the old steam package to the
+ newer steam-installer package.
+
+Package: steam-installer
+Description-md5: 1628561328c024db73bb48ba285fc9ad
+Description-en: Valve's Steam digital software delivery system
+ Steam (https://www.steampowered.com) is a software content delivery system
+ developed by Valve software (https://www.valvesoftware.com).  There is
+ some free software available, but for the most part the content delivered
+ is non-free.
+ .
+ This package provides a script that downloads and installs the Steam client,
+ and depends on 32-bit and 64-bit libraries and other components that are
+ required by the Steam client. The actual Steam installation and all Steam
+ games will be installed into the home directory of each user who runs
+ the installer script.
+ .
+ Because Steam requires 32-bit libraries, before installing this package it
+ will be necessary to run, as root:
+ .
+   dpkg --add-architecture i386; apt update
+ .
+ Use of Steam is subject to several license agreements and other legal
+ terms. Please see <https://store.steampowered.com/subscriber_agreement/>
+ and <https://store.steampowered.com/legal/> for more details,
+ and pay attention and read carefully if you're worried about your rights.
+
+Package: python3-stravalib
+Description-md5: 34b256e53c48b4d20eee4d58cf73fb4e
+Description-en: tool for accessing and downloading Strava data from the Strava
+ V3 web service. Stravalib provides a Client class that supports:
+   * Authenticating with stravalib
+   * Accessing and downloading strava activity, club and profile data
+   * Making changes to account activities
+
+Package: susv2
+Description-md5: f70086e9a9a23fb8ccc1e14893b1802e
+Description-en: Fetch and install SUSv2
+ The Single Unix Specifications are not permitted to be generally
+ redistributed, so this is an installer that fetches them and installs
+ them in a Debian appropriate way.  This installer will fetch and
+ install Single Unix Specification v2.
+
+Package: susv3
+Description-md5: 47cddd15030cebcec1714f671b4d5219
+Description-en: Fetch and install SUSv3
+ The Single Unix Specifications are not permitted to be generally
+ redistributed, so this is an installer that fetches them and installs
+ them in a Debian appropriate way.  This installer will fetch and
+ install POSIX:2001 (also known as Single Unix Specification v3) with
+ the POSIX:2004 Technical Corrigendum 1 and 2.
+
+Package: susv4
+Description-md5: 7d1bb1d3a60a8cb9754b6762d140f480
+Description-en: Fetch and install SUSv4 (POSIX.1-2017)
+ The Single Unix Specifications are not permitted to be generally
+ redistributed, so this is an installer that fetches them and installs
+ them in a Debian appropriate way.  This installer will fetch and
+ install POSIX.1-2017 (variously also known as IEEE Std 1003.1-2017,
+ The Open Group Base Specifications Issue 7, 2018 Edition, or
+ Single Unix Specification v4, 2018 edition).
+
+Package: susv5
+Description-md5: 8d3b5ba028b5bd6e354412b3c1ede53d
+Description-en: Fetch and install SUSv5 (POSIX.1-2024)
+ The Single Unix Specifications are not permitted to be generally
+ redistributed, so this is an installer that fetches them and installs
+ them in a Debian appropriate way.  This installer will fetch and
+ install POSIX.1-2024 (variously also known as IEEE Std 1003.1-2024,
+ The Open Group Base Specifications Issue 8, 2024 Edition, or
+ Single Unix Specification v5, 2024 edition).
+
+Package: libtensorpipe-cuda-0
+Description-md5: b49a93726d4da68e6161824dc04f12b3
+Description-en: tensor-aware point-to-point communication primitive for machine learning
+ The TensorPipe project provides a tensor-aware channel to transfer rich
+ objects from one process to another while using the fastest transport for the
+ tensors contained therein (e.g., CUDA device-to-device copy).
+ .
+ This package contains shared objects.
+
+Package: libtensorpipe-cuda-dev
+Description-md5: 6b4397dd30e29fe70ebb4ea9c71ececf
+Description-en: tensor-aware point-to-point communication primitive for machine learning
+ The TensorPipe project provides a tensor-aware channel to transfer rich
+ objects from one process to another while using the fastest transport for the
+ tensors contained therein (e.g., CUDA device-to-device copy).
+ .
+ This package contains development files.
+
+Package: thunar-dropbox-plugin
+Description-md5: f0ed9d7caf26e8422ff1ae0b651acf2c
+Description-en: context-menu items from dropbox for Thunar
+ Thunar Dropbox is a plugin for thunar that adds context-menu
+ items from dropbox. This plugin does not come with dropbox itself,
+ you will need to install that separately.
+
+Package: python3-tomopy
+Description-md5: 9a7c0aa2da2602d75a31a35cb002c912
+Description-en: Python package for tomographic data processing and image reconstruction
+ Features:
+  * Image reconstruction algorithms for tomography.
+  * Various filters, ring removal algorithms, phase retrieval algorithms.
+  * Forward projection operator for absorption and wave propagation.
+
+Package: torbrowser-launcher
+Description-md5: b0854a8ad502dfc5674b1beee27762fe
+Description-en: helps download and run the Tor Browser Bundle
+ Tor Browser Launcher is intended to make the Tor Browser Bundle (TBB) easier
+ to maintain and use for GNU/Linux users. torbrowser-launcher handles
+ downloading the most recent version of TBB for you, in your language and for
+ your architecture. It also adds a "Tor Browser" application launcher to your
+ operating system's menu.
+ .
+ When you first launch Tor Browser Launcher, it will download TBB from
+ https://www.torproject.org/ and extract it to ~/.local/share/torbrowser,
+ and then execute it.
+ Cache and configuration files will be stored in ~/.cache/torbrowser and
+ ~/.config/torbrowser.
+ Each subsequent execution after installation will simply launch the most
+ recent TBB, which is updated using Tor Browser's own update feature.
+
+Package: translate-shell
+Description-md5: 260570fb89512f029e1e68c41e643f5b
+Description-en: Command-line translator using Google Translate, etc.
+ Translate Shell (formerly Google Translate CLI) is a command-line translator
+ powered by Google Translate (default), Bing Translator, Yandex.Translate and
+ Apertium. It gives you easy access to one of these translation engines in your
+ terminal.
+
+Package: u-boot-amlogic-binaries
+Description-md5: 50c61aa3a5add381f0d520d9abd5628f
+Description-en: A boot loader for amlogic systems
+ Das U-Boot is a cross-platform bootloader for embedded systems,
+ used as the default boot loader by several board vendors.  It is
+ intended to be easy to port and to debug, and runs on many
+ supported architectures, including PPC, ARM, MIPS, x86, m68k,
+ NIOS, and Microblaze.
+ .
+ This package includes boot loaders for various amlogic platforms.
+ .
+ Included platforms:
+ khadas-vim
+ khadas-vim2
+ libretech-cc
+ nanopi-k2
+ odroid-c2
+ odroid-n2
+
+Package: u-boot-exynos-binaries
+Description-md5: 9f6161de81e696b4c7fe3ed865ee4a54
+Description-en: A boot loader for exynos systems
+ Das U-Boot is a cross-platform bootloader for embedded systems,
+ used as the default boot loader by several board vendors.  It is
+ intended to be easy to port and to debug, and runs on many
+ supported architectures, including PPC, ARM, MIPS, x86, m68k,
+ NIOS, and Microblaze.
+ .
+ This package includes boot loaders for various Exynos platforms.
+ .
+ Included platforms:
+ odroid
+ odroid-xu3
+
+Package: u-boot-sitara-binaries
+Description-md5: 3fd9c676b46bb19ac931bb79aa999748
+Description-en: Boot loader binaries for TI Sitara systems
+ Das U-Boot is a cross-platform bootloader for embedded systems,
+ used as the default boot loader by several board vendors.  It is
+ intended to be easy to port and to debug, and runs on many
+ supported architectures, including PPC, ARM, MIPS, x86, m68k,
+ NIOS, and Microblaze.
+ .
+ This package includes the U-Boot derived boot loader binaries
+ which need to be combined with currently unpackaged firmware to
+ boot various Sitara platforms.
+ .
+ Included platforms:
+ am62x_evm_r5
+ am62x_evm_a53
+
+Package: uhexen2
+Description-md5: 9b99c09bc96ee13625a127d9d6c9062c
+Description-en: Hexen II - engine package
+ Hammer of Thyrion is a Hexen II engine
+ .
+ This package will run the original Hexen II game, Portal of Praevus
+ mission pack and HexenWorld.
+ A dedicated server h2ded, is included in this package.
+
+Package: uhexen2-common
+Description-md5: b7702b813cf7728d95140d0693f95921
+Description-en: Hexen II engine - data package
+ Hammer of Thyrion is a Hexen II engine.
+ This package will install the data necessary to play the original Hexen II
+ game, Portal of Praevus mission pack and HexenWorld.
+ Other bits, non-free and non-distributable, are necessary to play the games.
+
+Package: python3-unrardll
+Description-md5: ceaf8700f273ef788638263a3233183e
+Description-en: Python wrapper for the unrar shared library
+ Python library that provides access to libunrar.
+ See also: UnRAR dll https://www.rarlab.com/rar_add.htm
+
+Package: uqm
+Description-md5: d1146c2aa42142ead5a25d96122ee383
+Description-en: The Ur-Quan Masters - An inter-galactic adventure game
+ You return to Earth with a vessel built from technology discovered from an
+ ancient race called the Precursors only to find it enslaved. Gather allies
+ from a wide variety of races, engage in space combat with various foes, and
+ save the galaxy from the Ur-Quan!
+ .
+ The Ur-Quan Masters is derived from the classic game Star Control II.
+ It includes both the adventure game described above and a fast-paced
+ Super Melee.
+
+Package: vcmi
+Description-md5: 1b8795ec1888401e62c002f9db0d5f31
+Description-en: Rewrite of the Heroes of Might and Magic 3 game engine
+ The purpose of VCMI project is to create a free implementation of the "Heroes
+ of Might and Magic 3: In the Wake of Gods" engine to overcome limitations
+ of the original engine for better modding support, higher resolutions,
+ bigger map sizes and extended engine limits.
+ .
+ VCMI is a turn-based strategy game where the player controls a number of
+ heroes commanding an army of creatures. The player explores the game map
+ with their heroes, conquers enemy towns and improves their own.
+ .
+ VCMI stands for Vinyar Callor Meletya Ingole which means "New Heroes of Might
+ and Magic" in Quenya.
+ .
+ This game requires the graphics, sound and videos of the "Heroes of Might and
+ Magic 3: In the Wake of Gods" game. After installing this package, run either
+ one of the following commands depending on whether you have access to the
+ Good Old Games installer (1), the original CDs (2) or just the installed
+ game directory (3):
+ .
+  (1): vcmibuilder --gog /path/to/gog.com/installer
+  (2): vcmibuilder --cd1 /path/to/iso/or/cd --cd2 /path/to/second/cd
+  (3): vcmibuilder --data /path/to/h3/data
+ .
+ Alternatively, use `game-data-packager heroes3`.
+ .
+ This package contains the game engine.
+
+Package: vice
+Description-md5: 08c1a2e701ce8fd760ff934904ea4135
+Description-en: Versatile Commodore Emulator
+ VICE emulates well the hardware of the Commodore Business Machines of
+ the pre-Amiga era. Supported are the various Pets, the VIC-20, the
+ Commodore 64, the Commodore 128, the CBM-II series, and the PLUS/4.
+ .
+ Some alternate keywords for the above: VIC20, C64, C=64, C64 DTV, C128,
+ C=128, CBM-500, CBM-600, CBM-700, PLUS4 .
+ .
+ This package does not contain the various ROM images needed to
+ actually use the emulators; they are available separately from other
+ locations (see the README.ROMs file).  A corporation in the
+ Netherlands called Tulip holds the copyrights to the ROM images, and
+ redistribution is not permitted, but VICE itself is unencumbered.
+
+Package: vmware-manager
+Description-md5: 93b9e2dacfd37f155d09c0bc2e477782
+Description-en: utility to manage VMware virtual machines
+ This package provides vwm, a command-line tool for managing VMware
+ virtual machines. This is primarily useful for larger installations
+ where virtuals need to be migrated, cloned or otherwise modified
+ from the command line.
+ .
+ vwm requires the non-free VMware Vsphere Perl SDK to be installed.
+
+Package: wdq2wav
+Description-md5: bb5df72836bb6620b3380cb6182d33a7
+Description-en: Converts a WinDAQ channel to sound .wav file
+ This program extracts a channel from a WinDAQ file and produces
+ a .wav file that can be played. This is helpful when recording a
+ chatter channel for a WinDAQ session with multiple A/D channels.
+
+Package: winetricks
+Description-md5: 4efe4d2cbe110743095197ee41a22e2b
+Description-en: simple tool to work around common problems in Wine
+ Winetricks lets you install missing DLLs or tweak various Wine settings
+ individually.  It also has a menu of supported games/apps for which it
+ can do all the workarounds automatically.
+ .
+ It can be used via GUI or commandline, whichever you prefer; the
+ commandline mode is particularly useful as a building block in fancier
+ wine frontends and in automated regression testing.
+
+Package: wnn7egg
+Description-md5: 7918444a5374084c8d0ad79a7e5c2c6a
+Description-en: Wnn-nana-tamago -- EGG Input Method with Wnn7 for Emacsen
+ EGG for Wnn7, called `wnn-nana-tamago' is Japanese Input Method for
+ Emacsen. It is based on Tamago ver.3 (v3.09) and incorporated the
+ communication library part of Tamago Ver.4
+ .
+ This only can use with Jserver of Wnn7.
+
+Package: wolf4sdl
+Description-md5: beea9093882e5fbed23b790bd8645f99
+Description-en: SDL-Port of Wolfenstein 3-D and Spear of Destiny
+ Maybe it was the fact that people got to blow away Nazis. Maybe it was the
+ sheer challenge of it all. For whatever reason, Wolfenstein 3-D and Spear of
+ Destiny, pioneered the first-person shooter genre and brought its legendary
+ creators, id Software, worldwide notoriety and numerous awards. In fact, The
+ Computer Gaming World Hall of Fame recognized Wolfenstein 3D as helping to
+ shape the overall direction of the computer gaming industry.
+ .
+ Wolf4SDL is an open-source port of id Software's classic first-person shooter
+ Wolfenstein 3-D to the cross-platform multimedia library "Simple DirectMedia
+ Layer (SDL)" (http://www.libsdl.org). It is meant to keep the original feel
+ while taking advantage of some improvements.
+ .
+ The wolf4sdl game requires additional data files which are not available
+ under a free license and cannot be distributed by Debian. Thus, this package
+ contains no data files, but current releases of `game-data-packager' are
+ able to generate suitable data packages from the publicly available
+ Wolfenstein 3-D shareware episode.
+
+Package: xtrs
+Description-md5: c54ac14c22d2401900ed00ee8a00f426
+Description-en: emulator for TRS-80 Model I/III/4/4P computers
+ xtrs is an X-based emulator for the Tandy/Radio Shack line of Zilog Z80-based
+ microcomputers popular in the late 1970s and early 1980s.  It features
+ cassette, floppy, and hard drive emulation, timer interrupt emulation, file
+ import and export from the host operating system, support for most of the
+ undocumented Z80 instructions, and a built-in debugger.  Real floppy drives
+ can be used, and, if an OSS-compatible sound driver is available,
+ application-based sound can be played and real cassettes read and written
+ directly through the sound card or via WAVE files.  Several hi-res graphics
+ cards are emulated and, in Model 4/4P mode, mice are supported.  There is
+ also real-time clock, sound card, serial port, joystick, and CPU clock
+ speedup emulation.
+ .
+ xtrs requires ROM images from the original machines.  The ROMs are
+ copyrighted by Radio Shack and are not freely licensed.  (Exception: in Model
+ 4P mode, a freely-licensed boot ROM included with this package can be used to
+ boot a Model 4 operating system from a diskette image.)
+ .
+ xtrs is maintained upstream at GitHub: see
+ <https://github.com/TimothyPMann/xtrs>.
+
+Package: ydpdict
+Description-md5: 1d8b03ebcd291c2d6c1dc8caf4e40e25
+Description-en: interface for Collins and Langenscheidt dictionaries
+ This is an ncurses interface to the Collins English-Polish/Polish-English
+ and/or Langenscheidt German-Polish/Polish-German dictionaries distributed by
+ Young Digital Planet. It can also play the pronunciation samples if the CD is
+ available.
+ .
+ This package is only the interface, it does not contain the dictionary files
+ itself. To use it, you need a copy of a dictionary from YDP.
+
+Package: yamagi-quake2
+Description-md5: 096b3001c48d6dd59088246be1310434
+Description-en: enhanced version of id Software's Quake II - client
+ This is the Yamagi Quake II Client, an enhanced Version of id Software's
+ Quake II. The main focus is single player, the gameplay and the graphics are
+ unchanged, but many bugs were fixed. This code is based upon Icculus Quake II,
+ which itself is built upon id Software's original code drop. Additional code
+ and patches by many contributors were used.
+ .
+ This engine is intended to be used via the wrapper script and menu entries
+ in the quake2 package.
+
+Package: yamagi-quake2-core
+Description-md5: e270a3e339b48baf7aa8b74813c170ba
+Description-en: enhanced version of id Software's Quake II - non-GUI part
+ This is the Yamagi Quake II Server, an enhanced Version of id Software's
+ Quake II. This code is based upon Icculus Quake II,
+ which itself is built upon id Software's original code drop. Additional code
+ and patches by many contributors were used.
+ .
+ This package contains files common to the client and the server, and a
+ dedicated server engine is intended to be used via the wrapper script
+ and init scripts in the quake2-server package.
+
+Package: zfs-auto-snapshot
+Description-md5: 50b5e87f01f77e852b84260e57dc2473
+Description-en: ZFS automatic snapshot service
+ Automatically create, rotate, and destroy periodic ZFS snapshots. This is
+ the utility that creates the @zfs-auto-snap_frequent, @zfs-auto-snap_hourly,
+ @zfs-auto-snap_daily, @zfs-auto-snap_weekly, and @zfs-auto-snap_monthly
+ snapshots if it is installed.
+ .
+ This program is a posixly correct bourne shell script. It depends only on
+ the zfs utilities and cron, and can run in the dash shell.
+
+Package: libnvpair3linux
+Description-md5: dff01db1623b4ac78db22bcc089d9e49
+Description-en: Solaris name-value library for Linux
+ This library provides routines for packing and unpacking nv pairs for
+ transporting data across process boundaries, transporting between
+ kernel and userland, and possibly saving onto disk files.
+
+Package: libpam-zfs
+Description-md5: 22667c0f995168539097f168459e100b
+Description-en: PAM module for managing encryption keys for ZFS
+ OpenZFS is a storage platform that encompasses the functionality of
+ traditional filesystems and volume managers. It supports data checksums,
+ compression, encryption, snapshots, and more.
+ .
+ This provides a Pluggable Authentication Module (PAM) that automatically
+ unlocks encrypted ZFS datasets upon login.
+
+Package: libuutil3linux
+Description-md5: 9bf9c128615174d04a0bb25b39d60322
+Description-en: Solaris userland utility library for Linux
+ This library provides a variety of glue functions for ZFS on Linux:
+  * libspl: The Solaris Porting Layer userland library, which provides APIs
+    that make it possible to run Solaris user code in a Linux environment
+    with relatively minimal modification.
+  * libavl: The Adelson-Velskii Landis balanced binary tree manipulation
+    library.
+  * libefi: The Extensible Firmware Interface library for GUID disk
+    partitioning.
+  * libshare: NFS, SMB, and iSCSI service integration for ZFS.
+
+Package: libzfs6linux
+Description-md5: 68404c691e40434a1c18cb823bdc6f84
+Description-en: OpenZFS filesystem library for Linux - general support
+ OpenZFS is a storage platform that encompasses the functionality of
+ traditional filesystems and volume managers. It supports data checksums,
+ compression, encryption, snapshots, and more.
+ .
+ The OpenZFS library provides support for managing OpenZFS filesystems.
+
+Package: libzfsbootenv1linux
+Description-md5: ba1246d18e334f582c2be912dfe69655
+Description-en: OpenZFS filesystem library for Linux - label info support
+ OpenZFS is a storage platform that encompasses the functionality of
+ traditional filesystems and volume managers. It supports data checksums,
+ compression, encryption, snapshots, and more.
+ .
+ The zfsbootenv library provides support for modifying ZFS label information.
+
+Package: libzfslinux-dev
+Description-md5: 6abd96bb291d30f99361ec4367f10244
+Description-en: OpenZFS filesystem development files for Linux
+ Header files and static libraries for compiling software against
+ libraries of OpenZFS filesystem.
+ .
+ This package includes the development files of libnvpair3, libuutil3,
+ libzpool6 and libzfs6.
+
+Package: libzpool6linux
+Description-md5: 5411b703c1dae8e2c3f38bbe7330f01d
+Description-en: OpenZFS pool library for Linux
+ OpenZFS is a storage platform that encompasses the functionality of
+ traditional filesystems and volume managers. It supports data checksums,
+ compression, encryption, snapshots, and more.
+ .
+ This zpool library provides support for managing zpools.
+
+Package: python3-pyzfs
+Description-md5: cc3c162e8790777a7a60f39c29c8ee89
+Description-en: wrapper for libzfs_core C library
+ libzfs_core is intended to be a stable interface for programmatic
+ administration of ZFS. This wrapper provides one-to-one wrappers for
+ libzfs_core API functions, but the signatures and types are more natural to
+ Python.
+ .
+ nvlists are wrapped as dictionaries or lists depending on their usage.
+ Some parameters have default values depending on typical use for
+ increased convenience. Enumerations and bit flags become strings and lists
+ of strings in Python. Errors are reported as exceptions rather than integer
+ errno-style error codes.  The wrapper takes care to provide one-to-many
+ mapping of the error codes to the exceptions by interpreting a context
+ in which the error code is produced.
+
+Package: pyzfs-doc
+Description-md5: 18d5a3ceb2ed973459a34b4af3cc06cc
+Description-en: wrapper for libzfs_core C library (documentation)
+ libzfs_core is intended to be a stable interface for programmatic
+ administration of ZFS. This wrapper provides one-to-one wrappers for
+ libzfs_core API functions, but the signatures and types are more natural to
+ Python.
+ .
+ nvlists are wrapped as dictionaries or lists depending on their usage.
+ Some parameters have default values depending on typical use for
+ increased convenience. Enumerations and bit flags become strings and lists
+ of strings in Python. Errors are reported as exceptions rather than integer
+ errno-style error codes.  The wrapper takes care to provide one-to-many
+ mapping of the error codes to the exceptions by interpreting a context
+ in which the error code is produced.
+ .
+ This package contains the documentation.
+
+Package: zfs-dkms
+Description-md5: 39e75ed3c1d3a5bc9c23ff32d0b5bbe1
+Description-en: OpenZFS filesystem kernel modules for Linux
+ OpenZFS is a storage platform that encompasses the functionality of
+ traditional filesystems and volume managers. It supports data checksums,
+ compression, encryption, snapshots, and more.
+ .
+ This DKMS package includes the SPA, DMU, ZVOL, and ZPL components of
+ OpenZFS.
+
+Package: zfs-dracut
+Description-md5: 965d2232071aa7eaad3e0a3ca11764b0
+Description-en: OpenZFS root filesystem capabilities for Linux - dracut
+ OpenZFS is a storage platform that encompasses the functionality of
+ traditional filesystems and volume managers. It supports data checksums,
+ compression, encryption, snapshots, and more.
+ .
+ This package adds OpenZFS to the system initramfs with a hook
+ for the dracut infrastructure.
+
+Package: zfs-initramfs
+Description-md5: ed136876804c562cd1f81b87863a33a9
+Description-en: OpenZFS root filesystem capabilities for Linux - initramfs
+ OpenZFS is a storage platform that encompasses the functionality of
+ traditional filesystems and volume managers. It supports data checksums,
+ compression, encryption, snapshots, and more.
+ .
+ This package adds OpenZFS to the system initramfs with a hook
+ for the initramfs-tools infrastructure.
+
+Package: zfs-test
+Description-md5: 626efba8698ac960b7fa793abb13e6d2
+Description-en: OpenZFS test infrastructure and support scripts
+ OpenZFS is a storage platform that encompasses the functionality of
+ traditional filesystems and volume managers. It supports data checksums,
+ compression, encryption, snapshots, and more.
+ .
+ This package provides the OpenZFS test infrastructure for destructively
+ testing and validating a system using OpenZFS. It is entirely optional
+ and should only be installed and used in test environments.
+
+Package: zfs-zed
+Description-md5: 371f25433afc0f13d827a77c432615a1
+Description-en: OpenZFS Event Daemon
+ OpenZFS is a storage platform that encompasses the functionality of
+ traditional filesystems and volume managers. It supports data checksums,
+ compression, encryption, snapshots, and more.
+ .
+ ZED (ZFS Event Daemon) monitors events generated by the ZFS kernel
+ module. When a zevent (ZFS Event) is posted, ZED will run any ZEDLETs
+ (ZFS Event Daemon Linkage for Executable Tasks) that have been enabled
+ for the corresponding zevent class.
+ .
+ This package provides the OpenZFS Event Daemon (zed).
+
+Package: zfsutils-linux
+Description-md5: e0d1624ff402201471b9a32e9cb71f16
+Description-en: command-line tools to manage OpenZFS filesystems
+ OpenZFS is a storage platform that encompasses the functionality of
+ traditional filesystems and volume managers. It supports data checksums,
+ compression, encryption, snapshots, and more.
+ .
+ This package provides the zfs and zpool commands to create and administer
+ OpenZFS filesystems.
+
+Package: zfsnap
+Description-md5: 43c80483bf622b9e3c64221fe60f1f09
+Description-en: Automatic snapshot creation and removal for ZFS
+ zfSnap is a simple sh script to make rolling zfs snapshots with cron. The main
+ advantage of zfSnap is it's written in 100% pure /bin/sh so it doesn't require
+ any additional software to run.
+ .
+ zfSnap keeps all information about snapshot in snapshot name.
+ .
+ zfs snapshot names are in the format of Timestamp--TimeToLive.
+ .
+ Timestamp includes the date and time when the snapshot was created and
+ TimeToLive (TTL) is the amount of time for the snapshot to stay alive before
+ it's ready for deletion.
+
+Package: matlab-zmat
+Description-md5: d2c1037544212de68d4fca45fdc1f59b
+Description-en: in-memory data compression for MATLAB
+ ZMat is a portable mex function to enable zlib/gzip/lzma/lzip/lz4/lz4hc
+ based data compression/decompression and base64 encoding/decoding support
+ in MATLAB and GNU Octave.
+ .
+ This package builds MATLAB bindings for zmat at installation
+ time. Note that this package depends on MATLAB -- a commercial
+ software that needs to be obtain and installed separately.
+
+Package: zsnapd
+Description-md5: ee391bd9f9e2859dc7517830f10d9ac4
+Description-en: ZFS Snapshot Daemon written in python
+ Python daemon that manages ZFS snapshots and send/receive backup.
+ Based on zfs-snap-manager.
+ .
+   * Remote ZFS snapshoting/aging wnd replication back to central ZFS
+     backup server. Only need to install zfs-utils, zsnapd-rcmd (for secure)
+     remote ssh key login and sshd on client, and use root ssh key based
+     log in.
+   * Has connectivity test to skip scheduled actions when the remote site
+     cannot be contacted.  Actually quite useful for ZFS backing up laptops.
+     Reachability failures are logged of course!
+   * Uses Python3
+   * Native systemd support.
+   * Configuration is stored in configuration files with the ini file
+     format. Configuration .d parts directories also present
+   * Triggers the configured actions based on time or a '.trigger' file
+     present in the dataset's mountpoint.
+   * Can take snapshots (with a yyyymmddhhmm timestamp format).
+   * Can replicate snapshots to/from other nodes.
+   * Push based when the replication source has access to the replication
+     target.
+   * Pull based when the replication source has no access to the replication
+     target. Typically when you don't want to give all nodes access to the
+     backup/replication target.
+   * Cleans all snapshots with the yyyymmddhh timestamp schmea format based
+     on a GFS schema (Grandfather, Father, Son).  Timestamp
+     evaluation based on actual ZFS snapshot creation metadata.
+   * Supports pre and post commands.
+
+Package: zsnapd-rcmd
+Description-md5: a0cf528cccd501b75b937038ea930c64
+Description-en: Remote sshd command checker for ZFS Snapshot Daemon
+ ZFS Snapshot Daemon is written in python, and it can remotely manage ZFS
+ snapshotting and backup from a central back up server.  This is the
+ security plugin command for sshd that implements ForceCommand functionality,
+ or the command functionality in the .ssh/authorized_keys file (See
+ the sshd_config(8) and sshd(8) man pages respectively).
+ .
+ It executes commands from the SSH_ORIGINAL_COMMAND variable after checking
+ them against a list of configured regular expressions.
+

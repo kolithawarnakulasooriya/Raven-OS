@@ -1,0 +1,10 @@
+ee3ebe5495e1d0583b628666b7ee63a7  usr/lib/x86_64-linux-gnu/engines-3/afalg.so
+3dfed8f5e064d41b07a05ed549e566de  usr/lib/x86_64-linux-gnu/engines-3/loader_attic.so
+08df76757a08cb925262087f2223c631  usr/lib/x86_64-linux-gnu/engines-3/padlock.so
+9bd530e762327426f6da7c5015833532  usr/lib/x86_64-linux-gnu/libcrypto.so.3
+16c3f59d1cd8c1867e8ef001c8cc72cf  usr/lib/x86_64-linux-gnu/libssl.so.3
+4d27ac1cdc881cfce2ad17c5127eec6a  usr/share/doc/libssl3t64/NEWS.Debian.gz
+ebe99b732c51f5c0864726cb256fe8c5  usr/share/doc/libssl3t64/changelog.Debian.gz
+a1afa4112aa3b3926e4be6e9be5b943e  usr/share/doc/libssl3t64/changelog.gz
+6264b3617e9bd0092102a2ab8db06adb  usr/share/doc/libssl3t64/copyright
+80ce23cefce104220bf6df5ff24c55af  usr/share/lintian/overrides/libssl3t64

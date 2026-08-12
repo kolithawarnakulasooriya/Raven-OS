@@ -1,0 +1,15 @@
+17d2de41b7598a09f8f3fd6c6e7f1c2a  usr/share/doc/debian-archive-keyring/NEWS.Debian.gz
+0f0c274e6982c39785b7083b1426ae8d  usr/share/doc/debian-archive-keyring/README
+72cb654276c80e7fa387f6a1e300bae4  usr/share/doc/debian-archive-keyring/changelog.gz
+21eb0bd04f14237e900abd948226d14e  usr/share/doc/debian-archive-keyring/copyright
+8ed7972dd2fdcbcf16ca5c139655eced  usr/share/keyrings/debian-archive-bookworm-automatic.pgp
+befef93070ec9002b7873a7375ffc739  usr/share/keyrings/debian-archive-bookworm-security-automatic.pgp
+4974fa497e6120a5babe820bc779e357  usr/share/keyrings/debian-archive-bookworm-stable.pgp
+f5b8d048d75e0ba9a964c28daa0757cf  usr/share/keyrings/debian-archive-bullseye-automatic.pgp
+b6b2ad2c894ecfe479981fd0eadc1c92  usr/share/keyrings/debian-archive-bullseye-security-automatic.pgp
+045a5096301163f4b172d226e9d4dbb8  usr/share/keyrings/debian-archive-bullseye-stable.pgp
+ee3bb6ed859d7c826768ae6ce2afa366  usr/share/keyrings/debian-archive-keyring.pgp
+f2e1881612e9c5abf3419ff7e6366f15  usr/share/keyrings/debian-archive-removed-keys.pgp
+9526524e7c95760072e7396bd829c9ac  usr/share/keyrings/debian-archive-trixie-automatic.pgp
+830dd0b18a6864ede3b48b1c1ff15f43  usr/share/keyrings/debian-archive-trixie-security-automatic.pgp
+71bbacea891e22a7b9a4c17b8538a4ca  usr/share/keyrings/debian-archive-trixie-stable.pgp
