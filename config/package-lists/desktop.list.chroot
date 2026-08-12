@@ -1,11 +1,21 @@
-task-xfce-desktop
+# Ubuntu Noble XFCE live system
+tasksel
+ubuntu-standard
+xfce4
+xfce4-goodies
 lightdm
+lightdm-gtk-greeter
 network-manager
 network-manager-gnome
 pipewire
 wireplumber
 pavucontrol
-firefox-esr
+live-boot
+live-config
+casper
+linux-image-generic
+linux-firmware
+firefox
 libreoffice
 vlc
 gparted
@@ -17,4 +27,3 @@ nano
 htop
 sudo
 openssh-client
-firmware-linux

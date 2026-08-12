@@ -1,3 +1,0 @@
-coreutils: custom-library-search-path RUNPATH /usr/lib/*
-coreutils: groff-message *warning: macro 'mono' not defined*
-coreutils: groff-message *warning: macro '/mono' not defined*

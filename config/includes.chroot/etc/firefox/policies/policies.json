@@ -1,0 +1,19 @@
+{
+  "policies": {
+    "DisableTelemetry": true,
+    "DisableFirefoxStudies": true,
+    "DontCheckDefaultBrowser": true,
+    "OfferToSaveLoginsDefault": false,
+    "DisplayBookmarksToolbar": "newtab",
+    "Bookmarks": [
+      {
+        "Title": "Ravan Linux Documentation",
+        "URL": "https://docs.ravanlinux.org/"
+      },
+      {
+        "Title": "Ubuntu Documentation",
+        "URL": "https://help.ubuntu.com/"
+      }
+    ]
+  }
+}

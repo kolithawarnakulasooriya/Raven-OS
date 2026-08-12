@@ -1,0 +1,40 @@
+#!/bin/sh
+
+set -eu
+
+# Ubuntu 24.04 LTS is "noble" (not "nobel").
+# "noauto" prevents live-build from recursively invoking this script.
+lb config noauto \
+    --mode ubuntu \
+    --distribution noble \
+    --parent-distribution noble \
+    --architectures amd64 \
+    --linux-flavours generic \
+    --linux-packages linux \
+    --keyring-packages ubuntu-keyring \
+    --archive-areas "main restricted universe multiverse" \
+    --parent-archive-areas "main restricted universe multiverse" \
+    --mirror-bootstrap "https://archive.ubuntu.com/ubuntu" \
+    --mirror-chroot "https://archive.ubuntu.com/ubuntu" \
+    --mirror-chroot-security "https://security.ubuntu.com/ubuntu" \
+    --mirror-chroot-volatile "https://archive.ubuntu.com/ubuntu" \
+    --mirror-binary "https://archive.ubuntu.com/ubuntu" \
+    --mirror-binary-security "https://security.ubuntu.com/ubuntu" \
+    --mirror-binary-volatile "https://archive.ubuntu.com/ubuntu" \
+    --parent-mirror-bootstrap "https://archive.ubuntu.com/ubuntu" \
+    --parent-mirror-chroot "https://archive.ubuntu.com/ubuntu" \
+    --parent-mirror-chroot-security "https://security.ubuntu.com/ubuntu" \
+    --parent-mirror-chroot-volatile "https://archive.ubuntu.com/ubuntu" \
+    --parent-mirror-binary "https://archive.ubuntu.com/ubuntu" \
+    --parent-mirror-binary-security "https://security.ubuntu.com/ubuntu" \
+    --parent-mirror-binary-volatile "https://archive.ubuntu.com/ubuntu" \
+    --initramfs casper \
+    --binary-images iso-hybrid \
+    --bootloader syslinux \
+    --bootappend-live "boot=casper components quiet splash" \
+    --debian-installer false \
+    --security true \
+    --iso-application "Ravan OS" \
+    --iso-publisher "Ravan OS Project" \
+    --iso-volume "RAVAN_NOBLE" \
+    "${@}"

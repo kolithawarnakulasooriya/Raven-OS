@@ -64,8 +64,8 @@ LB_DEBCONF_NOWARNINGS="yes"
 LB_DEBCONF_PRIORITY="critical"
 
 # $LB_INITRAMFS: set initramfs hook
-# (Default: auto)
-LB_INITRAMFS="auto"
+# (Default: casper)
+LB_INITRAMFS="casper"
 
 # $LB_INITRAMFS_COMPRESSION: set initramfs compression
 # (Default: )
@@ -84,8 +84,8 @@ LB_FDISK="fdisk"
 LB_LOSETUP="losetup"
 
 # $LB_MODE: set distribution mode
-# (Default: debian)
-LB_MODE="debian"
+# (Default: ubuntu)
+LB_MODE="ubuntu"
 
 # $LB_SYSTEM: set system type
 # (Default: live)
@@ -136,6 +136,6 @@ _QUIET="false"
 # Internal stuff (FIXME)
 APT_OPTIONS="--yes"
 APTITUDE_OPTIONS="--assume-yes"
-GZIP_OPTIONS="-6 --rsyncable"
+GZIP_OPTIONS="-6  --rsyncable"
 ISOHYBRID_OPTIONS=""
 GENISOIMAGE_OPTIONS_EXTRA=""
