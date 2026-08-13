@@ -58121,3 +58121,31 @@ Reading package lists...
 Building dependency tree...
 Reading state information...
 [2026-08-12 23:22:09] lb_source 
+
+===== resume 2026-08-12T23:41:15-05:00 =====
+[2026-08-12 23:41:15] lb_build 
+[1;37mP[0m: Automatically populating config tree.
+[2026-08-12 23:41:15] lb_config 
+[1;37mP[0m: Executing auto/config script.
+[2026-08-12 23:41:15] lb_config noauto --mode ubuntu --distribution noble --parent-distribution noble --architectures amd64 --linux-flavours generic --linux-packages linux --keyring-packages ubuntu-keyring --archive-areas main restricted universe multiverse --parent-archive-areas main restricted universe multiverse --mirror-bootstrap http://archive.ubuntu.com/ubuntu --mirror-chroot http://archive.ubuntu.com/ubuntu --mirror-chroot-security http://security.ubuntu.com/ubuntu --mirror-chroot-volatile http://archive.ubuntu.com/ubuntu --mirror-binary http://archive.ubuntu.com/ubuntu --mirror-binary-security http://security.ubuntu.com/ubuntu --mirror-binary-volatile http://archive.ubuntu.com/ubuntu --parent-mirror-bootstrap http://archive.ubuntu.com/ubuntu --parent-mirror-chroot http://archive.ubuntu.com/ubuntu --parent-mirror-chroot-security http://security.ubuntu.com/ubuntu --parent-mirror-chroot-volatile http://archive.ubuntu.com/ubuntu --parent-mirror-binary http://archive.ubuntu.com/ubuntu --parent-mirror-binary-security http://security.ubuntu.com/ubuntu --parent-mirror-binary-volatile http://archive.ubuntu.com/ubuntu --initramfs casper --initsystem systemd --binary-images iso-hybrid --bootloader syslinux --bootappend-live boot=casper components quiet splash --debian-installer false --firmware-chroot false --firmware-binary false --security true --iso-application Raven OS --iso-publisher Raven OS Project --iso-volume Raven_NOBLE
+[1;37mP[0m: Considering defaults defined in /etc/live/build.conf
+P: Updating config tree for a ubuntu/amd64 system
+[2026-08-12 23:41:15] lb_bootstrap 
+P: Setting up cleanup function
+[2026-08-12 23:41:15] lb_bootstrap_cache restore
+P: Restoring bootstrap stage from cache...
+[2026-08-12 23:41:15] lb_bootstrap_copy 
+[2026-08-12 23:41:15] lb_bootstrap_cdebootstrap 
+[2026-08-12 23:41:15] lb_bootstrap_debootstrap 
+P: Begin bootstrapping system...
+[2026-08-12 23:41:15] lb_testroot 
+P: If the following stage fails, the most likely cause of the problem is with your mirror configuration or a caching proxy.
+P: Running debootstrap (download-only)... 
+I: Retrieving InRelease 
+I: Checking Release signature
+I: Valid Release signature (key id F6ECB3762474EDA9D21B7022871920D1991BC93C)
+I: Retrieving Packages 
+I: Validating Packages 
+I: Retrieving Packages 
+I: Validating Packages 
+I: Retrieving Packages 

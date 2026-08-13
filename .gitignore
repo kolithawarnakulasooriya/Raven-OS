@@ -1,4 +1,9 @@
 *.iso
 *.img
+*.log
+wget-log*
+chroot/
+config/chroot_apt/
+.config/chroot_apt/
 .cache/*
 cache/
