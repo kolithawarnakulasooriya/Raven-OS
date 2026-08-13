@@ -11,7 +11,7 @@ on:
       - .nojekyll
       - r1.mp4
       - raven-logo.png
-      - config/includes.chroot/usr/share/backgrounds/ravan/**
+      - config/includes.chroot/usr/share/backgrounds/raven/**
       - .github/workflows/deploy-pages.yml
   workflow_dispatch:
 
@@ -49,9 +49,9 @@ jobs:
             .nojekyll
             r1.mp4
             raven-logo.png
-            config/includes.chroot/usr/share/backgrounds/ravan/ravan-dark-3840x2160.jpg
-            config/includes.chroot/usr/share/backgrounds/ravan/ravan-default-1920x1080.jpg
-            config/includes.chroot/usr/share/backgrounds/ravan/ravan-default-2560x1440.jpg
+            config/includes.chroot/usr/share/backgrounds/raven/raven-dark-3840x2160.jpg
+            config/includes.chroot/usr/share/backgrounds/raven/raven-default-1920x1080.jpg
+            config/includes.chroot/usr/share/backgrounds/raven/raven-default-2560x1440.jpg
           )
 
           for file in "${required_files[@]}"; do
@@ -61,10 +61,10 @@ jobs:
             fi
           done
 
-          mkdir -p _site/config/includes.chroot/usr/share/backgrounds/ravan
+          mkdir -p _site/config/includes.chroot/usr/share/backgrounds/raven
           cp index.html styles.css script.js .nojekyll r1.mp4 raven-logo.png _site/
-          cp config/includes.chroot/usr/share/backgrounds/ravan/* \
-            _site/config/includes.chroot/usr/share/backgrounds/ravan/
+          cp config/includes.chroot/usr/share/backgrounds/raven/* \
+            _site/config/includes.chroot/usr/share/backgrounds/raven/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
