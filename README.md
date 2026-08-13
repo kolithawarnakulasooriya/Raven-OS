@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="raven-logo.png" alt="Raven OS desktop artwork" width="820">
+<img src="raven-logo.png" alt="Raven OS desktop artwork" width="400">
 
 # Raven OS
 
