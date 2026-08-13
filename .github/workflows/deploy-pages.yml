@@ -1,9 +1,18 @@
-name: Deploy GitHub Pages
+name: Deploy website to GitHub Pages
 
 on:
   push:
     branches:
       - main
+    paths:
+      - index.html
+      - styles.css
+      - script.js
+      - .nojekyll
+      - r1.mp4
+      - raven-logo.png
+      - config/includes.chroot/usr/share/backgrounds/ravan/**
+      - .github/workflows/deploy-pages.yml
   workflow_dispatch:
 
 permissions:
@@ -12,31 +21,66 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: github-pages
   cancel-in-progress: true
 
 jobs:
   build:
+    name: Prepare Pages artifact
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
-      - name: Checkout
+      - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Setup Pages
+      - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: Stage static website
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          required_files=(
+            index.html
+            styles.css
+            script.js
+            .nojekyll
+            r1.mp4
+            raven-logo.png
+            config/includes.chroot/usr/share/backgrounds/ravan/ravan-dark-3840x2160.jpg
+            config/includes.chroot/usr/share/backgrounds/ravan/ravan-default-1920x1080.jpg
+            config/includes.chroot/usr/share/backgrounds/ravan/ravan-default-2560x1440.jpg
+          )
+
+          for file in "${required_files[@]}"; do
+            if [[ ! -f "$file" ]]; then
+              echo "Required website file is missing: $file" >&2
+              exit 1
+            fi
+          done
+
+          mkdir -p _site/config/includes.chroot/usr/share/backgrounds/ravan
+          cp index.html styles.css script.js .nojekyll r1.mp4 raven-logo.png _site/
+          cp config/includes.chroot/usr/share/backgrounds/ravan/* \
+            _site/config/includes.chroot/usr/share/backgrounds/ravan/
+
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
   deploy:
+    name: Deploy to GitHub Pages
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy website
         id: deployment
         uses: actions/deploy-pages@v4
