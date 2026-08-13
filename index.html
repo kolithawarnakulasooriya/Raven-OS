@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#05070d">
+  <meta name="description" content="Ravan OS is an early-stage open-source Linux distribution for AI and robotics developers.">
+  <meta property="og:title" content="Ravan OS — Built for intelligent machines">
+  <meta property="og:description" content="An early-stage open-source Linux workspace for AI and robotics developers.">
+  <meta property="og:image" content="config/includes.chroot/usr/share/backgrounds/ravan/ravan-default-1920x1080.jpg">
+  <meta property="og:type" content="website">
+  <title>Ravan OS — AI &amp; Robotics Linux</title>
+  <link rel="icon" href="raven-logo.png" type="image/png">
+  <link rel="preload" href="r1.mp4" as="video" type="video/mp4">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="intro" id="intro" aria-label="Ravan OS introduction">
+    <video class="intro__video" id="intro-video" autoplay muted playsinline preload="auto">
+      <source src="r1.mp4" type="video/mp4">
+    </video>
+    <div class="intro__shade"></div>
+    <div class="intro__scanlines"></div>
+    <div class="intro__brand">
+      <img src="raven-logo.png" alt="" width="96" height="96">
+      <div>
+        <span class="eyebrow">System initialization</span>
+        <strong>RAVAN <i>OS</i></strong>
+      </div>
+    </div>
+    <div class="intro__progress" aria-hidden="true"><span></span></div>
+    <button class="intro__skip sound-target" id="skip-intro" type="button">Skip intro <span>↗</span></button>
+  </div>
+
+  <div class="site-shell" id="site-shell">
+    <div class="ambient ambient--one" aria-hidden="true"></div>
+    <div class="ambient ambient--two" aria-hidden="true"></div>
+    <div class="grid-plane" aria-hidden="true"></div>
+    <div class="cursor-light" id="cursor-light" aria-hidden="true"></div>
+
+    <header class="topbar" id="top">
+      <a class="brand sound-target" href="#top" aria-label="Ravan OS home">
+        <span class="brand__mark"><img src="raven-logo.png" alt="" width="44" height="44"></span>
+        <span class="brand__text">RAVAN <b>OS</b></span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Main navigation">
+        <a class="sound-target" href="#about">About</a>
+        <a class="sound-target" href="#features">Features</a>
+        <a class="sound-target" href="#roadmap">Roadmap</a>
+        <a class="sound-target" href="#build">Build</a>
+        <a class="sound-target" href="#contribute">Contribute</a>
+      </nav>
+
+      <div class="topbar__actions">
+        <button class="sound-toggle sound-target" id="sound-toggle" type="button" aria-pressed="true" aria-label="Turn interface sounds off">
+          <span class="sound-toggle__bars" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span class="sound-toggle__label">Sound</span>
+        </button>
+        <a class="github-button sound-target" href="https://github.com/kolithawarnakulasooriya/Ravan-OS" target="_blank" rel="noreferrer">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .7A11.5 11.5 0 0 0 8.4 23c.6.1.8-.2.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0C16 4.7 17 5 17 5c.6 1.5.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.8 5.4-5.5 5.7.4.4.8 1.1.8 2.1v3.3c0 .5.2.8.8.7A11.5 11.5 0 0 0 12 .7Z"/></svg>
+          GitHub <span>↗</span>
+        </a>
+        <button class="menu-toggle sound-target" id="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+          <i></i><i></i>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-pad" aria-labelledby="hero-title">
+        <div class="hero__art" aria-hidden="true">
+          <div class="hero__halo"></div>
+          <img class="hero__raven" src="raven-logo.png" alt="">
+          <div class="orbit orbit--one"><span></span></div>
+          <div class="orbit orbit--two"><span></span></div>
+        </div>
+
+        <div class="hero__content reveal">
+          <div class="stage-pill"><span class="stage-pill__pulse"></span> Early development // pre-alpha</div>
+          <p class="hero__kicker">OPEN-SOURCE · LINUX · AMD64</p>
+          <h1 id="hero-title">Built for minds.<br><em>Wired for machines.</em></h1>
+          <p class="hero__lede">A Debian-family Linux distribution taking shape for AI builders, robotics developers, and the next generation of intelligent systems.</p>
+          <div class="hero__actions">
+            <a class="button button--primary sound-target" href="#build"><span>Build from source</span><b>↘</b></a>
+            <a class="button button--ghost sound-target" href="#roadmap"><span>Explore the roadmap</span><b>→</b></a>
+          </div>
+          <div class="hero__telemetry" aria-label="Current system profile">
+            <span><i>Base</i><b>Ubuntu 24.04 LTS</b></span>
+            <span><i>Desktop</i><b>XFCE</b></span>
+            <span><i>Build</i><b>Live ISO · amd64</b></span>
+          </div>
+        </div>
+
+        <a class="scroll-cue sound-target" href="#about"><span>Scroll to explore</span><i></i></a>
+      </section>
+
+      <section class="status-strip" aria-label="Project status">
+        <div class="status-strip__track">
+          <span>PRE-ALPHA</span><i>✦</i><span>COMMUNITY BUILT</span><i>✦</i><span>NOT PRODUCTION READY</span><i>✦</i><span>CONTRIBUTORS WELCOME</span><i>✦</i>
+          <span aria-hidden="true">PRE-ALPHA</span><i aria-hidden="true">✦</i><span aria-hidden="true">COMMUNITY BUILT</span><i aria-hidden="true">✦</i><span aria-hidden="true">NOT PRODUCTION READY</span><i aria-hidden="true">✦</i><span aria-hidden="true">CONTRIBUTORS WELCOME</span><i aria-hidden="true">✦</i>
+        </div>
+      </section>
+
+      <section class="about section-pad" id="about" aria-labelledby="about-title">
+        <div class="section-heading reveal">
+          <span class="section-index">01 // ABOUT</span>
+          <h2 id="about-title">One workspace.<br><em>Fewer barriers.</em></h2>
+        </div>
+        <div class="about__grid">
+          <div class="about__copy reveal">
+            <p class="lead">AI and robotics work should begin with an idea—not a lost afternoon assembling the workstation beneath it.</p>
+            <p>Ravan OS is working toward a reproducible environment where development tools, robot middleware, simulation, computer vision, and edge workflows belong together from the start.</p>
+            <p>Today, the project creates a lightweight Ubuntu Noble live system with XFCE. Tomorrow’s specialized toolchain will be built in the open, with the community.</p>
+          </div>
+          <div class="mission-card tilt-card reveal">
+            <div class="mission-card__noise"></div>
+            <span class="corner corner--tl"></span><span class="corner corner--tr"></span><span class="corner corner--bl"></span><span class="corner corner--br"></span>
+            <div class="mission-card__icon icon-cyan">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4v8M8 24H4m40 0h-4M10 10l5.5 5.5m17 17L38 38m0-28-5.5 5.5m-17 17L10 38"/><circle cx="24" cy="24" r="10"/><circle cx="24" cy="24" r="3"/></svg>
+            </div>
+            <span class="mission-card__label">Mission // 001</span>
+            <h3>A Linux home for intelligent machines.</h3>
+            <div class="mission-card__line"></div>
+            <small>REPRODUCIBLE · ACCESSIBLE · OPEN</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="features section-pad" id="features" aria-labelledby="features-title">
+        <div class="section-heading section-heading--row reveal">
+          <div><span class="section-index">02 // CURRENT FEATURES</span><h2 id="features-title">The foundation,<br><em>online now.</em></h2></div>
+          <p>Everything listed here exists in the current checked-in image configuration. Future AI and robotics packages are kept honestly in the roadmap.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card tilt-card reveal" style="--accent:#ff3158">
+            <div class="feature-card__top"><span>01</span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="m24 4 17 10v20L24 44 7 34V14Z"/><path d="m7 14 17 10 17-10M24 24v20"/></svg></div>
+            <h3>Noble foundation</h3><p>Ubuntu 24.04 LTS packages across main, restricted, universe, and multiverse.</p><small>SECURITY REPOS ENABLED</small>
+          </article>
+          <article class="feature-card tilt-card reveal" style="--accent:#3ce8ff">
+            <div class="feature-card__top"><span>02</span><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="5" y="7" width="38" height="28" rx="2"/><path d="M17 42h14M24 35v7M10 14h28"/></svg></div>
+            <h3>XFCE desktop</h3><p>A fast, focused graphical workspace with LightDM and custom Ravan artwork.</p><small>LIGHTWEIGHT BY DESIGN</small>
+          </article>
+          <article class="feature-card tilt-card reveal" style="--accent:#a978ff">
+            <div class="feature-card__top"><span>03</span><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="18"/><path d="M24 6v7m0 22v7M6 24h7m22 0h7M11.3 11.3l5 5m15.4 15.4 5 5m0-25.4-5 5m-15.4 15.4-5 5"/><circle cx="24" cy="24" r="6"/></svg></div>
+            <h3>Modern Linux core</h3><p>Generic Linux kernel, systemd, NetworkManager, PipeWire, and WirePlumber.</p><small>CONNECTED &amp; READY</small>
+          </article>
+          <article class="feature-card tilt-card reveal" style="--accent:#ffb629">
+            <div class="feature-card__top"><span>04</span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 9h32v30H8zM8 17h32M15 13h.1M20 13h.1"/><path d="m16 26 5 4-5 4m9 0h8"/></svg></div>
+            <h3>Developer essentials</h3><p>Git, cURL, Wget, Vim, Nano, OpenSSH client, htop, and everyday desktop tools.</p><small>USEFUL FROM FIRST BOOT</small>
+          </article>
+          <article class="feature-card feature-card--wide tilt-card reveal" style="--accent:#51f0a4">
+            <div class="feature-card__top"><span>05</span><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 5v9m0 20v9M5 24h9m20 0h9"/><circle cx="24" cy="24" r="11"/><path d="m20 24 3 3 6-7"/></svg></div>
+            <div><h3>Bootable live image</h3><p>An amd64 ISO-hybrid with a compressed SquashFS filesystem, designed for safe testing in a virtual machine before hardware.</p></div><small>LIVE ENVIRONMENT · INSTALLER DISABLED</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="roadmap section-pad" id="roadmap" aria-labelledby="roadmap-title">
+        <div class="roadmap__backdrop" aria-hidden="true"></div>
+        <div class="section-heading section-heading--light reveal">
+          <span class="section-index">03 // VISION &amp; ROADMAP</span>
+          <h2 id="roadmap-title">Charting the route<br><em>from base to lab.</em></h2>
+          <p>Direction, not promises. The roadmap shows where contributors can have the greatest impact.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline__line" aria-hidden="true"><span></span></div>
+          <article class="timeline-item timeline-item--active reveal">
+            <div class="timeline-item__node">01</div><div class="timeline-item__body"><span>PHASE 01 · NOW</span><h3>Stable foundation</h3><p>Harden the live image, unify branding, document builds, automate smoke tests, and establish release checksums.</p><small><i></i> IN PROGRESS</small></div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-item__node">02</div><div class="timeline-item__body"><span>PHASE 02 · NEXT</span><h3>Developer core</h3><p>Reproducible development environments, containers, Python tooling, notebooks, and a dependable package baseline.</p><small>PLANNED</small></div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-item__node">03</div><div class="timeline-item__body"><span>PHASE 03 · EXPAND</span><h3>Robotics stack</h3><p>ROS 2, simulation, visualization, computer vision, device workflows, and tested sensor integrations.</p><small>PLANNED</small></div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-item__node">04</div><div class="timeline-item__body"><span>PHASE 04 · SCALE</span><h3>Accelerated edge</h3><p>Improved GPU enablement plus carefully validated support for cameras, accelerators, and edge-computing boards.</p><small>FUTURE</small></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="repo section-pad" id="repository" aria-labelledby="repo-title">
+        <div class="section-heading section-heading--row reveal">
+          <div><span class="section-index">04 // REPOSITORY LAYOUT</span><h2 id="repo-title">Know the<br><em>machine.</em></h2></div>
+          <p>A deliberately small configuration surface. Packages, hooks, visuals, and boot behavior each have a clear home.</p>
+        </div>
+        <div class="repo-window reveal">
+          <div class="repo-window__bar"><span class="dots"><i></i><i></i><i></i></span><span>Ravan-OS / tree</span><a class="sound-target" href="https://github.com/kolithawarnakulasooriya/Ravan-OS" target="_blank" rel="noreferrer">VIEW SOURCE ↗</a></div>
+          <div class="repo-window__body">
+            <div class="tree" role="list" aria-label="Repository directories">
+              <button class="tree-row sound-target" type="button" data-detail="config" role="listitem"><span>⌄</span><b>▰</b><strong>config/</strong><em>image definition</em></button>
+              <button class="tree-row tree-row--child sound-target" type="button" data-detail="boot" role="listitem"><span>·</span><b>◆</b><strong>bootloaders/isolinux/</strong><em>live boot menu</em></button>
+              <button class="tree-row tree-row--child sound-target" type="button" data-detail="hooks" role="listitem"><span>·</span><b>◆</b><strong>hooks/</strong><em>build customizations</em></button>
+              <button class="tree-row tree-row--child sound-target" type="button" data-detail="includes" role="listitem"><span>·</span><b>◆</b><strong>includes.chroot/</strong><em>live filesystem overlay</em></button>
+              <button class="tree-row tree-row--child sound-target" type="button" data-detail="packages" role="listitem"><span>·</span><b>◆</b><strong>package-lists/</strong><em>installed software</em></button>
+              <button class="tree-row sound-target" type="button" data-detail="auto" role="listitem"><span>·</span><b>▰</b><strong>auto/config</strong><em>reproducible live-build options</em></button>
+              <button class="tree-row sound-target" type="button" data-detail="resume" role="listitem"><span>·</span><b>▤</b><strong>resume-build.sh</strong><em>build-state recovery</em></button>
+              <button class="tree-row sound-target" type="button" data-detail="test" role="listitem"><span>·</span><b>▤</b><strong>test-build.sh</strong><em>QEMU/KVM launcher</em></button>
+            </div>
+            <aside class="file-detail" id="file-detail" aria-live="polite">
+              <span>SELECTED NODE</span><h3>config/</h3><p>The central live-build definition: boot UI, build hooks, target filesystem content, and package selection.</p><small>Click any node to inspect it.</small>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="build section-pad" id="build" aria-labelledby="build-title">
+        <div class="build__grid">
+          <div class="section-heading reveal">
+            <span class="section-index">05 // BUILD FROM SOURCE</span>
+            <h2 id="build-title">Compile the<br><em>future locally.</em></h2>
+            <p>Use an amd64 Linux host with sudo access, internet connectivity, at least 15 GB free storage, and 4 GB RAM for comfortable VM testing.</p>
+            <div class="requirement-chips"><span>AMD64</span><span>15 GB+</span><span>4 GB RAM</span><span>LINUX HOST</span></div>
+          </div>
+          <div class="terminal reveal">
+            <div class="terminal__bar"><span><i></i><i></i><i></i></span><strong>ravan@build-node:~</strong><button class="copy-button sound-target" type="button" data-copy-target="build-code">COPY</button></div>
+            <pre id="build-code"><code><span class="comment"># Install the build and test toolchain</span>
+<span class="prompt">$</span> sudo apt update
+<span class="prompt">$</span> sudo apt install live-build debootstrap \
+    syslinux isolinux xorriso qemu-system-x86
+
+<span class="comment"># Clone the image definition</span>
+<span class="prompt">$</span> git clone https://github.com/\
+    kolithawarnakulasooriya/Ravan-OS.git
+<span class="prompt">$</span> cd Ravan-OS
+
+<span class="comment"># Build the live ISO</span>
+<span class="prompt">$</span> sudo lb build 2&gt;&amp;1 | tee raven-build.log
+
+<span class="comment"># Boot-test with QEMU/KVM</span>
+<span class="prompt">$</span> ./test-build.sh</code></pre>
+            <div class="terminal__footer"><span><i></i> OUTPUT</span><strong>binary.hybrid.iso</strong></div>
+          </div>
+        </div>
+        <div class="build-note reveal"><span>!</span><p><strong>Heads up:</strong> The configuration uses a legacy live-build format and build-host versions can affect compatibility. Review generated files before committing changes.</p></div>
+      </section>
+
+      <section class="contribute section-pad" id="contribute" aria-labelledby="contribute-title">
+        <div class="contribute__glow" aria-hidden="true"></div>
+        <div class="section-heading section-heading--center reveal">
+          <span class="section-index">06 // CONTRIBUTION GUIDELINES</span>
+          <h2 id="contribute-title">The system needs<br><em>your signal.</em></h2>
+          <p>Documentation, packaging, hardware testing, UI work, release engineering, and architecture ideas can all move Ravan OS forward.</p>
+        </div>
+        <ol class="contribution-flow">
+          <li class="reveal"><span>01</span><div><h3>Fork &amp; branch</h3><p>Create one focused branch for one coherent change.</p></div></li>
+          <li class="reveal"><span>02</span><div><h3>Build clearly</h3><p>Document the reason for your change and keep it reproducible.</p></div></li>
+          <li class="reveal"><span>03</span><div><h3>Test the image</h3><p>Rebuild affected images and boot-test in QEMU or safe hardware.</p></div></li>
+          <li class="reveal"><span>04</span><div><h3>Open a PR</h3><p>Share your test environment, evidence, and known limitations.</p></div></li>
+        </ol>
+        <div class="contribute__actions reveal">
+          <a class="button button--primary sound-target" href="https://github.com/kolithawarnakulasooriya/Ravan-OS/fork" target="_blank" rel="noreferrer"><span>Fork Ravan OS</span><b>↗</b></a>
+          <a class="button button--ghost sound-target" href="https://github.com/kolithawarnakulasooriya/Ravan-OS/issues" target="_blank" rel="noreferrer"><span>Browse issues</span><b>↗</b></a>
+        </div>
+      </section>
+
+      <section class="warning section-pad" aria-labelledby="warning-title">
+        <div class="warning__panel reveal">
+          <div class="warning__signal"><span>!</span><i></i><i></i></div>
+          <div><span class="section-index">PROJECT REALITY CHECK</span><h2 id="warning-title">Early stage.<br><em>Handle with curiosity.</em></h2></div>
+          <div class="warning__copy"><p>Ravan OS is experimental pre-release software. Expect incomplete features, breaking changes, and branding inconsistencies while the platform matures.</p><p><strong>Do not use it for production, sensitive data, or safety-critical robotics.</strong></p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section-pad">
+      <div class="footer__brand"><img src="raven-logo.png" alt="" width="64" height="64"><div><strong>RAVAN <i>OS</i></strong><span>Built for intelligent machines.</span></div></div>
+      <div class="footer__links"><div><span>EXPLORE</span><a class="sound-target" href="#about">About</a><a class="sound-target" href="#features">Features</a><a class="sound-target" href="#roadmap">Roadmap</a></div><div><span>BUILD</span><a class="sound-target" href="#repository">Repository</a><a class="sound-target" href="#build">Build guide</a><a class="sound-target" href="#contribute">Contribute</a></div><div><span>PROJECT</span><a class="sound-target" href="https://github.com/kolithawarnakulasooriya/Ravan-OS" target="_blank" rel="noreferrer">GitHub ↗</a><a class="sound-target" href="https://github.com/kolithawarnakulasooriya/Ravan-OS/blob/main/LICENSE" target="_blank" rel="noreferrer">MIT License ↗</a><a class="sound-target" href="https://github.com/kolithawarnakulasooriya/Ravan-OS/issues" target="_blank" rel="noreferrer">Issues ↗</a></div></div>
+      <div class="footer__bottom"><span>© 2026 Ravan OS Project · MIT licensed</span><span class="system-status"><i></i> SITE SYSTEMS NOMINAL</span><a class="sound-target" href="#top">BACK TO TOP ↑</a></div>
+    </footer>
+  </div>
+
+  <noscript><style>.intro{display:none}.site-shell{opacity:1!important}.reveal{opacity:1!important;transform:none!important}</style></noscript>
+</body>
+</html>
