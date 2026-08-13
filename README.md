@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="config/includes.chroot/usr/share/backgrounds/raven/raven-default-1920x1080.jpg" alt="Raven OS desktop artwork" width="820">
+<img src="raven-logo.png" alt="Raven OS desktop artwork" width="820">
 
 # Raven OS
 
@@ -190,13 +190,7 @@ deployment to safety-critical systems, or handling sensitive data.
 
 ## License
 
-The project is intended to be open source, but a root `LICENSE` file has not yet been
-added to this repository. Until the maintainers choose and publish a license, normal
-copyright restrictions still apply to the repository's original material. Upstream
-Ubuntu packages and other included components retain their respective licenses.
-
-Adding an explicit project license is a release-blocking documentation task and a
-great first contribution for the maintainers to finalize.
+The project is uder MIT Opensource licence
 
 ## Acknowledgements
 
