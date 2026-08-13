@@ -33,5 +33,5 @@ install -m 0644 "chroot/boot/initrd.img-${kernel_version}" binary/casper/initrd.
 # broken branch, then render the real menu here after the Syslinux stage.
 sed -e "s|@LB_BOOTAPPEND_LIVE@|${LB_BOOTAPPEND_LIVE}|g" \
     -e "s|@LB_BOOTAPPEND_FAILSAFE@|${LB_BOOTAPPEND_FAILSAFE}|g" \
-    config/bootloaders/isolinux/ravan-live.cfg.in > binary/isolinux/live.cfg
-rm -f binary/isolinux/ravan-live.cfg.in
+    config/bootloaders/isolinux/raven-live.cfg.in > binary/isolinux/live.cfg
+rm -f binary/isolinux/raven-live.cfg.in
