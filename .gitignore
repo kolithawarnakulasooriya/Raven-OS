@@ -7,3 +7,6 @@ config/chroot_apt/
 .config/chroot_apt/
 .cache/*
 cache/
+.build/
+.build/*
+binary/
