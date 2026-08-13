@@ -82,7 +82,7 @@ button { color: inherit; }
 .menu-toggle { display: none; width: 2.7rem; height: 2.7rem; padding: .7rem; border: 1px solid var(--line); background: transparent; cursor: pointer; }
 .menu-toggle i { display: block; height: 1px; background: #fff; margin: .35rem 0; transition: transform .2s; }
 
-.hero { position: relative; min-height: 100svh; display: flex; align-items: center; isolation: isolate; background: linear-gradient(90deg, rgba(6,7,11,.99) 0%, rgba(6,7,11,.86) 44%, rgba(6,7,11,.3) 73%, rgba(6,7,11,.75) 100%), url("config/includes.chroot/usr/share/backgrounds/raven/raven-dark-3840x2160.jpg") center/cover; }
+.hero { position: relative; min-height: 100svh; display: flex; align-items: center; isolation: isolate; background: linear-gradient(90deg, rgba(6,7,11,.99) 0%, rgba(6,7,11,.86) 44%, rgba(6,7,11,.3) 73%, rgba(6,7,11,.75) 100%), url("config/includes.chroot/usr/share/backgrounds/raven/background.jpg") center/cover; }
 .hero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(0deg, var(--ink), transparent 28%), repeating-linear-gradient(90deg, transparent 0 calc(12.5% - 1px), rgba(255,255,255,.035) calc(12.5% - 1px) 12.5%); }
 .hero__content { position: relative; z-index: 2; width: min(51rem, 66vw); padding-top: 5rem; }
 .stage-pill { display: inline-flex; align-items: center; gap: .55rem; margin-bottom: 1.7rem; padding: .55rem .8rem; color: #ffc4cf; border: 1px solid rgba(255,49,88,.42); background: rgba(255,49,88,.08); font: 500 .62rem var(--mono); letter-spacing: .11em; text-transform: uppercase; }
