@@ -1,10 +1,10 @@
 label live
-    menu label ^Start Raven OS
+    menu label ^Start Ravan OS
     menu default
     kernel /casper/vmlinuz
     append initrd=/casper/initrd.img @LB_BOOTAPPEND_LIVE@
 
 label live-failsafe
-    menu label Start Raven OS (^failsafe)
+    menu label Start Ravan OS (^failsafe)
     kernel /casper/vmlinuz
     append initrd=/casper/initrd.img @LB_BOOTAPPEND_LIVE@ @LB_BOOTAPPEND_FAILSAFE@
