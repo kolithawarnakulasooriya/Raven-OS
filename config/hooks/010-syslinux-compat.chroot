@@ -1,0 +1,43 @@
+#!/bin/sh
+set -eu
+
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+export LANG=C.UTF-8
+export LC_ALL=C.UTF-8
+
+# live-build 3.0 expects the pre-Syslinux-6 file layout. Ubuntu Noble ships
+# isolinux.bin separately and moves BIOS COM32 modules below modules/bios.
+# Keep compatibility links so lb_binary_syslinux can dereference its legacy
+# bootloader template paths.
+# live-build 3.0 incorrectly maps /usr/bin/isohybrid to the `syslinux`
+# package. On Noble the executable is shipped by `syslinux-utils`, so install
+# it explicitly before the binary ISO stage runs inside the chroot.
+apt-get install -y --no-install-recommends \
+    cpio isolinux syslinux-common syslinux-utils
+mkdir -p /usr/lib/syslinux
+ln -sfn ../ISOLINUX/isolinux.bin /usr/lib/syslinux/isolinux.bin
+for module in vesamenu.c32 ldlinux.c32 libcom32.c32 libutil.c32
+do
+    ln -sfn "modules/bios/${module}" "/usr/lib/syslinux/${module}"
+done
+
+# gfxboot-theme-ubuntu was removed before Noble, but live-build 3.0 always
+# extracts its archive in Ubuntu mode and later rewrites the enclosed cpio
+# archive. The generated ISO uses vesamenu.c32, so a valid empty bootlogo cpio
+# archive is the required compatibility payload; no obsolete theme is needed.
+theme_dir=/usr/share/gfxboot-theme-ubuntu
+work_dir="$(mktemp -d)"
+trap 'rm -rf "$work_dir"' EXIT INT TERM
+mkdir -p "$theme_dir"
+(
+    cd "$work_dir"
+    find . -print | cpio --quiet -o > bootlogo
+    tar czf "$theme_dir/bootlogo.tar.gz" bootlogo
+)
+rm -rf "$work_dir"
+trap - EXIT INT TERM
+
+# Legacy lb_binary_syslinux leaves its copied source under /root because its
+# cleanup targets /isolinux instead of /root/isolinux. Remove stale templates
+# so a retry cannot merge the stock live.cfg.in back into the project template.
+rm -rf /root/isolinux /root/isolinux.tmp

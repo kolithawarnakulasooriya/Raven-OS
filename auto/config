@@ -2,8 +2,6 @@
 
 set -eu
 
-# Ubuntu 24.04 LTS is "noble" (not "nobel").
-# "noauto" prevents live-build from recursively invoking this script.
 lb config noauto \
     --mode ubuntu \
     --distribution noble \
@@ -14,27 +12,30 @@ lb config noauto \
     --keyring-packages ubuntu-keyring \
     --archive-areas "main restricted universe multiverse" \
     --parent-archive-areas "main restricted universe multiverse" \
-    --mirror-bootstrap "https://archive.ubuntu.com/ubuntu" \
-    --mirror-chroot "https://archive.ubuntu.com/ubuntu" \
-    --mirror-chroot-security "https://security.ubuntu.com/ubuntu" \
-    --mirror-chroot-volatile "https://archive.ubuntu.com/ubuntu" \
-    --mirror-binary "https://archive.ubuntu.com/ubuntu" \
-    --mirror-binary-security "https://security.ubuntu.com/ubuntu" \
-    --mirror-binary-volatile "https://archive.ubuntu.com/ubuntu" \
-    --parent-mirror-bootstrap "https://archive.ubuntu.com/ubuntu" \
-    --parent-mirror-chroot "https://archive.ubuntu.com/ubuntu" \
-    --parent-mirror-chroot-security "https://security.ubuntu.com/ubuntu" \
-    --parent-mirror-chroot-volatile "https://archive.ubuntu.com/ubuntu" \
-    --parent-mirror-binary "https://archive.ubuntu.com/ubuntu" \
-    --parent-mirror-binary-security "https://security.ubuntu.com/ubuntu" \
-    --parent-mirror-binary-volatile "https://archive.ubuntu.com/ubuntu" \
+    --mirror-bootstrap "http://archive.ubuntu.com/ubuntu" \
+    --mirror-chroot "http://archive.ubuntu.com/ubuntu" \
+    --mirror-chroot-security "http://security.ubuntu.com/ubuntu" \
+    --mirror-chroot-volatile "http://archive.ubuntu.com/ubuntu" \
+    --mirror-binary "http://archive.ubuntu.com/ubuntu" \
+    --mirror-binary-security "http://security.ubuntu.com/ubuntu" \
+    --mirror-binary-volatile "http://archive.ubuntu.com/ubuntu" \
+    --parent-mirror-bootstrap "http://archive.ubuntu.com/ubuntu" \
+    --parent-mirror-chroot "http://archive.ubuntu.com/ubuntu" \
+    --parent-mirror-chroot-security "http://security.ubuntu.com/ubuntu" \
+    --parent-mirror-chroot-volatile "http://archive.ubuntu.com/ubuntu" \
+    --parent-mirror-binary "http://archive.ubuntu.com/ubuntu" \
+    --parent-mirror-binary-security "http://security.ubuntu.com/ubuntu" \
+    --parent-mirror-binary-volatile "http://archive.ubuntu.com/ubuntu" \
     --initramfs casper \
+    --initsystem systemd \
     --binary-images iso-hybrid \
     --bootloader syslinux \
     --bootappend-live "boot=casper components quiet splash" \
     --debian-installer false \
+    --firmware-chroot false \
+    --firmware-binary false \
     --security true \
-    --iso-application "Ravan OS" \
-    --iso-publisher "Ravan OS Project" \
-    --iso-volume "RAVAN_NOBLE" \
+    --iso-application "Raven OS" \
+    --iso-publisher "Raven OS Project" \
+    --iso-volume "Raven_NOBLE" \
     "${@}"

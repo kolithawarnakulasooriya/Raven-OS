@@ -1,6 +1,10 @@
 #!/bin/sh
 set -eu
 
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+export LANG=C.UTF-8
+export LC_ALL=C.UTF-8
+
 systemctl enable NetworkManager.service
 systemctl set-default graphical.target
 

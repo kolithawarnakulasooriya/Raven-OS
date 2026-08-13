@@ -1,4 +1,4 @@
-# Ravan Linux user shell configuration
+# Raven Linux user shell configuration
 
 case "$-" in
     *i*) ;;
@@ -18,4 +18,4 @@ if command -v dircolors >/dev/null 2>&1; then
     eval "$(dircolors -b)"
 fi
 
-PS1='\[\e[1;35m\]\u@ravan\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ '
+PS1='\[\e[1;35m\]\u@Raven\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ '

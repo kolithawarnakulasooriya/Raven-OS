@@ -74,20 +74,20 @@ LB_HDD_LABEL="DEBIAN_LIVE"
 LB_HDD_SIZE="10000"
 
 # $LB_ISO_APPLICATION: set iso author
-# (Default: Ravan OS)
-LB_ISO_APPLICATION="Ravan OS"
+# (Default: Raven OS)
+LB_ISO_APPLICATION="Raven OS"
 
 # $LB_ISO_PREPARER: set iso preparer
 # (Default: live-build 3.0~a57-1; http://packages.qa.debian.org/live-build)
 LB_ISO_PREPARER="live-build 3.0~a57-1; http://packages.qa.debian.org/live-build"
 
 # $LB_ISO_PUBLISHER: set iso publisher
-# (Default: Ravan OS Project)
-LB_ISO_PUBLISHER="Ravan OS Project"
+# (Default: Raven OS Project)
+LB_ISO_PUBLISHER="Raven OS Project"
 
 # $LB_ISO_VOLUME: set iso volume (max 32 chars)
-# (Default: RAVAN_NOBLE)
-LB_ISO_VOLUME="RAVAN_NOBLE"
+# (Default: Raven_NOBLE)
+LB_ISO_VOLUME="Raven_NOBLE"
 
 # $LB_EXT_BLOCKSIZE: set EXT block size
 # (Default: unset)
@@ -150,12 +150,12 @@ LB_NET_COW_SERVER=""
 LB_NET_TARBALL="true"
 
 # $LB_FIRMWARE_BINARY: include firmware packages in debian-installer
-# (Default: true)
-LB_FIRMWARE_BINARY="true"
+# (Default: false)
+LB_FIRMWARE_BINARY="false"
 
 # $LB_FIRMWARE_CHROOT: include firmware packages in debian-installer
-# (Default: true)
-LB_FIRMWARE_CHROOT="true"
+# (Default: false)
+LB_FIRMWARE_CHROOT="false"
 
 # $LB_SWAP_FILE_PATH: set swap file path
 # (Default: )

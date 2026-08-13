@@ -72,8 +72,8 @@ LB_INITRAMFS="casper"
 LB_INITRAMFS_COMPRESSION=""
 
 # $LB_INITSYSTEM: set init system
-# (Default: sysvinit)
-LB_INITSYSTEM="sysvinit"
+# (Default: systemd)
+LB_INITSYSTEM="systemd"
 
 # $LB_FDISK: set fdisk program
 # (Default: autodetected)

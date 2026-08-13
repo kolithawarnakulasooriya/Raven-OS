@@ -10,8 +10,6 @@ network-manager-gnome
 pipewire
 wireplumber
 pavucontrol
-live-boot
-live-config
 casper
 linux-image-generic
 linux-firmware
